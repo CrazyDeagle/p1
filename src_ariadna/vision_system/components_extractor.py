@@ -96,12 +96,14 @@ class FeatureExtractorYOLOE_MultiScale(nn.Module):
         current_x_for_next_layer: Union[torch.Tensor, List[torch.Tensor]] = x 
 
         for i, m_layer in enumerate(self.yoloe_internal_model_modulelist):
-            # No procesar la cabeza de detección/segmentación final del modelo YOLOE base.
-            # Asumimos que la cabeza original es el último módulo en el Sequential.
+            # No procesar la cabeza de detección/segmentación original del modelo base.
+            # Algunos modelos pueden incluirla antes del último índice, por lo que
+            # se comprueba el tipo de módulo independientemente de su posición.
             is_original_head_module = False
-            if i == (len(self.yoloe_internal_model_modulelist) - 1): # Si es el último módulo
-                 if hasattr(m_layer, 'type') and m_layer.type in ['Detect', 'Segment', 'YOLOEDetect', 'YOLOESegment', 'Pose', 'OBB', 'WorldDetect', 'v10Detect']:
-                    is_original_head_module = True
+            if hasattr(m_layer, 'type') and m_layer.type in [
+                'Detect', 'Segment', 'YOLOEDetect', 'YOLOESegment',
+                'Pose', 'OBB', 'WorldDetect', 'v10Detect']:
+                is_original_head_module = True
             
             if is_original_head_module:
                 # print(f"DEBUG (FeatureExtractor): Saltando cabeza original '{m_layer.type}' en índice {i}.")
@@ -149,7 +151,10 @@ class FeatureExtractorYOLOE_MultiScale(nn.Module):
                 print(f"  Input type: {type(input_for_current_layer)}")
                 if isinstance(input_for_current_layer, list):
                     for idx_f, f_tensor in enumerate(input_for_current_layer): print(f"    Input {idx_f} shape: {f_tensor.shape if hasattr(f_tensor, 'shape') and f_tensor is not None else type(f_tensor)}")
-                elif hasattr(input_for_current_layer, 'shape'): print(f"  Input shape: {current_input_features.shape if hasattr(current_input_features, 'shape') else 'N/A'}") # current_input_features no está definido aquí
+                elif hasattr(input_for_current_layer, 'shape'):
+                    print(
+                        f"  Input shape: {input_for_current_layer.shape if hasattr(input_for_current_layer, 'shape') else 'N/A'}"
+                    )
                 print(f"  Error: {e_fwd}"); traceback.print_exc(); return [dummy_p3, dummy_p4, dummy_p5]
             
             y.append(output_from_module)
