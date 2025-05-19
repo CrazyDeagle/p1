@@ -1,0 +1,6007 @@
+{
+  "image_filename": "Captura de pantalla 2025-05-18 075920.png",
+  "image_width": 1047,
+  "image_height": 638,
+  "annotations": [
+    {
+      "prompt_text": "white text character s within a block of text on a dark background.",
+      "bbox_xyxy_pixel": [
+        362,
+        306,
+        375,
+        321
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character a within a block of text on a dark background.",
+      "bbox_xyxy_pixel": [
+        10,
+        16,
+        22,
+        30
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character 7 within a block of text on a dark background.",
+      "bbox_xyxy_pixel": [
+        32,
+        16,
+        42,
+        31
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text symbol # within a block of text on a dark background.",
+      "bbox_xyxy_pixel": [
+        53,
+        16,
+        65,
+        31
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character m within a block of text on a dark background.",
+      "bbox_xyxy_pixel": [
+        76,
+        19,
+        92,
+        31
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character q within a block of text on a dark background.",
+      "bbox_xyxy_pixel": [
+        102,
+        17,
+        116,
+        32
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text symbol % within a block of text on a dark background.",
+      "bbox_xyxy_pixel": [
+        126,
+        17,
+        142,
+        31
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character z within a block of text on a dark background.",
+      "bbox_xyxy_pixel": [
+        152,
+        19,
+        162,
+        31
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '2' displayed in white/light gray as part of a larger string.",
+      "bbox_xyxy_pixel": [
+        173,
+        16,
+        183,
+        31
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '&' displayed in white/light gray as part of a larger string.",
+      "bbox_xyxy_pixel": [
+        194,
+        17,
+        205,
+        31
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'j' displayed in white/light gray as part of a larger string.",
+      "bbox_xyxy_pixel": [
+        216,
+        16,
+        222,
+        35
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 't' displayed in white/light gray as part of a larger string.",
+      "bbox_xyxy_pixel": [
+        232,
+        17,
+        243,
+        30
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '@' displayed in white/light gray as part of a larger string.",
+      "bbox_xyxy_pixel": [
+        254,
+        17,
+        269,
+        33
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'e' displayed in white/light gray as part of a larger string.",
+      "bbox_xyxy_pixel": [
+        281,
+        19,
+        291,
+        31
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '9' displayed in white/light gray as part of a larger string.",
+      "bbox_xyxy_pixel": [
+        302,
+        17,
+        312,
+        31
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '*' displayed in white/light gray as part of a larger string.",
+      "bbox_xyxy_pixel": [
+        323,
+        17,
+        332,
+        26
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character l rendered in bright white with a glow effect.",
+      "bbox_xyxy_pixel": [
+        343,
+        17,
+        354,
+        31
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character s rendered in bright white with a glow effect.",
+      "bbox_xyxy_pixel": [
+        363,
+        20,
+        374,
+        32
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character ! rendered in bright white with a glow effect.",
+      "bbox_xyxy_pixel": [
+        384,
+        16,
+        390,
+        30
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character w rendered in bright white with a glow effect.",
+      "bbox_xyxy_pixel": [
+        401,
+        20,
+        414,
+        30
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character b rendered in bright white with a glow effect.",
+      "bbox_xyxy_pixel": [
+        425,
+        17,
+        436,
+        31
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 4 rendered in bright white with a glow effect.",
+      "bbox_xyxy_pixel": [
+        447,
+        17,
+        458,
+        31
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character ( rendered in bright white with a glow effect.",
+      "bbox_xyxy_pixel": [
+        468,
+        16,
+        478,
+        33
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character x rendered in bright white with a glow effect.",
+      "bbox_xyxy_pixel": [
+        486,
+        17,
+        498,
+        31
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character u with metallic gradient effect",
+      "bbox_xyxy_pixel": [
+        509,
+        19,
+        519,
+        31
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text symbol dollar sign $ with metallic gradient effect",
+      "bbox_xyxy_pixel": [
+        530,
+        16,
+        540,
+        32
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character p with metallic gradient effect",
+      "bbox_xyxy_pixel": [
+        552,
+        20,
+        562,
+        34
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 1 with metallic gradient effect",
+      "bbox_xyxy_pixel": [
+        574,
+        17,
+        581,
+        31
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text symbol question mark ? with metallic gradient effect",
+      "bbox_xyxy_pixel": [
+        592,
+        17,
+        602,
+        32
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character v with metallic gradient effect",
+      "bbox_xyxy_pixel": [
+        611,
+        16,
+        624,
+        32
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character c with metallic gradient effect",
+      "bbox_xyxy_pixel": [
+        634,
+        20,
+        645,
+        31
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 6 with metallic gradient effect",
+      "bbox_xyxy_pixel": [
+        655,
+        17,
+        666,
+        32
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'a' or '^' in white monospace font.",
+      "bbox_xyxy_pixel": [
+        676,
+        17,
+        687,
+        25
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'd' in white monospace font.",
+      "bbox_xyxy_pixel": [
+        696,
+        16,
+        708,
+        32
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'r' in white monospace font.",
+      "bbox_xyxy_pixel": [
+        719,
+        16,
+        730,
+        31
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character ')' in white monospace font.",
+      "bbox_xyxy_pixel": [
+        739,
+        15,
+        748,
+        33
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'f' in white monospace font.",
+      "bbox_xyxy_pixel": [
+        758,
+        15,
+        766,
+        32
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'z' in white monospace font.",
+      "bbox_xyxy_pixel": [
+        775,
+        16,
+        788,
+        32
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '3' in white monospace font.",
+      "bbox_xyxy_pixel": [
+        796,
+        16,
+        808,
+        32
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '-' in white monospace font.",
+      "bbox_xyxy_pixel": [
+        817,
+        20,
+        828,
+        30
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'o' in white/light gray monospaced font.",
+      "bbox_xyxy_pixel": [
+        837,
+        19,
+        849,
+        31
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'h' in white/light gray monospaced font.",
+      "bbox_xyxy_pixel": [
+        859,
+        17,
+        872,
+        31
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'o' in white/light gray monospaced font.",
+      "bbox_xyxy_pixel": [
+        883,
+        16,
+        895,
+        31
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text symbol '+' in white/light gray monospaced font.",
+      "bbox_xyxy_pixel": [
+        907,
+        21,
+        917,
+        32
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'k' in white/light gray monospaced font.",
+      "bbox_xyxy_pixel": [
+        927,
+        16,
+        938,
+        30
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text symbol '=' in white/light gray monospaced font.",
+      "bbox_xyxy_pixel": [
+        948,
+        21,
+        961,
+        30
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'y' in white/light gray monospaced font.",
+      "bbox_xyxy_pixel": [
+        968,
+        20,
+        980,
+        34
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'j' in white/light gray monospaced font.",
+      "bbox_xyxy_pixel": [
+        989,
+        17,
+        1000,
+        32
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '&' displayed in white on a dark background.",
+      "bbox_xyxy_pixel": [
+        1009,
+        20,
+        1015,
+        32
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'n' displayed in white on a dark background.",
+      "bbox_xyxy_pixel": [
+        1026,
+        20,
+        1036,
+        31
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '-' displayed in white on a dark background.",
+      "bbox_xyxy_pixel": [
+        8,
+        56,
+        19,
+        65
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'g' displayed in white on a dark background.",
+      "bbox_xyxy_pixel": [
+        29,
+        47,
+        42,
+        63
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'e' displayed in white on a dark background.",
+      "bbox_xyxy_pixel": [
+        52,
+        44,
+        64,
+        60
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '8' displayed in white on a dark background.",
+      "bbox_xyxy_pixel": [
+        73,
+        44,
+        83,
+        60
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '{' displayed in white on a dark background.",
+      "bbox_xyxy_pixel": [
+        94,
+        43,
+        102,
+        61
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'm' displayed in white on a dark background.",
+      "bbox_xyxy_pixel": [
+        112,
+        45,
+        127,
+        58
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character ']' with a metallic or glossy visual style from a text block display.",
+      "bbox_xyxy_pixel": [
+        137,
+        44,
+        145,
+        62
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'i' with a metallic or glossy visual style from a text block display.",
+      "bbox_xyxy_pixel": [
+        156,
+        44,
+        162,
+        59
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '[' with a metallic or glossy visual style from a text block display.",
+      "bbox_xyxy_pixel": [
+        172,
+        44,
+        180,
+        61
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 't' with a metallic or glossy visual style from a text block display.",
+      "bbox_xyxy_pixel": [
+        190,
+        46,
+        198,
+        61
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '\\' with a metallic or glossy visual style from a text block display.",
+      "bbox_xyxy_pixel": [
+        206,
+        45,
+        215,
+        59
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'a' with a metallic or glossy visual style from a text block display.",
+      "bbox_xyxy_pixel": [
+        225,
+        48,
+        236,
+        60
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'x' with a metallic or glossy visual style from a text block display.",
+      "bbox_xyxy_pixel": [
+        9,
+        92,
+        20,
+        103
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '5' with a metallic or glossy visual style from a text block display.",
+      "bbox_xyxy_pixel": [
+        30,
+        88,
+        40,
+        104
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '!' with a white glow effect in a monospaced font.",
+      "bbox_xyxy_pixel": [
+        51,
+        89,
+        57,
+        103
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase text character 'u' with a white glow effect in a monospaced font.",
+      "bbox_xyxy_pixel": [
+        68,
+        92,
+        78,
+        104
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '#' (hash or pound sign) with a white glow effect in a monospaced font.",
+      "bbox_xyxy_pixel": [
+        90,
+        89,
+        101,
+        104
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase text character 'r' with a white glow effect in a monospaced font.",
+      "bbox_xyxy_pixel": [
+        113,
+        89,
+        124,
+        103
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '&' (ampersand) with a white glow effect in a monospaced font.",
+      "bbox_xyxy_pixel": [
+        135,
+        89,
+        147,
+        103
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "numeric text character '1' with a white glow effect in a monospaced font.",
+      "bbox_xyxy_pixel": [
+        157,
+        89,
+        166,
+        104
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase text character 'z' with a white glow effect in a monospaced font.",
+      "bbox_xyxy_pixel": [
+        175,
+        89,
+        187,
+        103
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "lowercase text character 'm' with a white glow effect in a monospaced font.",
+      "bbox_xyxy_pixel": [
+        197,
+        92,
+        212,
+        102
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character @ from a block of bright white and silver text on a dark background",
+      "bbox_xyxy_pixel": [
+        223,
+        88,
+        239,
+        106
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character m from a block of bright white and silver text on a dark background",
+      "bbox_xyxy_pixel": [
+        11,
+        116,
+        24,
+        132
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character ] from a block of bright white and silver text on a dark background",
+      "bbox_xyxy_pixel": [
+        36,
+        115,
+        43,
+        133
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character t from a block of bright white and silver text on a dark background",
+      "bbox_xyxy_pixel": [
+        54,
+        118,
+        63,
+        132
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character s from a block of bright white and silver text on a dark background",
+      "bbox_xyxy_pixel": [
+        71,
+        116,
+        79,
+        131
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character y from a block of bright white and silver text on a dark background",
+      "bbox_xyxy_pixel": [
+        88,
+        120,
+        99,
+        136
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character > from a block of bright white and silver text on a dark background",
+      "bbox_xyxy_pixel": [
+        110,
+        121,
+        119,
+        130
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character c from a block of bright white and silver text on a dark background",
+      "bbox_xyxy_pixel": [
+        129,
+        117,
+        143,
+        131
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'j' with bright white/silver glowing effect.",
+      "bbox_xyxy_pixel": [
+        151,
+        127,
+        160,
+        133
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'q' with bright white/silver glowing effect.",
+      "bbox_xyxy_pixel": [
+        169,
+        120,
+        181,
+        135
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'l' with bright white/silver glowing effect.",
+      "bbox_xyxy_pixel": [
+        190,
+        116,
+        199,
+        132
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 's' with bright white/silver glowing effect.",
+      "bbox_xyxy_pixel": [
+        208,
+        117,
+        220,
+        132
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'm' with bright white/silver glowing effect.",
+      "bbox_xyxy_pixel": [
+        9,
+        163,
+        25,
+        175
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '4' with bright white/silver glowing effect.",
+      "bbox_xyxy_pixel": [
+        35,
+        161,
+        47,
+        174
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '$' with bright white/silver glowing effect.",
+      "bbox_xyxy_pixel": [
+        56,
+        160,
+        69,
+        177
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'z' with bright white/silver glowing effect.",
+      "bbox_xyxy_pixel": [
+        78,
+        161,
+        90,
+        176
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character u with a glowing white appearance.",
+      "bbox_xyxy_pixel": [
+        100,
+        163,
+        111,
+        176
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text symbol % with a glowing white appearance.",
+      "bbox_xyxy_pixel": [
+        121,
+        160,
+        139,
+        177
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character p with a glowing white appearance.",
+      "bbox_xyxy_pixel": [
+        147,
+        163,
+        159,
+        179
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character q with a glowing white appearance.",
+      "bbox_xyxy_pixel": [
+        169,
+        161,
+        184,
+        176
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text digit 9 with a glowing white appearance.",
+      "bbox_xyxy_pixel": [
+        194,
+        160,
+        205,
+        175
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text symbol & with a glowing white appearance.",
+      "bbox_xyxy_pixel": [
+        215,
+        161,
+        228,
+        176
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "two stacked short horizontal glowing white bars, part of a text block.",
+      "bbox_xyxy_pixel": [
+        229,
+        120,
+        236,
+        131
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character t with a glowing white appearance.",
+      "bbox_xyxy_pixel": [
+        7,
+        190,
+        18,
+        203
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "glowing pixelated text character part of 'n'",
+      "bbox_xyxy_pixel": [
+        27,
+        189,
+        36,
+        202
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "glowing pixelated text character 'y'",
+      "bbox_xyxy_pixel": [
+        44,
+        192,
+        55,
+        207
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "glowing pixelated text character '>'",
+      "bbox_xyxy_pixel": [
+        64,
+        193,
+        75,
+        203
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "glowing pixelated text character 'c'",
+      "bbox_xyxy_pixel": [
+        86,
+        188,
+        98,
+        204
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "glowing pixelated text character 'l'",
+      "bbox_xyxy_pixel": [
+        109,
+        199,
+        114,
+        205
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "glowing pixelated text character 'q'",
+      "bbox_xyxy_pixel": [
+        125,
+        192,
+        137,
+        207
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "glowing pixelated text character part of 'n'",
+      "bbox_xyxy_pixel": [
+        146,
+        189,
+        156,
+        204
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "glowing pixelated text character 's'",
+      "bbox_xyxy_pixel": [
+        165,
+        189,
+        177,
+        203
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character colon symbol.",
+      "bbox_xyxy_pixel": [
+        186,
+        192,
+        194,
+        204
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase text character d.",
+      "bbox_xyxy_pixel": [
+        203,
+        188,
+        216,
+        205
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character less-than symbol.",
+      "bbox_xyxy_pixel": [
+        225,
+        192,
+        237,
+        203
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase text character x.",
+      "bbox_xyxy_pixel": [
+        237,
+        164,
+        249,
+        175
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character greater-than symbol.",
+      "bbox_xyxy_pixel": [
+        247,
+        49,
+        256,
+        58
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase text character c.",
+      "bbox_xyxy_pixel": [
+        267,
+        44,
+        280,
+        59
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase text character n.",
+      "bbox_xyxy_pixel": [
+        290,
+        54,
+        295,
+        61
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "lowercase text character q.",
+      "bbox_xyxy_pixel": [
+        307,
+        48,
+        320,
+        63
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "diagonal symbol composed of stacked white segments within a text block.",
+      "bbox_xyxy_pixel": [
+        327,
+        45,
+        337,
+        58
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase white text character 's' within a text block.",
+      "bbox_xyxy_pixel": [
+        346,
+        45,
+        357,
+        60
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "symbol composed of two stacked white horizontal bars (equals sign) within a text block.",
+      "bbox_xyxy_pixel": [
+        368,
+        48,
+        373,
+        59
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase white text character 'd' with a dark interior outline within a text block.",
+      "bbox_xyxy_pixel": [
+        384,
+        44,
+        398,
+        60
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "symbol composed of stacked white segments forming a left-pointing arrow (less-than sign) within a text block.",
+      "bbox_xyxy_pixel": [
+        408,
+        49,
+        417,
+        58
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "lowercase white text character 'b' with a dark interior outline within a text block.",
+      "bbox_xyxy_pixel": [
+        429,
+        44,
+        440,
+        59
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "symbol composed of two side-by-side white vertical bars within a text block.",
+      "bbox_xyxy_pixel": [
+        451,
+        45,
+        457,
+        51
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase white text character 'f' within a text block.",
+      "bbox_xyxy_pixel": [
+        470,
+        45,
+        479,
+        59
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "static text character 'n' with a light glow effect within a block of text.",
+      "bbox_xyxy_pixel": [
+        490,
+        51,
+        501,
+        56
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "static text character 'v' with a light glow effect within a block of text.",
+      "bbox_xyxy_pixel": [
+        511,
+        48,
+        522,
+        59
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "static text character 'd' with a light glow effect within a block of text.",
+      "bbox_xyxy_pixel": [
+        248,
+        88,
+        262,
+        104
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "static text character '*' with a light glow effect within a block of text.",
+      "bbox_xyxy_pixel": [
+        272,
+        89,
+        280,
+        98
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "static text character 'y' with a light glow effect within a block of text.",
+      "bbox_xyxy_pixel": [
+        291,
+        89,
+        302,
+        103
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "static text character 's' with a light glow effect within a block of text.",
+      "bbox_xyxy_pixel": [
+        312,
+        92,
+        322,
+        104
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "static text character 'q' with a light glow effect within a block of text.",
+      "bbox_xyxy_pixel": [
+        332,
+        89,
+        347,
+        105
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "static text character '$' with a light glow effect within a block of text.",
+      "bbox_xyxy_pixel": [
+        357,
+        88,
+        368,
+        105
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "displayed text character 'j' with a white glow effect.",
+      "bbox_xyxy_pixel": [
+        377,
+        88,
+        384,
+        107
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "displayed text character 't' with a white glow effect.",
+      "bbox_xyxy_pixel": [
+        394,
+        89,
+        405,
+        103
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "displayed text character 'c' with a white glow effect.",
+      "bbox_xyxy_pixel": [
+        416,
+        88,
+        423,
+        106
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "displayed text character 'e' with a white glow effect.",
+      "bbox_xyxy_pixel": [
+        433,
+        92,
+        445,
+        104
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "displayed text character '7' with a white glow effect.",
+      "bbox_xyxy_pixel": [
+        453,
+        89,
+        464,
+        104
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "displayed text character 'w' with a white glow effect.",
+      "bbox_xyxy_pixel": [
+        474,
+        92,
+        489,
+        103
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "displayed text character 'l' with a white glow effect.",
+      "bbox_xyxy_pixel": [
+        499,
+        89,
+        510,
+        103
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "displayed text character question mark symbol '?' with a white glow effect.",
+      "bbox_xyxy_pixel": [
+        520,
+        89,
+        530,
+        104
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character d, white/light gray color, part of a text block.",
+      "bbox_xyxy_pixel": [
+        247,
+        117,
+        259,
+        131
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character <, white/light gray color, part of a text block.",
+      "bbox_xyxy_pixel": [
+        270,
+        121,
+        281,
+        131
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character b, white/light gray color, part of a text block.",
+      "bbox_xyxy_pixel": [
+        290,
+        115,
+        302,
+        132
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text characters o|, white/light gray color, part of a text block.",
+      "bbox_xyxy_pixel": [
+        313,
+        117,
+        320,
+        124
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character f, white/light gray color, part of a text block.",
+      "bbox_xyxy_pixel": [
+        332,
+        117,
+        344,
+        132
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character n, white/light gray color, part of a text block.",
+      "bbox_xyxy_pixel": [
+        352,
+        122,
+        364,
+        129
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character v, white/light gray color, part of a text block.",
+      "bbox_xyxy_pixel": [
+        374,
+        120,
+        385,
+        131
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character n, white/light gray color, part of a text block.",
+      "bbox_xyxy_pixel": [
+        395,
+        117,
+        407,
+        132
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry text character glyph resembling the letter l with bright white highlights on a dark background.",
+      "bbox_xyxy_pixel": [
+        418,
+        115,
+        424,
+        122
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry text character glyph resembling the letter o or digit 0 with a bright white outline on a dark background.",
+      "bbox_xyxy_pixel": [
+        436,
+        117,
+        450,
+        132
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry text character glyph resembling the letter l or i with bright white highlights on a dark background.",
+      "bbox_xyxy_pixel": [
+        462,
+        116,
+        467,
+        133
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry text character glyph resembling the letter t with bright white highlights on a dark background.",
+      "bbox_xyxy_pixel": [
+        258,
+        161,
+        269,
+        175
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry text character glyph resembling the @ symbol with bright white highlights on a dark background.",
+      "bbox_xyxy_pixel": [
+        280,
+        161,
+        295,
+        178
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry text character glyph resembling the letter w with bright white highlights on a dark background.",
+      "bbox_xyxy_pixel": [
+        306,
+        163,
+        321,
+        176
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry text character glyph resembling the asterisk or star symbol with bright white highlights on a dark background.",
+      "bbox_xyxy_pixel": [
+        331,
+        161,
+        339,
+        169
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry text character glyph resembling the letter o or digit 0 with a bright white outline on a dark background.",
+      "bbox_xyxy_pixel": [
+        351,
+        164,
+        361,
+        177
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character 'l' with a glow effect, part of a larger text block.",
+      "bbox_xyxy_pixel": [
+        373,
+        161,
+        384,
+        175
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text symbol '!' with a glow effect, part of a larger text block.",
+      "bbox_xyxy_pixel": [
+        393,
+        160,
+        400,
+        175
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character 's' with a glow effect, part of a larger text block.",
+      "bbox_xyxy_pixel": [
+        410,
+        164,
+        419,
+        175
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character 'j' with a glow effect, part of a larger text block.",
+      "bbox_xyxy_pixel": [
+        428,
+        160,
+        436,
+        180
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character 'v' with a glow effect, part of a larger text block.",
+      "bbox_xyxy_pixel": [
+        444,
+        160,
+        458,
+        175
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text number character '3' with a glow effect, part of a larger text block.",
+      "bbox_xyxy_pixel": [
+        468,
+        161,
+        478,
+        175
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character 'c' with a glow effect, part of a larger text block.",
+      "bbox_xyxy_pixel": [
+        488,
+        160,
+        497,
+        178
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character 'e' with a glow effect, part of a larger text block.",
+      "bbox_xyxy_pixel": [
+        506,
+        163,
+        517,
+        176
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '7' within a block of text.",
+      "bbox_xyxy_pixel": [
+        527,
+        161,
+        541,
+        176
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'b' within a block of text.",
+      "bbox_xyxy_pixel": [
+        247,
+        188,
+        258,
+        203
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text symbol '||' consisting of two vertical bars within a block of text.",
+      "bbox_xyxy_pixel": [
+        270,
+        189,
+        277,
+        196
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'f' within a block of text.",
+      "bbox_xyxy_pixel": [
+        289,
+        189,
+        299,
+        203
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'и' within a block of text.",
+      "bbox_xyxy_pixel": [
+        309,
+        195,
+        319,
+        200
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'v' within a block of text.",
+      "bbox_xyxy_pixel": [
+        330,
+        192,
+        340,
+        202
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'n' within a block of text.",
+      "bbox_xyxy_pixel": [
+        351,
+        189,
+        363,
+        204
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text symbol '◊' with a diamond shape within a block of text.",
+      "bbox_xyxy_pixel": [
+        375,
+        188,
+        381,
+        194
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white/silver shiny outlined character 'o'.",
+      "bbox_xyxy_pixel": [
+        393,
+        190,
+        405,
+        203
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "vertical rectangular bar with a strong gradient from dark teal to white to dark red.",
+      "bbox_xyxy_pixel": [
+        418,
+        188,
+        423,
+        206
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white/silver shiny character 'n'.",
+      "bbox_xyxy_pixel": [
+        531,
+        44,
+        545,
+        60
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white/silver shiny character 's'.",
+      "bbox_xyxy_pixel": [
+        555,
+        43,
+        562,
+        51
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white/silver shiny outlined character 'o'.",
+      "bbox_xyxy_pixel": [
+        573,
+        44,
+        587,
+        60
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "vertical rectangular bar with a strong gradient from dark teal to white to dark red.",
+      "bbox_xyxy_pixel": [
+        598,
+        43,
+        604,
+        62
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white/silver shiny outlined character 'p'.",
+      "bbox_xyxy_pixel": [
+        541,
+        91,
+        553,
+        108
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white/silver shiny character 'b'.",
+      "bbox_xyxy_pixel": [
+        563,
+        89,
+        575,
+        103
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'a' or similar upward pointing symbol displayed as part of the content.",
+      "bbox_xyxy_pixel": [
+        585,
+        88,
+        595,
+        98
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'o' or '0' displayed as part of the content.",
+      "bbox_xyxy_pixel": [
+        606,
+        92,
+        617,
+        104
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'f' or similar symbol displayed as part of the content.",
+      "bbox_xyxy_pixel": [
+        627,
+        88,
+        635,
+        104
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'v' or similar downward pointing symbol displayed as part of the content.",
+      "bbox_xyxy_pixel": [
+        643,
+        89,
+        657,
+        104
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character ')' or closing parenthesis symbol displayed as part of the content.",
+      "bbox_xyxy_pixel": [
+        666,
+        88,
+        674,
+        106
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'c' or similar open circular symbol displayed as part of the content.",
+      "bbox_xyxy_pixel": [
+        684,
+        92,
+        696,
+        104
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '9' or numerical digit symbol displayed as part of the content.",
+      "bbox_xyxy_pixel": [
+        705,
+        89,
+        716,
+        105
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '+' or plus sign symbol displayed as part of the content.",
+      "bbox_xyxy_pixel": [
+        728,
+        93,
+        737,
+        102
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'g' with a bright white glow effect against a dark gradient background.",
+      "bbox_xyxy_pixel": [
+        748,
+        92,
+        759,
+        106
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'h' with a bright white glow effect against a dark gradient background.",
+      "bbox_xyxy_pixel": [
+        771,
+        89,
+        782,
+        103
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'o' with a bright white glow effect against a dark gradient background.",
+      "bbox_xyxy_pixel": [
+        794,
+        89,
+        806,
+        104
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '=' with a bright white glow effect against a dark gradient background.",
+      "bbox_xyxy_pixel": [
+        817,
+        94,
+        828,
+        101
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'b' with a bright white glow effect against a dark gradient background.",
+      "bbox_xyxy_pixel": [
+        549,
+        161,
+        560,
+        175
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '?' with a bright white glow effect against a dark gradient background.",
+      "bbox_xyxy_pixel": [
+        571,
+        161,
+        581,
+        175
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'f' with a bright white glow effect against a dark gradient background.",
+      "bbox_xyxy_pixel": [
+        591,
+        160,
+        599,
+        174
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'r' with a bright white glow effect against a dark gradient background.",
+      "bbox_xyxy_pixel": [
+        609,
+        161,
+        622,
+        176
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character ')', rendered in white with a glow effect, part of a block of text.",
+      "bbox_xyxy_pixel": [
+        630,
+        160,
+        638,
+        178
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'c', rendered in white with a glow effect, part of a block of text.",
+      "bbox_xyxy_pixel": [
+        649,
+        164,
+        659,
+        175
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '1', rendered in white with a glow effect, part of a block of text.",
+      "bbox_xyxy_pixel": [
+        670,
+        161,
+        678,
+        174
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '+', rendered in white with a glow effect, part of a block of text.",
+      "bbox_xyxy_pixel": [
+        689,
+        165,
+        698,
+        176
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'd', rendered in white with a glow effect, part of a block of text.",
+      "bbox_xyxy_pixel": [
+        711,
+        161,
+        721,
+        176
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'h', rendered in white with a glow effect, part of a block of text.",
+      "bbox_xyxy_pixel": [
+        733,
+        160,
+        744,
+        177
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'o', rendered in white with a glow effect, part of a block of text.",
+      "bbox_xyxy_pixel": [
+        755,
+        161,
+        768,
+        176
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '=', rendered in white with a glow effect, part of a block of text.",
+      "bbox_xyxy_pixel": [
+        778,
+        166,
+        789,
+        174
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'k', lowercase, white/light gray color.",
+      "bbox_xyxy_pixel": [
+        799,
+        160,
+        811,
+        175
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'j', uppercase, white/light gray color.",
+      "bbox_xyxy_pixel": [
+        819,
+        161,
+        829,
+        176
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text symbol '/', forward slash, white/light gray color.",
+      "bbox_xyxy_pixel": [
+        839,
+        164,
+        846,
+        177
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'n', lowercase, white/light gray color.",
+      "bbox_xyxy_pixel": [
+        856,
+        163,
+        867,
+        174
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text symbol '-', hyphen or dash, white/light gray color.",
+      "bbox_xyxy_pixel": [
+        876,
+        174,
+        889,
+        180
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'g', lowercase, white/light gray color.",
+      "bbox_xyxy_pixel": [
+        896,
+        164,
+        909,
+        178
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'k', lowercase, white/light gray color.",
+      "bbox_xyxy_pixel": [
+        837,
+        87,
+        849,
+        103
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'j', uppercase, white/light gray color.",
+      "bbox_xyxy_pixel": [
+        858,
+        89,
+        868,
+        103
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character semicolon ; displayed in white/bright color as part of a text block",
+      "bbox_xyxy_pixel": [
+        877,
+        91,
+        884,
+        105
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character lowercase n displayed in white/bright color as part of a text block",
+      "bbox_xyxy_pixel": [
+        895,
+        91,
+        906,
+        104
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character hyphen - displayed in white/bright color as part of a text block",
+      "bbox_xyxy_pixel": [
+        916,
+        102,
+        926,
+        108
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character lowercase i displayed in white/bright color as part of a text block",
+      "bbox_xyxy_pixel": [
+        936,
+        88,
+        943,
+        104
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character uppercase e displayed in white/bright color as part of a text block",
+      "bbox_xyxy_pixel": [
+        952,
+        88,
+        963,
+        104
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character digit 8 displayed in white/bright color as part of a text block",
+      "bbox_xyxy_pixel": [
+        974,
+        89,
+        984,
+        103
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character left square bracket [ displayed in white/bright color as part of a text block",
+      "bbox_xyxy_pixel": [
+        995,
+        87,
+        1003,
+        105
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character lowercase a displayed in white/bright color as part of a text block",
+      "bbox_xyxy_pixel": [
+        1012,
+        91,
+        1023,
+        104
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white and blurry text character 'e' on a dark gradient background.",
+      "bbox_xyxy_pixel": [
+        919,
+        160,
+        931,
+        176
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white and blurry text character '8' on a dark gradient background.",
+      "bbox_xyxy_pixel": [
+        941,
+        161,
+        951,
+        176
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white and blurry text character '[' on a dark gradient background.",
+      "bbox_xyxy_pixel": [
+        962,
+        159,
+        970,
+        178
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white and blurry text character 'a' on a dark gradient background.",
+      "bbox_xyxy_pixel": [
+        980,
+        163,
+        991,
+        176
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white and blurry text character 'm' on a dark gradient background.",
+      "bbox_xyxy_pixel": [
+        1001,
+        160,
+        1016,
+        175
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white and blurry text character ']' on a dark gradient background.",
+      "bbox_xyxy_pixel": [
+        1027,
+        159,
+        1034,
+        177
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white and blurry text character 'r' on a dark gradient background.",
+      "bbox_xyxy_pixel": [
+        10,
+        233,
+        21,
+        249
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white and blurry text character '5' on a dark gradient background.",
+      "bbox_xyxy_pixel": [
+        31,
+        232,
+        44,
+        248
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white hash symbol '#' character from a text block with a glow effect.",
+      "bbox_xyxy_pixel": [
+        53,
+        233,
+        65,
+        247
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white lowercase letter 'm' character from a text block with a glow effect.",
+      "bbox_xyxy_pixel": [
+        76,
+        234,
+        93,
+        248
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white uppercase letter 'q' character from a text block with a glow effect.",
+      "bbox_xyxy_pixel": [
+        102,
+        233,
+        116,
+        248
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white percent symbol '%' character from a text block with a glow effect.",
+      "bbox_xyxy_pixel": [
+        126,
+        233,
+        142,
+        247
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white uppercase letter 'z' character from a text block with a glow effect.",
+      "bbox_xyxy_pixel": [
+        151,
+        235,
+        164,
+        247
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white digit '2' character from a text block with a glow effect.",
+      "bbox_xyxy_pixel": [
+        172,
+        233,
+        183,
+        248
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white ampersand symbol '&' character from a text block with a glow effect.",
+      "bbox_xyxy_pixel": [
+        193,
+        233,
+        206,
+        248
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white lowercase letter 'j' character with a dot from a text block with a glow effect.",
+      "bbox_xyxy_pixel": [
+        214,
+        232,
+        223,
+        251
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "single character text element showing 't' in white/light gray as part of a larger text block.",
+      "bbox_xyxy_pixel": [
+        230,
+        233,
+        243,
+        247
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "single character text element showing '@' symbol in white/light gray as part of a larger text block.",
+      "bbox_xyxy_pixel": [
+        254,
+        233,
+        269,
+        249
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "single character text element showing '-' (hyphen/dash) in white/light gray as part of a larger text block.",
+      "bbox_xyxy_pixel": [
+        9,
+        273,
+        19,
+        280
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "single character text element showing 'g' in white/light gray as part of a larger text block.",
+      "bbox_xyxy_pixel": [
+        30,
+        264,
+        41,
+        278
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "single character text element showing 'e' in white/light gray as part of a larger text block.",
+      "bbox_xyxy_pixel": [
+        52,
+        261,
+        63,
+        276
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "single character text element showing '8' in white/light gray as part of a larger text block.",
+      "bbox_xyxy_pixel": [
+        72,
+        261,
+        83,
+        275
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "single character text element showing '{' (left curly brace) in white/light gray as part of a larger text block.",
+      "bbox_xyxy_pixel": [
+        93,
+        260,
+        103,
+        277
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "single character text element showing 'm' in white/light gray as part of a larger text block.",
+      "bbox_xyxy_pixel": [
+        112,
+        261,
+        127,
+        275
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character closing square bracket ]",
+      "bbox_xyxy_pixel": [
+        138,
+        260,
+        145,
+        277
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character lowercase i",
+      "bbox_xyxy_pixel": [
+        156,
+        260,
+        162,
+        275
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character opening square bracket [",
+      "bbox_xyxy_pixel": [
+        173,
+        260,
+        180,
+        278
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character lowercase t",
+      "bbox_xyxy_pixel": [
+        189,
+        262,
+        198,
+        276
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character forward slash /",
+      "bbox_xyxy_pixel": [
+        206,
+        261,
+        217,
+        276
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character lowercase a",
+      "bbox_xyxy_pixel": [
+        226,
+        264,
+        236,
+        275
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character greater than symbol >",
+      "bbox_xyxy_pixel": [
+        246,
+        265,
+        256,
+        275
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character uppercase c",
+      "bbox_xyxy_pixel": [
+        266,
+        261,
+        282,
+        277
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character a with a shiny white appearance on a dark background as part of a text block",
+      "bbox_xyxy_pixel": [
+        9,
+        305,
+        23,
+        320
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 7 with a shiny white appearance on a dark background as part of a text block",
+      "bbox_xyxy_pixel": [
+        32,
+        304,
+        43,
+        319
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text symbol # with a shiny white appearance on a dark background as part of a text block",
+      "bbox_xyxy_pixel": [
+        53,
+        305,
+        65,
+        319
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character m with a shiny white appearance on a dark background as part of a text block",
+      "bbox_xyxy_pixel": [
+        76,
+        307,
+        92,
+        321
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character q with a shiny white appearance on a dark background as part of a text block",
+      "bbox_xyxy_pixel": [
+        102,
+        305,
+        116,
+        319
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text symbol % with a shiny white appearance on a dark background as part of a text block",
+      "bbox_xyxy_pixel": [
+        127,
+        306,
+        141,
+        318
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character z with a shiny white appearance on a dark background as part of a text block",
+      "bbox_xyxy_pixel": [
+        152,
+        307,
+        162,
+        320
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 2 with a shiny white appearance on a dark background as part of a text block",
+      "bbox_xyxy_pixel": [
+        172,
+        305,
+        183,
+        320
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '&' displayed in white/light gray as part of a text block.",
+      "bbox_xyxy_pixel": [
+        194,
+        305,
+        206,
+        319
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'j' displayed in white/light gray as part of a text block.",
+      "bbox_xyxy_pixel": [
+        215,
+        304,
+        223,
+        323
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 't' displayed in white/light gray as part of a text block.",
+      "bbox_xyxy_pixel": [
+        231,
+        305,
+        242,
+        320
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '@' displayed in white/light gray as part of a text block.",
+      "bbox_xyxy_pixel": [
+        253,
+        305,
+        269,
+        321
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '-' displayed in white/light gray as part of a text block.",
+      "bbox_xyxy_pixel": [
+        9,
+        346,
+        19,
+        352
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'g' displayed in white/light gray as part of a text block.",
+      "bbox_xyxy_pixel": [
+        27,
+        336,
+        41,
+        351
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'e' displayed in white/light gray as part of a text block.",
+      "bbox_xyxy_pixel": [
+        51,
+        333,
+        63,
+        347
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '8' displayed in white/light gray as part of a text block.",
+      "bbox_xyxy_pixel": [
+        73,
+        333,
+        84,
+        349
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '}' with a white glow effect.",
+      "bbox_xyxy_pixel": [
+        92,
+        332,
+        101,
+        350
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase text character 'm' with a white glow effect.",
+      "bbox_xyxy_pixel": [
+        112,
+        333,
+        127,
+        347
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character ']' with a white glow effect.",
+      "bbox_xyxy_pixel": [
+        137,
+        332,
+        146,
+        350
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "lowercase text character 'i' with a dot and a white glow effect.",
+      "bbox_xyxy_pixel": [
+        156,
+        332,
+        162,
+        347
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '[' with a white glow effect.",
+      "bbox_xyxy_pixel": [
+        171,
+        331,
+        181,
+        350
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "lowercase text character 't' with a white glow effect.",
+      "bbox_xyxy_pixel": [
+        190,
+        334,
+        198,
+        348
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '/' with a white glow effect.",
+      "bbox_xyxy_pixel": [
+        207,
+        333,
+        216,
+        347
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "lowercase text character 'a' with a white glow effect.",
+      "bbox_xyxy_pixel": [
+        226,
+        336,
+        236,
+        348
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character `>` within a monospace text block with a glowing white effect",
+      "bbox_xyxy_pixel": [
+        247,
+        337,
+        256,
+        346
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase text character `c` within a monospace text block with a glowing white effect",
+      "bbox_xyxy_pixel": [
+        267,
+        332,
+        280,
+        348
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "lowercase text character `e` within a monospace text block with a glowing white effect",
+      "bbox_xyxy_pixel": [
+        280,
+        235,
+        292,
+        248
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "digit text character `9` within a monospace text block with a glowing white effect",
+      "bbox_xyxy_pixel": [
+        300,
+        232,
+        313,
+        248
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character `*` within a monospace text block with a glowing white effect",
+      "bbox_xyxy_pixel": [
+        323,
+        233,
+        331,
+        241
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase text character `l` within a monospace text block with a glowing white effect",
+      "bbox_xyxy_pixel": [
+        342,
+        232,
+        355,
+        249
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase text character `s` within a monospace text block with a glowing white effect",
+      "bbox_xyxy_pixel": [
+        362,
+        235,
+        374,
+        249
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character `!` within a monospace text block with a glowing white effect",
+      "bbox_xyxy_pixel": [
+        383,
+        233,
+        392,
+        247
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character with text w, displayed in white as part of a text block",
+      "bbox_xyxy_pixel": [
+        399,
+        235,
+        416,
+        247
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character with text b, displayed in white as part of a text block",
+      "bbox_xyxy_pixel": [
+        425,
+        233,
+        435,
+        247
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character with text 4, displayed in white as part of a text block",
+      "bbox_xyxy_pixel": [
+        447,
+        233,
+        457,
+        247
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character with text c, displayed in white as part of a text block",
+      "bbox_xyxy_pixel": [
+        467,
+        232,
+        477,
+        250
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character with text x, displayed in white as part of a text block",
+      "bbox_xyxy_pixel": [
+        486,
+        233,
+        497,
+        247
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character with text u, displayed in white as part of a text block",
+      "bbox_xyxy_pixel": [
+        508,
+        236,
+        518,
+        247
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character with text $, displayed in white as part of a text block",
+      "bbox_xyxy_pixel": [
+        529,
+        232,
+        542,
+        249
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character with text p, displayed in white as part of a text block",
+      "bbox_xyxy_pixel": [
+        551,
+        236,
+        562,
+        251
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'l' displayed in white.",
+      "bbox_xyxy_pixel": [
+        289,
+        270,
+        300,
+        277
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'q' displayed in white.",
+      "bbox_xyxy_pixel": [
+        307,
+        264,
+        319,
+        279
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '\\' (backslash) displayed in white.",
+      "bbox_xyxy_pixel": [
+        328,
+        260,
+        338,
+        276
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 's' displayed in white.",
+      "bbox_xyxy_pixel": [
+        346,
+        261,
+        357,
+        276
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '=' (equals sign) displayed in white.",
+      "bbox_xyxy_pixel": [
+        367,
+        263,
+        375,
+        276
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'd' displayed in white.",
+      "bbox_xyxy_pixel": [
+        385,
+        260,
+        397,
+        275
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '<' (less-than sign) displayed in white.",
+      "bbox_xyxy_pixel": [
+        406,
+        265,
+        418,
+        275
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'b' displayed in white.",
+      "bbox_xyxy_pixel": [
+        428,
+        260,
+        440,
+        276
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text characters 'll' from the background pattern",
+      "bbox_xyxy_pixel": [
+        450,
+        261,
+        458,
+        267
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'f' from the background pattern",
+      "bbox_xyxy_pixel": [
+        469,
+        261,
+        480,
+        275
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text characters 'rv' from the background pattern",
+      "bbox_xyxy_pixel": [
+        489,
+        266,
+        500,
+        273
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'v' from the background pattern",
+      "bbox_xyxy_pixel": [
+        511,
+        264,
+        522,
+        276
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'n' from the background pattern",
+      "bbox_xyxy_pixel": [
+        533,
+        261,
+        544,
+        276
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text characters 'l\\' from the background pattern",
+      "bbox_xyxy_pixel": [
+        553,
+        259,
+        561,
+        266
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'e' from the background pattern",
+      "bbox_xyxy_pixel": [
+        280,
+        308,
+        292,
+        321
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '9' from the background pattern",
+      "bbox_xyxy_pixel": [
+        301,
+        305,
+        314,
+        320
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "glowing stylized star or asterisk character.",
+      "bbox_xyxy_pixel": [
+        323,
+        305,
+        332,
+        314
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "glowing capital letter l character.",
+      "bbox_xyxy_pixel": [
+        343,
+        305,
+        354,
+        319
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "glowing exclamation mark character.",
+      "bbox_xyxy_pixel": [
+        383,
+        305,
+        390,
+        319
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "glowing capital letter w character.",
+      "bbox_xyxy_pixel": [
+        400,
+        308,
+        415,
+        319
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "glowing capital letter b character.",
+      "bbox_xyxy_pixel": [
+        426,
+        305,
+        436,
+        319
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "glowing number 4 character.",
+      "bbox_xyxy_pixel": [
+        447,
+        305,
+        458,
+        320
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "glowing closing parenthesis character.",
+      "bbox_xyxy_pixel": [
+        468,
+        304,
+        477,
+        321
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "glowing capital letter x character.",
+      "bbox_xyxy_pixel": [
+        486,
+        305,
+        498,
+        319
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character u, white with a glowing effect, part of a larger text block.",
+      "bbox_xyxy_pixel": [
+        508,
+        308,
+        519,
+        319
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text symbol $, white with a glowing effect, part of a larger text block.",
+      "bbox_xyxy_pixel": [
+        530,
+        304,
+        541,
+        320
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character p, white with a glowing effect, part of a larger text block.",
+      "bbox_xyxy_pixel": [
+        551,
+        308,
+        563,
+        324
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text symbol /, white with a glowing effect, part of a larger text block.",
+      "bbox_xyxy_pixel": [
+        289,
+        342,
+        298,
+        350
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character q, white with a glowing effect, part of a larger text block.",
+      "bbox_xyxy_pixel": [
+        307,
+        336,
+        319,
+        352
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text symbol \\, white with a glowing effect, part of a larger text block.",
+      "bbox_xyxy_pixel": [
+        328,
+        332,
+        337,
+        349
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character s, white with a glowing effect, part of a larger text block.",
+      "bbox_xyxy_pixel": [
+        346,
+        332,
+        357,
+        348
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text symbol :, white with a glowing effect, part of a larger text block.",
+      "bbox_xyxy_pixel": [
+        367,
+        336,
+        374,
+        348
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'd' with a glowing white appearance.",
+      "bbox_xyxy_pixel": [
+        385,
+        333,
+        396,
+        349
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character resembling a left angle bracket '<' with a glowing, stepped white appearance.",
+      "bbox_xyxy_pixel": [
+        407,
+        337,
+        418,
+        347
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'b' with a glowing white appearance.",
+      "bbox_xyxy_pixel": [
+        428,
+        332,
+        439,
+        347
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text characters '||' (two vertical bars) with a glowing white appearance.",
+      "bbox_xyxy_pixel": [
+        450,
+        333,
+        459,
+        339
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'f' with a glowing white appearance.",
+      "bbox_xyxy_pixel": [
+        469,
+        333,
+        480,
+        347
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text characters 'n_' (lowercase n followed by underscore) with a glowing white appearance.",
+      "bbox_xyxy_pixel": [
+        491,
+        338,
+        501,
+        344
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'v' with a glowing white appearance.",
+      "bbox_xyxy_pixel": [
+        511,
+        336,
+        522,
+        347
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'n' with a glowing white appearance.",
+      "bbox_xyxy_pixel": [
+        532,
+        333,
+        544,
+        348
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "visual element showing a gradient light effect on a dark background, not a functional ui element.",
+      "bbox_xyxy_pixel": [
+        555,
+        332,
+        561,
+        337
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'o' or '0' rendered as a blurred white outline with a glow effect.",
+      "bbox_xyxy_pixel": [
+        573,
+        333,
+        587,
+        348
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '1' rendered as a blurred white outline with a glow effect.",
+      "bbox_xyxy_pixel": [
+        574,
+        305,
+        582,
+        319
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'o' or '0' rendered as a blurred white outline with a glow effect.",
+      "bbox_xyxy_pixel": [
+        574,
+        261,
+        587,
+        275
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '1' rendered as a blurred white outline with a glow effect.",
+      "bbox_xyxy_pixel": [
+        573,
+        233,
+        582,
+        247
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '?' rendered as a blurred white outline with a glow effect.",
+      "bbox_xyxy_pixel": [
+        592,
+        233,
+        601,
+        247
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'v' rendered as a blurred white outline with a glow effect.",
+      "bbox_xyxy_pixel": [
+        610,
+        233,
+        623,
+        247
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'c' rendered as a blurred white outline with a glow effect.",
+      "bbox_xyxy_pixel": [
+        634,
+        236,
+        646,
+        247
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry white character resembling the number 6 against a dark background.",
+      "bbox_xyxy_pixel": [
+        655,
+        233,
+        666,
+        247
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry white character resembling the letter a or a caret symbol against a dark background.",
+      "bbox_xyxy_pixel": [
+        676,
+        233,
+        686,
+        241
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry white vertical bar or letter i against a dark background.",
+      "bbox_xyxy_pixel": [
+        598,
+        259,
+        604,
+        278
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry white character resembling a question mark against a dark background.",
+      "bbox_xyxy_pixel": [
+        592,
+        305,
+        601,
+        320
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry white character resembling the letter v against a dark background.",
+      "bbox_xyxy_pixel": [
+        611,
+        305,
+        624,
+        319
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry white character resembling the letter c against a dark background.",
+      "bbox_xyxy_pixel": [
+        634,
+        308,
+        644,
+        319
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry white character resembling the number 6 against a dark background.",
+      "bbox_xyxy_pixel": [
+        655,
+        305,
+        666,
+        321
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry white character resembling the letter a or a caret symbol against a dark background.",
+      "bbox_xyxy_pixel": [
+        676,
+        305,
+        686,
+        314
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'l' in white.",
+      "bbox_xyxy_pixel": [
+        598,
+        332,
+        604,
+        351
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'y' in white.",
+      "bbox_xyxy_pixel": [
+        9,
+        380,
+        21,
+        396
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '5' in white.",
+      "bbox_xyxy_pixel": [
+        29,
+        376,
+        43,
+        393
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'l' in white.",
+      "bbox_xyxy_pixel": [
+        51,
+        376,
+        58,
+        392
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'u' in white.",
+      "bbox_xyxy_pixel": [
+        67,
+        378,
+        79,
+        392
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '#' in white.",
+      "bbox_xyxy_pixel": [
+        89,
+        376,
+        102,
+        391
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'r' in white.",
+      "bbox_xyxy_pixel": [
+        113,
+        376,
+        125,
+        390
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '&' in white.",
+      "bbox_xyxy_pixel": [
+        135,
+        377,
+        148,
+        392
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurred white pixelated text character 1 part of a text block",
+      "bbox_xyxy_pixel": [
+        158,
+        377,
+        166,
+        391
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurred white pixelated text character z part of a text block",
+      "bbox_xyxy_pixel": [
+        175,
+        376,
+        187,
+        391
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurred white pixelated text character m part of a text block",
+      "bbox_xyxy_pixel": [
+        197,
+        380,
+        212,
+        391
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurred white pixelated symbol @ part of a text block",
+      "bbox_xyxy_pixel": [
+        223,
+        377,
+        240,
+        392
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurred white pixelated text character d part of a text block",
+      "bbox_xyxy_pixel": [
+        249,
+        376,
+        262,
+        391
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurred white pixelated symbol * part of a text block",
+      "bbox_xyxy_pixel": [
+        271,
+        377,
+        280,
+        386
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurred white pixelated text character y part of a text block",
+      "bbox_xyxy_pixel": [
+        291,
+        378,
+        302,
+        391
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurred white pixelated text character s part of a text block",
+      "bbox_xyxy_pixel": [
+        313,
+        380,
+        322,
+        393
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "pixelated white glowing uppercase character 'q' within a text block.",
+      "bbox_xyxy_pixel": [
+        333,
+        376,
+        347,
+        392
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "pixelated white glowing dollar sign symbol '$' within a text block.",
+      "bbox_xyxy_pixel": [
+        357,
+        376,
+        368,
+        393
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "pixelated white glowing uppercase character 'j' within a text block.",
+      "bbox_xyxy_pixel": [
+        377,
+        376,
+        384,
+        396
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "pixelated white glowing uppercase character 't' within a text block.",
+      "bbox_xyxy_pixel": [
+        393,
+        376,
+        406,
+        392
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "pixelated white glowing opening parenthesis symbol '(' within a text block.",
+      "bbox_xyxy_pixel": [
+        415,
+        376,
+        423,
+        394
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "pixelated white glowing lowercase character 'e' within a text block.",
+      "bbox_xyxy_pixel": [
+        434,
+        380,
+        444,
+        391
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "pixelated white glowing lowercase character 'q' within a text block.",
+      "bbox_xyxy_pixel": [
+        171,
+        408,
+        181,
+        423
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "pixelated white glowing forward slash symbol '/' within a text block.",
+      "bbox_xyxy_pixel": [
+        190,
+        405,
+        200,
+        419
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character 's' within a text display area.",
+      "bbox_xyxy_pixel": [
+        209,
+        405,
+        220,
+        419
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "two stacked white symbols resembling vertical bars within a text display area.",
+      "bbox_xyxy_pixel": [
+        230,
+        407,
+        238,
+        419
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character 'd' within a text display area.",
+      "bbox_xyxy_pixel": [
+        248,
+        405,
+        260,
+        419
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white symbol '<' within a text display area.",
+      "bbox_xyxy_pixel": [
+        271,
+        408,
+        280,
+        419
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character 'b' within a text display area.",
+      "bbox_xyxy_pixel": [
+        291,
+        403,
+        302,
+        420
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "two side-by-side white symbols resembling vertical bars within a text display area.",
+      "bbox_xyxy_pixel": [
+        314,
+        405,
+        321,
+        412
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character 'f' within a text display area.",
+      "bbox_xyxy_pixel": [
+        332,
+        405,
+        343,
+        420
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white symbol '|' within a text display area.",
+      "bbox_xyxy_pixel": [
+        152,
+        415,
+        159,
+        421
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry white text character 'm' within a block of placeholder text",
+      "bbox_xyxy_pixel": [
+        353,
+        410,
+        365,
+        416
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry white text character 'v' within a block of placeholder text",
+      "bbox_xyxy_pixel": [
+        374,
+        408,
+        384,
+        419
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry white text character 'n' within a block of placeholder text",
+      "bbox_xyxy_pixel": [
+        395,
+        405,
+        407,
+        419
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry white text character 'g' within a block of placeholder text",
+      "bbox_xyxy_pixel": [
+        418,
+        403,
+        424,
+        409
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry white text character 'o' within a block of placeholder text",
+      "bbox_xyxy_pixel": [
+        436,
+        405,
+        450,
+        420
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry white text character '7' within a block of placeholder text",
+      "bbox_xyxy_pixel": [
+        455,
+        376,
+        465,
+        391
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry white text character 'w' within a block of placeholder text",
+      "bbox_xyxy_pixel": [
+        474,
+        379,
+        491,
+        391
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry white text character 'l' within a block of placeholder text",
+      "bbox_xyxy_pixel": [
+        461,
+        402,
+        469,
+        424
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character l within a block of text.",
+      "bbox_xyxy_pixel": [
+        499,
+        376,
+        510,
+        391
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character ? within a block of text.",
+      "bbox_xyxy_pixel": [
+        519,
+        376,
+        531,
+        393
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character p within a block of text.",
+      "bbox_xyxy_pixel": [
+        540,
+        379,
+        553,
+        395
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character b within a block of text.",
+      "bbox_xyxy_pixel": [
+        564,
+        376,
+        575,
+        392
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character ^ within a block of text.",
+      "bbox_xyxy_pixel": [
+        585,
+        377,
+        595,
+        386
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character o within a block of text.",
+      "bbox_xyxy_pixel": [
+        605,
+        380,
+        617,
+        391
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character f within a block of text.",
+      "bbox_xyxy_pixel": [
+        626,
+        376,
+        636,
+        391
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character v within a block of text.",
+      "bbox_xyxy_pixel": [
+        643,
+        377,
+        658,
+        393
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character ')' with a bright white glow.",
+      "bbox_xyxy_pixel": [
+        666,
+        376,
+        675,
+        394
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase text character 'c' with a bright white glow.",
+      "bbox_xyxy_pixel": [
+        684,
+        379,
+        696,
+        392
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '9' with a bright white glow.",
+      "bbox_xyxy_pixel": [
+        705,
+        376,
+        716,
+        392
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '+' with a bright white glow.",
+      "bbox_xyxy_pixel": [
+        727,
+        381,
+        737,
+        390
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "lowercase text character 'g' with a bright white glow.",
+      "bbox_xyxy_pixel": [
+        748,
+        379,
+        760,
+        395
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase text character 'h' with a bright white glow.",
+      "bbox_xyxy_pixel": [
+        771,
+        376,
+        784,
+        392
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase text character 'o' with a bright white glow.",
+      "bbox_xyxy_pixel": [
+        794,
+        377,
+        806,
+        390
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '=' with a bright white glow.",
+      "bbox_xyxy_pixel": [
+        817,
+        381,
+        827,
+        390
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'k', lowercase, white/light gray with gradient/glow effect, part of a text block.",
+      "bbox_xyxy_pixel": [
+        839,
+        376,
+        849,
+        393
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'j', uppercase, white/light gray with gradient/glow effect, part of a text block.",
+      "bbox_xyxy_pixel": [
+        857,
+        377,
+        869,
+        391
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text symbol ':', white/light gray with gradient/glow effect, part of a text block.",
+      "bbox_xyxy_pixel": [
+        878,
+        380,
+        885,
+        393
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text symbol ']', white/light gray with gradient/glow effect, part of a text block.",
+      "bbox_xyxy_pixel": [
+        896,
+        380,
+        906,
+        390
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text symbol '-', white/light gray with gradient/glow effect, part of a text block.",
+      "bbox_xyxy_pixel": [
+        916,
+        390,
+        926,
+        395
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text symbol '|', white/light gray with gradient/glow effect, part of a text block.",
+      "bbox_xyxy_pixel": [
+        935,
+        376,
+        942,
+        393
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'e', uppercase, white/light gray with gradient/glow effect, part of a text block.",
+      "bbox_xyxy_pixel": [
+        953,
+        377,
+        963,
+        391
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '8', digit, white/light gray with gradient/glow effect, part of a text block.",
+      "bbox_xyxy_pixel": [
+        974,
+        377,
+        984,
+        391
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character [",
+      "bbox_xyxy_pixel": [
+        996,
+        376,
+        1003,
+        393
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character a",
+      "bbox_xyxy_pixel": [
+        1013,
+        380,
+        1024,
+        392
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character d",
+      "bbox_xyxy_pixel": [
+        696,
+        304,
+        709,
+        321
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character r",
+      "bbox_xyxy_pixel": [
+        718,
+        305,
+        731,
+        320
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character )",
+      "bbox_xyxy_pixel": [
+        739,
+        304,
+        748,
+        323
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character f",
+      "bbox_xyxy_pixel": [
+        757,
+        304,
+        766,
+        320
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character z",
+      "bbox_xyxy_pixel": [
+        775,
+        305,
+        788,
+        319
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 3",
+      "bbox_xyxy_pixel": [
+        797,
+        304,
+        808,
+        319
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character hyphen or minus sign '-', white/light gray color.",
+      "bbox_xyxy_pixel": [
+        817,
+        308,
+        829,
+        317
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character uppercase 'o', white/light gray color.",
+      "bbox_xyxy_pixel": [
+        837,
+        307,
+        849,
+        321
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character uppercase 'h', white/light gray color.",
+      "bbox_xyxy_pixel": [
+        859,
+        305,
+        873,
+        319
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character uppercase 'o', white/light gray color.",
+      "bbox_xyxy_pixel": [
+        883,
+        305,
+        895,
+        320
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character plus sign '+', white/light gray color.",
+      "bbox_xyxy_pixel": [
+        906,
+        309,
+        917,
+        318
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character lowercase 'k', white/light gray color.",
+      "bbox_xyxy_pixel": [
+        927,
+        304,
+        940,
+        319
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character equals sign '=', white/light gray color.",
+      "bbox_xyxy_pixel": [
+        948,
+        309,
+        959,
+        317
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character lowercase 'y', white/light gray color.",
+      "bbox_xyxy_pixel": [
+        969,
+        308,
+        980,
+        323
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "displayed text character 'j', white with glow effect on dark background.",
+      "bbox_xyxy_pixel": [
+        989,
+        305,
+        999,
+        319
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "segment of displayed text, two horizontal blurry lines of white characters with glow effect on dark background.",
+      "bbox_xyxy_pixel": [
+        1010,
+        308,
+        1015,
+        321
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "displayed text character 'n', white with glow effect on dark background.",
+      "bbox_xyxy_pixel": [
+        1026,
+        307,
+        1037,
+        319
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "displayed text character 'd', white with glow effect on dark background.",
+      "bbox_xyxy_pixel": [
+        696,
+        232,
+        708,
+        248
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "displayed text character 'r', white with glow effect on dark background.",
+      "bbox_xyxy_pixel": [
+        717,
+        232,
+        731,
+        249
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "displayed text character ')', white with glow effect on dark background.",
+      "bbox_xyxy_pixel": [
+        737,
+        232,
+        747,
+        250
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "displayed text character 'f', white with glow effect on dark background.",
+      "bbox_xyxy_pixel": [
+        757,
+        232,
+        766,
+        247
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "displayed text character 'z', white with glow effect on dark background.",
+      "bbox_xyxy_pixel": [
+        775,
+        233,
+        788,
+        248
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "character '3' displayed in white text within a text block.",
+      "bbox_xyxy_pixel": [
+        797,
+        232,
+        808,
+        247
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "character '-' (hyphen or dash) displayed as a white horizontal bar within a text block.",
+      "bbox_xyxy_pixel": [
+        816,
+        238,
+        829,
+        245
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "character 'o' displayed in white text with a square inner shape within a text block.",
+      "bbox_xyxy_pixel": [
+        837,
+        235,
+        849,
+        249
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "character 'h' displayed in white text within a text block.",
+      "bbox_xyxy_pixel": [
+        859,
+        233,
+        873,
+        248
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "character 'o' displayed in white text with a square inner shape within a text block.",
+      "bbox_xyxy_pixel": [
+        883,
+        233,
+        896,
+        248
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "character '+' (plus sign) displayed in white text within a text block.",
+      "bbox_xyxy_pixel": [
+        906,
+        237,
+        917,
+        246
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "character 'k' displayed in white text within a text block.",
+      "bbox_xyxy_pixel": [
+        927,
+        231,
+        939,
+        247
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "character '=' (equals sign) displayed as two stacked white horizontal bars within a text block.",
+      "bbox_xyxy_pixel": [
+        948,
+        237,
+        960,
+        245
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character y glowing white/light gray on a dark background",
+      "bbox_xyxy_pixel": [
+        968,
+        236,
+        980,
+        250
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character j glowing white/light gray on a dark background",
+      "bbox_xyxy_pixel": [
+        989,
+        233,
+        1000,
+        249
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character : glowing white/light gray on a dark background",
+      "bbox_xyxy_pixel": [
+        1010,
+        234,
+        1016,
+        250
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character n glowing white/light gray on a dark background",
+      "bbox_xyxy_pixel": [
+        1026,
+        235,
+        1038,
+        248
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character c glowing white/light gray on a dark background",
+      "bbox_xyxy_pixel": [
+        129,
+        404,
+        144,
+        422
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character > glowing white/light gray on a dark background",
+      "bbox_xyxy_pixel": [
+        109,
+        408,
+        119,
+        419
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character y glowing white/light gray on a dark background",
+      "bbox_xyxy_pixel": [
+        88,
+        407,
+        101,
+        423
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character / glowing white/light gray on a dark background",
+      "bbox_xyxy_pixel": [
+        70,
+        404,
+        80,
+        419
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "a stylized graphical representation of the lowercase letter 't' with a glossy metallic appearance and a light blue to yellow gradient color on a dark background.",
+      "bbox_xyxy_pixel": [
+        53,
+        405,
+        64,
+        421
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "a stylized graphical representation of the closing square bracket character ']' with a glossy metallic appearance and a light blue to red gradient color on a dark background.",
+      "bbox_xyxy_pixel": [
+        35,
+        404,
+        44,
+        422
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "a stylized graphical representation of the uppercase letter 'm' with a glossy metallic appearance and a light blue to yellow gradient color on a dark background.",
+      "bbox_xyxy_pixel": [
+        10,
+        405,
+        27,
+        421
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character 'm' within a block of displayed text.",
+      "bbox_xyxy_pixel": [
+        10,
+        451,
+        26,
+        464
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character '4' within a block of displayed text.",
+      "bbox_xyxy_pixel": [
+        35,
+        448,
+        49,
+        464
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character '$' within a block of displayed text.",
+      "bbox_xyxy_pixel": [
+        56,
+        448,
+        70,
+        465
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character 'z' within a block of displayed text.",
+      "bbox_xyxy_pixel": [
+        77,
+        447,
+        90,
+        465
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character 'u' within a block of displayed text.",
+      "bbox_xyxy_pixel": [
+        97,
+        451,
+        113,
+        465
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character '%' within a block of displayed text.",
+      "bbox_xyxy_pixel": [
+        121,
+        448,
+        142,
+        465
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character 'p' within a block of displayed text.",
+      "bbox_xyxy_pixel": [
+        148,
+        451,
+        158,
+        466
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character 'q' within a block of displayed text.",
+      "bbox_xyxy_pixel": [
+        169,
+        448,
+        184,
+        465
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character '9' within a block of text.",
+      "bbox_xyxy_pixel": [
+        194,
+        448,
+        205,
+        463
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character '&' within a block of text.",
+      "bbox_xyxy_pixel": [
+        215,
+        449,
+        227,
+        463
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character 'x' within a block of text.",
+      "bbox_xyxy_pixel": [
+        239,
+        451,
+        249,
+        462
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character 't' within a block of text.",
+      "bbox_xyxy_pixel": [
+        258,
+        448,
+        270,
+        463
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character '@' within a block of text.",
+      "bbox_xyxy_pixel": [
+        280,
+        448,
+        297,
+        465
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character 'w' within a block of text.",
+      "bbox_xyxy_pixel": [
+        307,
+        451,
+        321,
+        463
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character '*' within a block of text.",
+      "bbox_xyxy_pixel": [
+        331,
+        449,
+        340,
+        457
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character 'o' within a block of text.",
+      "bbox_xyxy_pixel": [
+        352,
+        451,
+        362,
+        463
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'l' with a white gradient effect on a dark background, part of a text block.",
+      "bbox_xyxy_pixel": [
+        372,
+        448,
+        385,
+        465
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '!' with a white gradient effect on a dark background, part of a text block.",
+      "bbox_xyxy_pixel": [
+        392,
+        448,
+        401,
+        465
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 's' with a white gradient effect on a dark background, part of a text block.",
+      "bbox_xyxy_pixel": [
+        409,
+        451,
+        420,
+        464
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'j' with a white gradient effect on a dark background, part of a text block.",
+      "bbox_xyxy_pixel": [
+        427,
+        447,
+        436,
+        467
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'v' with a white gradient effect on a dark background, part of a text block.",
+      "bbox_xyxy_pixel": [
+        443,
+        448,
+        458,
+        462
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '3' with a white gradient effect on a dark background, part of a text block.",
+      "bbox_xyxy_pixel": [
+        465,
+        448,
+        477,
+        463
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'c' with a white gradient effect on a dark background, part of a text block.",
+      "bbox_xyxy_pixel": [
+        487,
+        447,
+        497,
+        465
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'e' with a white gradient effect on a dark background, part of a text block.",
+      "bbox_xyxy_pixel": [
+        503,
+        450,
+        519,
+        464
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '7' with white glowing appearance on a dark background.",
+      "bbox_xyxy_pixel": [
+        526,
+        448,
+        540,
+        463
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'b' with white glowing appearance on a dark background.",
+      "bbox_xyxy_pixel": [
+        548,
+        448,
+        561,
+        463
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '?' with white glowing appearance on a dark background.",
+      "bbox_xyxy_pixel": [
+        571,
+        449,
+        582,
+        463
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'f' with white glowing appearance on a dark background.",
+      "bbox_xyxy_pixel": [
+        591,
+        448,
+        598,
+        463
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'r' with white glowing appearance on a dark background.",
+      "bbox_xyxy_pixel": [
+        610,
+        448,
+        621,
+        462
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character ')' with white glowing appearance on a dark background.",
+      "bbox_xyxy_pixel": [
+        632,
+        447,
+        638,
+        467
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'c' with white glowing appearance on a dark background.",
+      "bbox_xyxy_pixel": [
+        650,
+        451,
+        660,
+        463
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '1' with white glowing appearance on a dark background.",
+      "bbox_xyxy_pixel": [
+        669,
+        448,
+        679,
+        462
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '+' in white against a dark background.",
+      "bbox_xyxy_pixel": [
+        690,
+        453,
+        699,
+        463
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'd' in white against a dark background.",
+      "bbox_xyxy_pixel": [
+        710,
+        447,
+        723,
+        463
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'h' in white against a dark background.",
+      "bbox_xyxy_pixel": [
+        732,
+        448,
+        745,
+        464
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'o' in white against a dark background.",
+      "bbox_xyxy_pixel": [
+        755,
+        448,
+        768,
+        463
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '=' in white against a dark background.",
+      "bbox_xyxy_pixel": [
+        777,
+        453,
+        790,
+        461
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'k' in white against a dark background.",
+      "bbox_xyxy_pixel": [
+        800,
+        447,
+        810,
+        463
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'j' in white against a dark background.",
+      "bbox_xyxy_pixel": [
+        819,
+        448,
+        830,
+        464
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '/' in white against a dark background.",
+      "bbox_xyxy_pixel": [
+        839,
+        452,
+        846,
+        465
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'n' from a block of text.",
+      "bbox_xyxy_pixel": [
+        856,
+        451,
+        867,
+        462
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '-' (hyphen or dash) from a block of text.",
+      "bbox_xyxy_pixel": [
+        875,
+        461,
+        889,
+        468
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'g' from a block of text.",
+      "bbox_xyxy_pixel": [
+        897,
+        451,
+        911,
+        468
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'e' from a block of text.",
+      "bbox_xyxy_pixel": [
+        919,
+        447,
+        931,
+        464
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '8' from a block of text.",
+      "bbox_xyxy_pixel": [
+        941,
+        448,
+        952,
+        463
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '[' (opening square bracket) from a block of text.",
+      "bbox_xyxy_pixel": [
+        962,
+        447,
+        970,
+        465
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'a' from a block of text.",
+      "bbox_xyxy_pixel": [
+        980,
+        451,
+        992,
+        464
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'm' from a block of text.",
+      "bbox_xyxy_pixel": [
+        1001,
+        448,
+        1018,
+        464
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character right square bracket ] rendered in white/light gray gradient on a dark background.",
+      "bbox_xyxy_pixel": [
+        1027,
+        447,
+        1034,
+        467
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character lowercase t rendered in white/light gray gradient on a dark background.",
+      "bbox_xyxy_pixel": [
+        8,
+        477,
+        19,
+        492
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character forward slash / rendered in white/light gray gradient on a dark background.",
+      "bbox_xyxy_pixel": [
+        26,
+        476,
+        37,
+        491
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character uppercase y rendered in white/light gray gradient on a dark background.",
+      "bbox_xyxy_pixel": [
+        44,
+        479,
+        57,
+        495
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character greater-than sign > rendered in white/light gray gradient on a dark background.",
+      "bbox_xyxy_pixel": [
+        66,
+        480,
+        75,
+        490
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character uppercase c rendered in white/light gray gradient on a dark background.",
+      "bbox_xyxy_pixel": [
+        85,
+        477,
+        101,
+        492
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character lowercase l rendered in white/light gray gradient on a dark background.",
+      "bbox_xyxy_pixel": [
+        108,
+        486,
+        115,
+        493
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character lowercase q rendered in white/light gray gradient on a dark background.",
+      "bbox_xyxy_pixel": [
+        124,
+        480,
+        138,
+        495
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "diagonal sequence of white blocky shapes resembling a staircase or backslashes within a text display area.",
+      "bbox_xyxy_pixel": [
+        146,
+        476,
+        156,
+        491
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white blocky uppercase letter s within a text display area.",
+      "bbox_xyxy_pixel": [
+        165,
+        477,
+        177,
+        492
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "two stacked horizontal white blocky shapes resembling hyphens or an equals sign within a text display area.",
+      "bbox_xyxy_pixel": [
+        187,
+        479,
+        192,
+        493
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white blocky uppercase letter d enclosed within a white rectangular outline within a text display area.",
+      "bbox_xyxy_pixel": [
+        202,
+        477,
+        216,
+        491
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "zigzag sequence of white blocky shapes resembling a lightning bolt or alternating slashes within a text display area.",
+      "bbox_xyxy_pixel": [
+        226,
+        480,
+        236,
+        490
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'b' within a block of monospace text.",
+      "bbox_xyxy_pixel": [
+        246,
+        476,
+        259,
+        492
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text characters '||' within a block of monospace text.",
+      "bbox_xyxy_pixel": [
+        269,
+        477,
+        277,
+        484
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'f' within a block of monospace text.",
+      "bbox_xyxy_pixel": [
+        288,
+        476,
+        300,
+        491
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text characters 'rn' within a block of monospace text.",
+      "bbox_xyxy_pixel": [
+        309,
+        481,
+        321,
+        489
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'v' within a block of monospace text.",
+      "bbox_xyxy_pixel": [
+        330,
+        479,
+        342,
+        490
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'n' within a block of monospace text.",
+      "bbox_xyxy_pixel": [
+        350,
+        476,
+        365,
+        493
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text characters 'ge' within a block of monospace text.",
+      "bbox_xyxy_pixel": [
+        374,
+        475,
+        381,
+        483
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'o' within a block of monospace text.",
+      "bbox_xyxy_pixel": [
+        392,
+        476,
+        408,
+        492
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character vertical bar symbol | rendered in glowing white within a block of text.",
+      "bbox_xyxy_pixel": [
+        415,
+        475,
+        424,
+        494
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character digit 3 rendered in glowing white within a block of text.",
+      "bbox_xyxy_pixel": [
+        9,
+        521,
+        19,
+        537
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character lowercase letter p rendered in glowing white within a block of text.",
+      "bbox_xyxy_pixel": [
+        30,
+        522,
+        42,
+        537
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character lowercase letter g rendered in glowing white within a block of text.",
+      "bbox_xyxy_pixel": [
+        29,
+        551,
+        43,
+        568
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character hyphen symbol - rendered in glowing white within a block of text.",
+      "bbox_xyxy_pixel": [
+        8,
+        559,
+        19,
+        569
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character hash symbol # rendered in glowing white within a block of text.",
+      "bbox_xyxy_pixel": [
+        52,
+        519,
+        66,
+        538
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character uppercase letter e rendered in glowing white within a block of text.",
+      "bbox_xyxy_pixel": [
+        51,
+        548,
+        63,
+        563
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character uppercase letter j rendered in glowing white within a block of text.",
+      "bbox_xyxy_pixel": [
+        74,
+        520,
+        85,
+        537
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character '8' on a dark background as part of a text block.",
+      "bbox_xyxy_pixel": [
+        72,
+        548,
+        85,
+        566
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character '%' on a dark background as part of a text block.",
+      "bbox_xyxy_pixel": [
+        95,
+        520,
+        111,
+        536
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character '{' on a dark background as part of a text block.",
+      "bbox_xyxy_pixel": [
+        93,
+        547,
+        103,
+        567
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character 'm' on a dark background as part of a text block.",
+      "bbox_xyxy_pixel": [
+        112,
+        548,
+        127,
+        562
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character 'm' on a dark background as part of a text block.",
+      "bbox_xyxy_pixel": [
+        122,
+        522,
+        138,
+        536
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character 'z' on a dark background as part of a text block.",
+      "bbox_xyxy_pixel": [
+        147,
+        523,
+        158,
+        535
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character ']' on a dark background as part of a text block.",
+      "bbox_xyxy_pixel": [
+        137,
+        547,
+        145,
+        565
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text character 'i' on a dark background as part of a text block.",
+      "bbox_xyxy_pixel": [
+        156,
+        547,
+        163,
+        564
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '2' in white/light gray.",
+      "bbox_xyxy_pixel": [
+        167,
+        520,
+        179,
+        536
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '&' in white/light gray.",
+      "bbox_xyxy_pixel": [
+        189,
+        521,
+        202,
+        536
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '[' in white/light gray.",
+      "bbox_xyxy_pixel": [
+        173,
+        547,
+        180,
+        565
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 't' in white/light gray.",
+      "bbox_xyxy_pixel": [
+        190,
+        549,
+        198,
+        565
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'i' in white/light gray.",
+      "bbox_xyxy_pixel": [
+        210,
+        519,
+        219,
+        539
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 't' in white/light gray.",
+      "bbox_xyxy_pixel": [
+        226,
+        520,
+        240,
+        536
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '\\' in white/light gray.",
+      "bbox_xyxy_pixel": [
+        209,
+        548,
+        216,
+        563
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'a' in white/light gray.",
+      "bbox_xyxy_pixel": [
+        226,
+        551,
+        238,
+        564
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '>' within a white pixelated data display block.",
+      "bbox_xyxy_pixel": [
+        247,
+        551,
+        257,
+        562
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '@' within a white pixelated data display block.",
+      "bbox_xyxy_pixel": [
+        248,
+        520,
+        265,
+        537
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'c' within a white pixelated data display block.",
+      "bbox_xyxy_pixel": [
+        268,
+        547,
+        280,
+        566
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'e' within a white pixelated data display block.",
+      "bbox_xyxy_pixel": [
+        276,
+        523,
+        287,
+        536
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '9' within a white pixelated data display block.",
+      "bbox_xyxy_pixel": [
+        297,
+        521,
+        308,
+        536
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'l' within a white pixelated data display block.",
+      "bbox_xyxy_pixel": [
+        290,
+        558,
+        296,
+        565
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'q' within a white pixelated data display block.",
+      "bbox_xyxy_pixel": [
+        308,
+        550,
+        320,
+        567
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '*' within a white pixelated data display block.",
+      "bbox_xyxy_pixel": [
+        319,
+        521,
+        326,
+        529
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text segment z & j t displayed in white on a dark background",
+      "bbox_xyxy_pixel": [
+        329,
+        548,
+        336,
+        564
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character l displayed in white on a dark background",
+      "bbox_xyxy_pixel": [
+        338,
+        520,
+        349,
+        536
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character s displayed in white on a dark background",
+      "bbox_xyxy_pixel": [
+        346,
+        547,
+        357,
+        564
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character s displayed in white on a dark background",
+      "bbox_xyxy_pixel": [
+        359,
+        523,
+        369,
+        537
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text segment i [ displayed in white on a dark background",
+      "bbox_xyxy_pixel": [
+        368,
+        551,
+        374,
+        564
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character i displayed in white on a dark background",
+      "bbox_xyxy_pixel": [
+        379,
+        520,
+        385,
+        536
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character w displayed in white on a dark background",
+      "bbox_xyxy_pixel": [
+        395,
+        523,
+        410,
+        535
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character d displayed in white on a dark background",
+      "bbox_xyxy_pixel": [
+        385,
+        547,
+        397,
+        565
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '<' displayed in white/light gray within a block of monospace text.",
+      "bbox_xyxy_pixel": [
+        407,
+        552,
+        418,
+        562
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase text character 'b' displayed in white/light gray within a block of monospace text.",
+      "bbox_xyxy_pixel": [
+        420,
+        521,
+        433,
+        536
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "lowercase text character 'b' displayed in white/light gray within a block of monospace text.",
+      "bbox_xyxy_pixel": [
+        429,
+        547,
+        440,
+        564
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text digit '4' displayed in white/light gray within a block of monospace text.",
+      "bbox_xyxy_pixel": [
+        441,
+        521,
+        454,
+        536
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "two lowercase text characters 'oo' displayed side-by-side in white/light gray within a block of monospace text.",
+      "bbox_xyxy_pixel": [
+        451,
+        548,
+        458,
+        555
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase text character 'c' displayed in white/light gray within a block of monospace text.",
+      "bbox_xyxy_pixel": [
+        464,
+        520,
+        473,
+        538
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase text character 'x' displayed in white/light gray within a block of monospace text.",
+      "bbox_xyxy_pixel": [
+        481,
+        521,
+        493,
+        537
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase text character 'u' displayed in white/light gray within a block of monospace text.",
+      "bbox_xyxy_pixel": [
+        503,
+        523,
+        514,
+        536
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase text character 'f' displayed in white with a glow effect as part of a text block.",
+      "bbox_xyxy_pixel": [
+        469,
+        548,
+        481,
+        564
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text characters 'vn' displayed in white with a glow effect as part of a text block.",
+      "bbox_xyxy_pixel": [
+        490,
+        554,
+        501,
+        561
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase text character 'v' displayed in white with a glow effect as part of a text block.",
+      "bbox_xyxy_pixel": [
+        510,
+        551,
+        521,
+        565
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '$' (dollar sign) displayed in white with a glow effect as part of a text block.",
+      "bbox_xyxy_pixel": [
+        525,
+        520,
+        537,
+        536
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase text character 'p' displayed in white with a glow effect as part of a text block.",
+      "bbox_xyxy_pixel": [
+        547,
+        524,
+        558,
+        538
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase text character 'n' displayed in white with a glow effect as part of a text block.",
+      "bbox_xyxy_pixel": [
+        533,
+        548,
+        544,
+        564
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "lowercase text character 'g' displayed in white with a glow effect as part of a text block.",
+      "bbox_xyxy_pixel": [
+        556,
+        545,
+        563,
+        555
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase text character 'o' displayed in white with a glow effect as part of a text block.",
+      "bbox_xyxy_pixel": [
+        573,
+        547,
+        588,
+        566
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "vertical text cursor or caret with a glowing white appearance.",
+      "bbox_xyxy_pixel": [
+        598,
+        546,
+        606,
+        567
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "numeric text character '1' with a glowing white appearance.",
+      "bbox_xyxy_pixel": [
+        568,
+        521,
+        576,
+        535
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "punctuation text character '?' with a glowing white appearance.",
+      "bbox_xyxy_pixel": [
+        587,
+        521,
+        598,
+        536
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase alphabetic text character 'y' with a glowing white appearance.",
+      "bbox_xyxy_pixel": [
+        607,
+        522,
+        620,
+        534
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "uppercase alphabetic text character 'c' with a glowing white appearance.",
+      "bbox_xyxy_pixel": [
+        628,
+        524,
+        640,
+        535
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "numeric text character '6' with a glowing white appearance.",
+      "bbox_xyxy_pixel": [
+        651,
+        520,
+        662,
+        536
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "symbol text character '^' with a glowing white appearance.",
+      "bbox_xyxy_pixel": [
+        671,
+        521,
+        682,
+        530
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "lowercase alphabetic text character 'd' with a glowing white appearance.",
+      "bbox_xyxy_pixel": [
+        691,
+        520,
+        703,
+        536
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'r' displayed in white monospace font as part of a text block.",
+      "bbox_xyxy_pixel": [
+        712,
+        521,
+        726,
+        536
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character ')' displayed in white monospace font as part of a text block.",
+      "bbox_xyxy_pixel": [
+        735,
+        520,
+        742,
+        537
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'f' displayed in white monospace font as part of a text block.",
+      "bbox_xyxy_pixel": [
+        753,
+        520,
+        762,
+        535
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'z' displayed in white monospace font as part of a text block.",
+      "bbox_xyxy_pixel": [
+        771,
+        521,
+        783,
+        535
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '3' displayed in white monospace font as part of a text block.",
+      "bbox_xyxy_pixel": [
+        792,
+        521,
+        803,
+        535
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '-' displayed in white monospace font as part of a text block.",
+      "bbox_xyxy_pixel": [
+        812,
+        526,
+        824,
+        533
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'o' displayed in white monospace font as part of a text block.",
+      "bbox_xyxy_pixel": [
+        833,
+        523,
+        844,
+        536
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'h' displayed in white monospace font as part of a text block.",
+      "bbox_xyxy_pixel": [
+        855,
+        520,
+        868,
+        535
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'o' in white/light gray.",
+      "bbox_xyxy_pixel": [
+        878,
+        521,
+        891,
+        535
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '+' in white/light gray.",
+      "bbox_xyxy_pixel": [
+        902,
+        524,
+        911,
+        534
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'k' in white/light gray.",
+      "bbox_xyxy_pixel": [
+        922,
+        520,
+        935,
+        536
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '=' in white/light gray.",
+      "bbox_xyxy_pixel": [
+        943,
+        525,
+        955,
+        533
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'y' in white/light gray.",
+      "bbox_xyxy_pixel": [
+        964,
+        524,
+        975,
+        539
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'j' in white/light gray.",
+      "bbox_xyxy_pixel": [
+        983,
+        521,
+        995,
+        537
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character '/' in white/light gray.",
+      "bbox_xyxy_pixel": [
+        1004,
+        523,
+        1011,
+        537
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text character 'n' in white/light gray.",
+      "bbox_xyxy_pixel": [
+        1021,
+        523,
+        1032,
+        535
+      ],
+      "objectness_target": 1.0
+    }
+  ]
+}

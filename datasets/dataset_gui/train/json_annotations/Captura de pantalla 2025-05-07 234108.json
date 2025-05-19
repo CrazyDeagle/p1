@@ -1,0 +1,497 @@
+{
+  "image_filename": "Captura de pantalla 2025-05-07 234108.png",
+  "image_width": 460,
+  "image_height": 492,
+  "annotations": [
+    {
+      "prompt_text": "blue square icon representing a landscape with a mountain and sun, used for a gallery or images section navigation item.",
+      "bbox_xyxy_pixel": [
+        23,
+        39,
+        43,
+        59
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "teal downward arrow icon pointing into a line, representing downloads, used for a navigation item.",
+      "bbox_xyxy_pixel": [
+        24,
+        134,
+        42,
+        156
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "purple rectangular icon resembling a filmstrip with a white play triangle and dots, representing videos, used for a navigation item.",
+      "bbox_xyxy_pixel": [
+        26,
+        265,
+        41,
+        283
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blue square icon representing a landscape with a mountain and sun, used for a gallery or images section navigation item.",
+      "bbox_xyxy_pixel": [
+        27,
+        203,
+        41,
+        217
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blue rectangular icon representing a monitor or desktop computer, used for a navigation item.",
+      "bbox_xyxy_pixel": [
+        25,
+        107,
+        43,
+        121
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "small gray pin icon indicating an item is pinned or favorited in the navigation list.",
+      "bbox_xyxy_pixel": [
+        117,
+        108,
+        128,
+        120
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blue monitor icon with a gray stand, representing 'this pc' or 'my computer' in the navigation list.",
+      "bbox_xyxy_pixel": [
+        25,
+        458,
+        42,
+        475
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "small gray pin icon indicating an item is pinned or favorited in the navigation list.",
+      "bbox_xyxy_pixel": [
+        117,
+        141,
+        128,
+        153
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray pin icon indicating a pinned navigation item status.",
+      "bbox_xyxy_pixel": [
+        117,
+        205,
+        128,
+        216
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray pin icon indicating a pinned navigation item status.",
+      "bbox_xyxy_pixel": [
+        117,
+        237,
+        128,
+        248
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray pin icon indicating a pinned navigation item status.",
+      "bbox_xyxy_pixel": [
+        117,
+        270,
+        128,
+        281
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray pin icon indicating a pinned navigation item status.",
+      "bbox_xyxy_pixel": [
+        117,
+        301,
+        128,
+        312
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "light blue and white icon representing a document or file category.",
+      "bbox_xyxy_pixel": [
+        28,
+        170,
+        40,
+        185
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "circular icon with orange to purple gradient and white musical note, representing the music category.",
+      "bbox_xyxy_pixel": [
+        25,
+        233,
+        42,
+        250
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "yellow folder icon representing a directory or folder.",
+      "bbox_xyxy_pixel": [
+        25,
+        297,
+        42,
+        313
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "yellow folder icon representing a directory or folder.",
+      "bbox_xyxy_pixel": [
+        25,
+        331,
+        42,
+        344
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "yellow folder icon representing a directory in a file navigation pane.",
+      "bbox_xyxy_pixel": [
+        25,
+        363,
+        43,
+        378
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "yellow folder icon representing a directory in a file navigation pane.",
+      "bbox_xyxy_pixel": [
+        25,
+        394,
+        43,
+        409
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "navigation item text label \"este equipo\" for the \"this pc\" section header.",
+      "bbox_xyxy_pixel": [
+        45,
+        459,
+        109,
+        474
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "navigation item text label \"desktop\" for a folder.",
+      "bbox_xyxy_pixel": [
+        47,
+        396,
+        91,
+        410
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "navigation item text label \"segment_anythi\" (partial) for a folder.",
+      "bbox_xyxy_pixel": [
+        45,
+        364,
+        131,
+        378
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "navigation item text label \"jarvisproject\" for a folder.",
+      "bbox_xyxy_pixel": [
+        46,
+        332,
+        112,
+        344
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "navigation item text label \"images\" for a folder.",
+      "bbox_xyxy_pixel": [
+        46,
+        302,
+        85,
+        313
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "navigation item text label \"vídeos\" for a folder.",
+      "bbox_xyxy_pixel": [
+        46,
+        268,
+        82,
+        279
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "navigation list item text label música in a file explorer sidebar",
+      "bbox_xyxy_pixel": [
+        47,
+        237,
+        84,
+        247
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "navigation list item text label imágenes in a file explorer sidebar",
+      "bbox_xyxy_pixel": [
+        47,
+        205,
+        98,
+        218
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "navigation list item text label documentos in a file explorer sidebar",
+      "bbox_xyxy_pixel": [
+        46,
+        172,
+        115,
+        183
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray pushpin icon indicating a pinned item in a file explorer navigation list",
+      "bbox_xyxy_pixel": [
+        117,
+        172,
+        128,
+        184
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray downward-pointing chevron icon indicating an expandable section in a file explorer navigation list",
+      "bbox_xyxy_pixel": [
+        2,
+        460,
+        14,
+        471
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "vertical gray scrollbar thumb in a file explorer navigation pane",
+      "bbox_xyxy_pixel": [
+        131,
+        0,
+        147,
+        451
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "selected navigation list item text label descargas with a gray background highlight in a file explorer sidebar",
+      "bbox_xyxy_pixel": [
+        47,
+        141,
+        100,
+        152
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "navigation list item text label escritorio in a file explorer sidebar",
+      "bbox_xyxy_pixel": [
+        46,
+        108,
+        95,
+        118
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label \"galería\" for a navigation link.",
+      "bbox_xyxy_pixel": [
+        46,
+        42,
+        83,
+        57
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label \"inicio\" for a navigation link.",
+      "bbox_xyxy_pixel": [
+        45,
+        11,
+        76,
+        23
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white house icon with orange roof gradient representing the home location.",
+      "bbox_xyxy_pixel": [
+        24,
+        10,
+        42,
+        27
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "navigation link with white house icon with orange roof and text \"inicio\".",
+      "bbox_xyxy_pixel": [
+        0,
+        1,
+        132,
+        33
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "selected navigation link with green download icon, text \"descargas\", and gray pin icon on a highlighted dark gray background.",
+      "bbox_xyxy_pixel": [
+        1,
+        129,
+        130,
+        161
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "navigation link with yellow folder icon and text \"desktop\".",
+      "bbox_xyxy_pixel": [
+        0,
+        389,
+        131,
+        414
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "navigation link with yellow folder icon and text \"segment_anythi\".",
+      "bbox_xyxy_pixel": [
+        0,
+        358,
+        130,
+        384
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "navigation link with yellow folder icon and text \"jarvisproject\".",
+      "bbox_xyxy_pixel": [
+        0,
+        325,
+        130,
+        347
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "navigation list item for a folder, with a yellow folder icon, text images, and a gray pin icon indicating it is pinned.",
+      "bbox_xyxy_pixel": [
+        0,
+        294,
+        130,
+        316
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "navigation list item for a system folder, with a purple video icon, text vídeos, and a gray pin icon indicating it is pinned.",
+      "bbox_xyxy_pixel": [
+        0,
+        258,
+        130,
+        288
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "navigation list item for a system folder, with an orange and pink circular music note icon, text música, and a gray pin icon indicating it is pinned.",
+      "bbox_xyxy_pixel": [
+        0,
+        226,
+        131,
+        254
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "navigation list item for a system folder, with a blue image icon, text imágenes, and a gray pin icon indicating it is pinned.",
+      "bbox_xyxy_pixel": [
+        0,
+        193,
+        130,
+        221
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "navigation list item for a system folder, with a blue document icon, text documentos, and a gray pin icon indicating it is pinned.",
+      "bbox_xyxy_pixel": [
+        0,
+        164,
+        130,
+        188
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "navigation list item for a system folder, with a blue desktop icon, text escritorio, and a gray pin icon indicating it is pinned.",
+      "bbox_xyxy_pixel": [
+        0,
+        98,
+        130,
+        125
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "navigation list item for a system folder, with a blue gallery icon, text galería.",
+      "bbox_xyxy_pixel": [
+        0,
+        34,
+        130,
+        66
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "navigation list item for a system location, with a gray expand/collapse arrow icon, a blue monitor icon, and text este equipo.",
+      "bbox_xyxy_pixel": [
+        0,
+        452,
+        129,
+        479
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label or section title displaying the text \"escritorio\" in white on a dark background, indicating the current view or location in the main content area.",
+      "bbox_xyxy_pixel": [
+        451,
+        11,
+        460,
+        27
+      ],
+      "objectness_target": 1.0
+    }
+  ]
+}

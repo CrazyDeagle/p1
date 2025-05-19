@@ -1,0 +1,507 @@
+{
+  "image_filename": "Captura de pantalla 2025-03-30 000030.png",
+  "image_width": 274,
+  "image_height": 754,
+  "annotations": [
+    {
+      "prompt_text": "navigation list item for a private channel with a gray lock icon and text \"acc\".",
+      "bbox_xyxy_pixel": [
+        9,
+        17,
+        264,
+        54
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "navigation list item for a private channel with a gray lock icon and text \"aparabu-vods\".",
+      "bbox_xyxy_pixel": [
+        8,
+        59,
+        263,
+        92
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "navigation list item for a private channel with a gray lock icon and text \"duo dh semis\".",
+      "bbox_xyxy_pixel": [
+        7,
+        94,
+        263,
+        129
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "collapsible category header text label \"trio\" with a gray downward caret icon.",
+      "bbox_xyxy_pixel": [
+        9,
+        149,
+        54,
+        171
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray lock icon indicating a private or restricted item.",
+      "bbox_xyxy_pixel": [
+        16,
+        100,
+        35,
+        123
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray lock icon indicating a private or restricted item.",
+      "bbox_xyxy_pixel": [
+        18,
+        65,
+        33,
+        85
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray lock icon indicating a private or restricted item.",
+      "bbox_xyxy_pixel": [
+        18,
+        27,
+        33,
+        45
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray lock icon indicating a private or restricted item.",
+      "bbox_xyxy_pixel": [
+        18,
+        182,
+        35,
+        203
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray padlock icon indicating a locked or private channel.",
+      "bbox_xyxy_pixel": [
+        18,
+        220,
+        34,
+        242
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray icon showing two people with a plus sign, likely for adding members or inviting users to the channel.",
+      "bbox_xyxy_pixel": [
+        247,
+        453,
+        264,
+        470
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray speaker/volume icon with sound waves and an overlaid small padlock icon, indicating a locked or private voice channel.",
+      "bbox_xyxy_pixel": [
+        13,
+        563,
+        37,
+        585
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray speaker/volume icon with sound waves and an overlaid small padlock icon, indicating a locked or private voice channel.",
+      "bbox_xyxy_pixel": [
+        14,
+        525,
+        36,
+        547
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray hashtag icon with an overlaid small padlock icon, indicating a locked or private text channel.",
+      "bbox_xyxy_pixel": [
+        16,
+        642,
+        37,
+        665
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray speaker/volume icon with sound waves and an overlaid small padlock icon, indicating a locked or private voice channel.",
+      "bbox_xyxy_pixel": [
+        15,
+        681,
+        36,
+        701
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray speaker/volume icon with sound waves and an overlaid small padlock icon, indicating a locked or private voice channel.",
+      "bbox_xyxy_pixel": [
+        15,
+        719,
+        37,
+        740
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray speaker/volume icon with sound waves and an overlaid small padlock icon, indicating a locked or private voice channel.",
+      "bbox_xyxy_pixel": [
+        16,
+        489,
+        37,
+        510
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray hashtag icon indicating a text channel.",
+      "bbox_xyxy_pixel": [
+        16,
+        336,
+        36,
+        356
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray speaker icon with sound waves indicating a voice channel.",
+      "bbox_xyxy_pixel": [
+        15,
+        373,
+        37,
+        395
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray hashtag icon indicating a text channel.",
+      "bbox_xyxy_pixel": [
+        16,
+        298,
+        36,
+        317
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "selected channel item with dark gray rounded background containing a gray lock icon, gray hashtag icon, text general-faggot, and gray user icon with plus sign.",
+      "bbox_xyxy_pixel": [
+        4,
+        441,
+        274,
+        480
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "section title text fagotrones with a gray dropdown caret icon indicating a collapsible category.",
+      "bbox_xyxy_pixel": [
+        12,
+        420,
+        120,
+        435
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label general-faggot representing a channel name.",
+      "bbox_xyxy_pixel": [
+        44,
+        452,
+        148,
+        470
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray hashtag icon combined with a gray lock icon indicating a private text channel.",
+      "bbox_xyxy_pixel": [
+        16,
+        450,
+        36,
+        469
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label stream (m-word=ban) representing a channel name.",
+      "bbox_xyxy_pixel": [
+        44,
+        720,
+        215,
+        736
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "voice channel name text label with gray text \"2025 geo members\"",
+      "bbox_xyxy_pixel": [
+        44,
+        682,
+        188,
+        699
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text channel name text label with gray text \"general-vip\"",
+      "bbox_xyxy_pixel": [
+        44,
+        645,
+        125,
+        661
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "collapsible category title text label with gray text \"vipardos\" and a small gray downward arrow icon",
+      "bbox_xyxy_pixel": [
+        12,
+        614,
+        82,
+        628
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "voice channel name text label with gray text \"2\"",
+      "bbox_xyxy_pixel": [
+        43,
+        566,
+        57,
+        582
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "voice channel name text label with gray text \"85x1\"",
+      "bbox_xyxy_pixel": [
+        44,
+        527,
+        79,
+        544
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "voice channel name text label with gray text \"grindeo\"",
+      "bbox_xyxy_pixel": [
+        43,
+        490,
+        115,
+        506
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "voice channel name text label with gray text \"moved\"",
+      "bbox_xyxy_pixel": [
+        44,
+        374,
+        94,
+        391
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text channel name text label with gray text \"general\"",
+      "bbox_xyxy_pixel": [
+        43,
+        336,
+        99,
+        353
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "category title text label \"bienvenidos\".",
+      "bbox_xyxy_pixel": [
+        44,
+        298,
+        129,
+        315
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "private channel name text label \"customsmornings\".",
+      "bbox_xyxy_pixel": [
+        44,
+        218,
+        169,
+        241
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "private channel name text label \"trios\".",
+      "bbox_xyxy_pixel": [
+        43,
+        182,
+        79,
+        201
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "category title text label \"bienvenidos\" with a gray downward chevron icon indicating expandability.",
+      "bbox_xyxy_pixel": [
+        10,
+        268,
+        104,
+        283
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "private channel item with a gray lock icon and text label \"trios\".",
+      "bbox_xyxy_pixel": [
+        10,
+        179,
+        260,
+        206
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "private channel item with a gray lock icon and text label \"customsmornings\".",
+      "bbox_xyxy_pixel": [
+        9,
+        214,
+        260,
+        244
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text channel item with a gray hashtag icon and text label \"bienvenidos\".",
+      "bbox_xyxy_pixel": [
+        5,
+        290,
+        262,
+        326
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text channel item with a gray hashtag icon and text label \"general\".",
+      "bbox_xyxy_pixel": [
+        5,
+        331,
+        261,
+        368
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "list item for a voice channel with a gray speaker icon and text moved.",
+      "bbox_xyxy_pixel": [
+        4,
+        369,
+        264,
+        402
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "list item for a voice channel with a gray speaker icon and text grindeo.",
+      "bbox_xyxy_pixel": [
+        3,
+        480,
+        272,
+        521
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "list item for a voice channel with a gray speaker icon and text 85x1.",
+      "bbox_xyxy_pixel": [
+        2,
+        520,
+        272,
+        556
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "list item for a voice channel with a gray speaker icon and text 2.",
+      "bbox_xyxy_pixel": [
+        1,
+        554,
+        272,
+        591
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "list item for a text channel with a gray hashtag icon and text general-vip.",
+      "bbox_xyxy_pixel": [
+        1,
+        636,
+        272,
+        671
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "list item for a voice channel with a gray speaker icon and text 2025 geo members.",
+      "bbox_xyxy_pixel": [
+        0,
+        672,
+        272,
+        707
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "list item for a voice channel with a gray speaker icon and text stream (m-word=ban).",
+      "bbox_xyxy_pixel": [
+        0,
+        712,
+        273,
+        745
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label for a channel named duo dh semis.",
+      "bbox_xyxy_pixel": [
+        43,
+        103,
+        138,
+        121
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label displaying the channel name \"aparabu-vods\" in gray.",
+      "bbox_xyxy_pixel": [
+        42,
+        66,
+        144,
+        85
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label displaying the channel name \"acc\" in gray.",
+      "bbox_xyxy_pixel": [
+        45,
+        31,
+        71,
+        44
+      ],
+      "objectness_target": 1.0
+    }
+  ]
+}

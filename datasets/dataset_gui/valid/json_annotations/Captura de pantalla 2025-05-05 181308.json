@@ -1,0 +1,3317 @@
+{
+  "image_filename": "Captura de pantalla 2025-05-05 181308.png",
+  "image_width": 1917,
+  "image_height": 938,
+  "annotations": [
+    {
+      "prompt_text": "music video thumbnail image featuring the crazy frog character with goggles in a desert setting.",
+      "bbox_xyxy_pixel": [
+        403,
+        336,
+        679,
+        492
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "album or artist cover image featuring prince royce with text prince royce.",
+      "bbox_xyxy_pixel": [
+        993,
+        112,
+        1145,
+        202
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white heart icon on a purple to green gradient rounded square background, likely representing liked songs or favorites.",
+      "bbox_xyxy_pixel": [
+        15,
+        159,
+        59,
+        204
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "artist or genre thumbnail image featuring michael jackson with vertical text pop on the right.",
+      "bbox_xyxy_pixel": [
+        15,
+        678,
+        61,
+        722
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "radio station thumbnail image with a large green circle icon on a blue background and text radio and dj.",
+      "bbox_xyxy_pixel": [
+        15,
+        276,
+        60,
+        318
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "artist or radio station thumbnail image featuring an anime-style illustration of a person in a black hoodie.",
+      "bbox_xyxy_pixel": [
+        17,
+        333,
+        60,
+        377
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "artist or radio station thumbnail image featuring don omar in a red suit against golden clouds with text don omar.",
+      "bbox_xyxy_pixel": [
+        18,
+        448,
+        57,
+        492
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "artist or radio station thumbnail image featuring michael jackson in a white suit, sitting and pointing.",
+      "bbox_xyxy_pixel": [
+        16,
+        563,
+        58,
+        607
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "recommended station thumbnail with a large number 4, a circular image of michael jackson, and his signature text michael jackson.",
+      "bbox_xyxy_pixel": [
+        16,
+        736,
+        58,
+        782
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "circular icon button with a white outline of a musical note, representing the your library navigation link.",
+      "bbox_xyxy_pixel": [
+        16,
+        218,
+        58,
+        260
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "circular icon button with a white outline of a plus sign (+), likely for creating new content like a playlist.",
+      "bbox_xyxy_pixel": [
+        22,
+        110,
+        52,
+        139
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "circular application logo icon with the white spotify symbol (three curved lines).",
+      "bbox_xyxy_pixel": [
+        23,
+        10,
+        52,
+        39
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "selected navigation tab button with white background and black text todo, likely filtering content to show all types.",
+      "bbox_xyxy_pixel": [
+        114,
+        68,
+        164,
+        99
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "music video thumbnail card showing a band and overlay text en vivo in a white box, indicating a live performance.",
+      "bbox_xyxy_pixel": [
+        642,
+        112,
+        794,
+        202
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "circular icon button with a white outline of a house, representing the home navigation link.",
+      "bbox_xyxy_pixel": [
+        719,
+        2,
+        761,
+        48
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "unselected navigation tab button with dark gray background and white text música, likely filtering content to show only music.",
+      "bbox_xyxy_pixel": [
+        170,
+        69,
+        233,
+        98
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "rounded dark gray navigation button with white text pódcasts, indicating a content filter for podcasts.",
+      "bbox_xyxy_pixel": [
+        239,
+        69,
+        312,
+        98
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white icon button depicting three vertical lines and a slanted rectangle outline, likely representing device connection or casting functionality.",
+      "bbox_xyxy_pixel": [
+        22,
+        70,
+        50,
+        98
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "rectangular video thumbnail image with overlaid text camino por el bosque and luli pampín, featuring a woman in a pink superhero costume in a forest scene.",
+      "bbox_xyxy_pixel": [
+        113,
+        339,
+        385,
+        492
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "circular image thumbnail with red neon text magican music and a person wearing headphones, representing a recommended radio station or playlist.",
+      "bbox_xyxy_pixel": [
+        17,
+        392,
+        58,
+        435
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "circular image thumbnail featuring a person with a crown and elaborate costume, representing a recommended radio station or playlist (likely michael jackson).",
+      "bbox_xyxy_pixel": [
+        15,
+        507,
+        60,
+        549
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "rectangular video thumbnail image with overlaid text immortal and aventura, featuring a person in a dark futuristic suit in front of a fiery background.",
+      "bbox_xyxy_pixel": [
+        14,
+        621,
+        58,
+        665
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "circular image thumbnail featuring a person with a crown and elaborate costume, representing a recommended radio station or playlist (likely michael jackson).",
+      "bbox_xyxy_pixel": [
+        15,
+        793,
+        60,
+        836
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "rectangular video thumbnail image featuring a person with pink sunglasses and a graphic shirt making a hand gesture against a dark, lit background.",
+      "bbox_xyxy_pixel": [
+        699,
+        341,
+        970,
+        492
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "rectangular video thumbnail showing four men in black jackets holding guitars on a stage with blue lighting, representing the video \"immortal\" by aventura.",
+      "bbox_xyxy_pixel": [
+        995,
+        338,
+        1264,
+        491
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "rectangular video thumbnail showing a man in a black leather jacket looking intensely at the camera, representing the video \"dura dura\" by jenorlos, don omar.",
+      "bbox_xyxy_pixel": [
+        1287,
+        338,
+        1525,
+        491
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "square image thumbnail showing two men in sunglasses and black jackets, one with a finger to his lips, representing \"mambo classics\".",
+      "bbox_xyxy_pixel": [
+        12,
+        878,
+        61,
+        922
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "rounded square card with light purple background, containing three circular image thumbnails, text radio in the top right, spotify logo in the top left, and large black text calle 13 at the bottom, representing a radio station.",
+      "bbox_xyxy_pixel": [
+        111,
+        632,
+        268,
+        788
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "rounded square card with light green background, containing three circular image thumbnails, text radio in the top right, spotify logo in the top left, and large black text don omar at the bottom, representing a radio station.",
+      "bbox_xyxy_pixel": [
+        289,
+        634,
+        443,
+        787
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "rounded square card with light yellow background, containing three circular image thumbnails, text radio in the top right, spotify logo in the top left, and large black text tego calderón at the bottom, representing a radio station.",
+      "bbox_xyxy_pixel": [
+        464,
+        633,
+        619,
+        787
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "rounded square card with light orange background, containing three circular image thumbnails, text radio in the top right, spotify logo in the top left, and large black text luli pampín at the bottom, representing a radio station.",
+      "bbox_xyxy_pixel": [
+        816,
+        632,
+        971,
+        788
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "rounded square card with light purple background, containing three circular image thumbnails, text radio in the top right, spotify logo in the top left, and large black text bad bunny at the bottom, representing a radio station.",
+      "bbox_xyxy_pixel": [
+        993,
+        634,
+        1147,
+        786
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "spotify radio station card with teal background, text radio, circular image thumbnails including michael jackson, and text michael jackson at the bottom.",
+      "bbox_xyxy_pixel": [
+        1345,
+        633,
+        1498,
+        788
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "spotify radio station card with light green background, text radio, circular image thumbnails including nicky jam, and text en la cama (feat. daddy yankee) at the bottom.",
+      "bbox_xyxy_pixel": [
+        1168,
+        631,
+        1325,
+        789
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "spotify radio station card with mint green background, text radio, circular image thumbnails including daddy yankee, and text daddy yankee at the bottom.",
+      "bbox_xyxy_pixel": [
+        640,
+        632,
+        796,
+        786
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "spotify playlist or album card with blue background, image at the top, and large white text mambo classics at the bottom.",
+      "bbox_xyxy_pixel": [
+        818,
+        113,
+        970,
+        203
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "spotify album or single card with dark background image, large yellow text los minions, smaller text hurt merrick, and a parental advisory label.",
+      "bbox_xyxy_pixel": [
+        1168,
+        114,
+        1324,
+        204
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "spotify playlist or album card with dark background image, and large white text merengue clásico at the bottom.",
+      "bbox_xyxy_pixel": [
+        1344,
+        113,
+        1498,
+        204
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "spotify playlist or album card with an image of lady gaga in a red spiked hat.",
+      "bbox_xyxy_pixel": [
+        465,
+        112,
+        619,
+        202
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "icon of two white eighth notes (♪♪) on a dark gray background, part of a music card.",
+      "bbox_xyxy_pixel": [
+        288,
+        111,
+        443,
+        203
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "illustrative background element for the liked songs playlist card featuring a purple to light green gradient and a white heart icon at the top.",
+      "bbox_xyxy_pixel": [
+        112,
+        110,
+        266,
+        201
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray outline icon of a magnifying glass, indicating search functionality.",
+      "bbox_xyxy_pixel": [
+        780,
+        13,
+        802,
+        37
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "placeholder text label \"¿qué quieres reproducir?\" in light gray within a search input field.",
+      "bbox_xyxy_pixel": [
+        812,
+        15,
+        980,
+        37
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray outline icon of a bucket or container with a plus sign inside, likely for adding items to a queue or collection from search results.",
+      "bbox_xyxy_pixel": [
+        1151,
+        4,
+        1197,
+        45
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "rounded dark gray text input field for searching, containing a gray magnifying glass icon on the left, light gray placeholder text \"¿qué quieres reproducir?\", and a gray bucket with plus icon on the right.",
+      "bbox_xyxy_pixel": [
+        770,
+        1,
+        1197,
+        50
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "partial placeholder text label \"qué\" in light gray.",
+      "bbox_xyxy_pixel": [
+        819,
+        17,
+        848,
+        34
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "partial placeholder text label \"quieres\" in light gray.",
+      "bbox_xyxy_pixel": [
+        851,
+        18,
+        899,
+        36
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "partial placeholder text label \"reproducir\" in light gray.",
+      "bbox_xyxy_pixel": [
+        901,
+        19,
+        971,
+        34
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "functional icon depicting a silver question mark, likely for help or support.",
+      "bbox_xyxy_pixel": [
+        971,
+        19,
+        979,
+        34
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "functional icon depicting a silver bell, likely for notifications.",
+      "bbox_xyxy_pixel": [
+        812,
+        18,
+        821,
+        35
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label with white bold text clásico, part of a title like \"merengue clásico\".",
+      "bbox_xyxy_pixel": [
+        1405,
+        211,
+        1449,
+        224
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label with white bold text merengue, part of a title like \"merengue clásico\".",
+      "bbox_xyxy_pixel": [
+        1343,
+        211,
+        1404,
+        225
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label with white bold text merengue clásico, serving as a title for a content category.",
+      "bbox_xyxy_pixel": [
+        1340,
+        209,
+        1449,
+        225
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label with white bold text minions, part of a title like \"los minions\".",
+      "bbox_xyxy_pixel": [
+        1190,
+        211,
+        1236,
+        224
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label with white bold text los, part of a title like \"los minions\".",
+      "bbox_xyxy_pixel": [
+        1167,
+        210,
+        1190,
+        224
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label with white bold text los minions, serving as a title for a content item.",
+      "bbox_xyxy_pixel": [
+        1167,
+        210,
+        1236,
+        224
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text royce, indicating the artist name for the album/playlist above.",
+      "bbox_xyxy_pixel": [
+        1030,
+        211,
+        1067,
+        227
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text prince, indicating part of the artist name for the album/playlist above.",
+      "bbox_xyxy_pixel": [
+        992,
+        211,
+        1030,
+        226
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text prince royce, indicating the full artist name for the album/playlist above.",
+      "bbox_xyxy_pixel": [
+        991,
+        210,
+        1066,
+        227
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text mambo, indicating part of the title for the album/playlist above.",
+      "bbox_xyxy_pixel": [
+        815,
+        211,
+        861,
+        225
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text classics, indicating part of the title for the album/playlist above.",
+      "bbox_xyxy_pixel": [
+        863,
+        211,
+        909,
+        225
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text mambo classics, indicating the full title for the album/playlist above.",
+      "bbox_xyxy_pixel": [
+        814,
+        210,
+        907,
+        225
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text gominola, indicating part of the artist name for the album/playlist above.",
+      "bbox_xyxy_pixel": [
+        674,
+        211,
+        731,
+        224
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text osito, indicating part of the artist name for the album/playlist above.",
+      "bbox_xyxy_pixel": [
+        640,
+        210,
+        673,
+        223
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with text gaga, part of a music item title.",
+      "bbox_xyxy_pixel": [
+        531,
+        210,
+        564,
+        226
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with text lady, part of a music item title.",
+      "bbox_xyxy_pixel": [
+        501,
+        210,
+        530,
+        226
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with text is, part of a music item title.",
+      "bbox_xyxy_pixel": [
+        489,
+        210,
+        500,
+        226
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with text this, part of a music item title.",
+      "bbox_xyxy_pixel": [
+        463,
+        210,
+        488,
+        227
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with text this is lady gaga, serving as the title for a music item.",
+      "bbox_xyxy_pixel": [
+        462,
+        209,
+        564,
+        225
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label with text configuración, associated with a settings option.",
+      "bbox_xyxy_pixel": [
+        307,
+        211,
+        391,
+        228
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "functional gear or cog icon representing settings or configuration.",
+      "bbox_xyxy_pixel": [
+        289,
+        211,
+        306,
+        228
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "clickable element with a gear icon and text configuración, providing access to settings.",
+      "bbox_xyxy_pixel": [
+        289,
+        210,
+        390,
+        226
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label \"canciones\" as part of a section title.",
+      "bbox_xyxy_pixel": [
+        111,
+        210,
+        173,
+        226
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label \"que\" as part of a section title.",
+      "bbox_xyxy_pixel": [
+        174,
+        211,
+        197,
+        226
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label \"gustan\" as part of a section title.",
+      "bbox_xyxy_pixel": [
+        212,
+        211,
+        254,
+        228
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label \"te\" as part of a section title.",
+      "bbox_xyxy_pixel": [
+        197,
+        211,
+        211,
+        224
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "section title text label \"canciones que te gustan\".",
+      "bbox_xyxy_pixel": [
+        111,
+        209,
+        253,
+        228
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label \"ti\" as part of a section title.",
+      "bbox_xyxy_pixel": [
+        331,
+        299,
+        354,
+        318
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label \"para\" as part of a section title.",
+      "bbox_xyxy_pixel": [
+        284,
+        301,
+        332,
+        321
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label \"musicales\" as part of a section title.",
+      "bbox_xyxy_pixel": [
+        184,
+        297,
+        281,
+        321
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "section title text \"vídeos\" in bold white font.",
+      "bbox_xyxy_pixel": [
+        110,
+        297,
+        182,
+        320
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "section title text \"vídeos musicales para ti\" in bold white font.",
+      "bbox_xyxy_pixel": [
+        110,
+        295,
+        351,
+        321
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray circular icon with a downward arrow inside, likely indicating download or install.",
+      "bbox_xyxy_pixel": [
+        1666,
+        14,
+        1686,
+        34
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label or button text \"instalar app\" in gray font.",
+      "bbox_xyxy_pixel": [
+        1690,
+        17,
+        1762,
+        35
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray bell-shaped icon, likely representing notifications.",
+      "bbox_xyxy_pixel": [
+        1794,
+        16,
+        1810,
+        36
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray icon depicting three person silhouettes, likely representing social features or group sessions.",
+      "bbox_xyxy_pixel": [
+        1828,
+        16,
+        1848,
+        35
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "circular user avatar icon displaying a person's face with sunglasses and a scarf.",
+      "bbox_xyxy_pixel": [
+        1866,
+        2,
+        1911,
+        44
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label \"dispositivo\" in white font.",
+      "bbox_xyxy_pixel": [
+        1640,
+        75,
+        1715,
+        91
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "part of a section title text \"un\" in white bold font.",
+      "bbox_xyxy_pixel": [
+        1619,
+        77,
+        1637,
+        89
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "part of a section title text \"a\" in white bold font.",
+      "bbox_xyxy_pixel": [
+        1610,
+        76,
+        1618,
+        91
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "part of a section title text \"conectar\" in white bold font.",
+      "bbox_xyxy_pixel": [
+        1545,
+        74,
+        1609,
+        91
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "list item on a green background panel indicating the currently active device, with a green computer monitor icon, bold white text \"dispositivo actual\", and gray text \"este navegador web\".",
+      "bbox_xyxy_pixel": [
+        1543,
+        110,
+        1899,
+        199
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "part of the bold white text label \"dispositivo\" within the active device list item on a green background.",
+      "bbox_xyxy_pixel": [
+        1582,
+        128,
+        1698,
+        152
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "part of the bold white text label \"actual\" within the active device list item on a green background.",
+      "bbox_xyxy_pixel": [
+        1696,
+        129,
+        1762,
+        153
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "green outline icon shaped like a computer monitor with a base, indicating a computer or web browser device.",
+      "bbox_xyxy_pixel": [
+        1553,
+        123,
+        1578,
+        148
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "part of the gray text label \"este\" describing the active device type within the list item on a green background.",
+      "bbox_xyxy_pixel": [
+        1552,
+        156,
+        1583,
+        171
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label with white text \"web\"",
+      "bbox_xyxy_pixel": [
+        1658,
+        158,
+        1693,
+        173
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label with white text \"navegador\"",
+      "bbox_xyxy_pixel": [
+        1584,
+        159,
+        1656,
+        173
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label with white text \"este navegador web\" identifying the current device",
+      "bbox_xyxy_pixel": [
+        1552,
+        155,
+        1690,
+        178
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "section title with bold white text \"dispositivo actual\"",
+      "bbox_xyxy_pixel": [
+        1582,
+        125,
+        1762,
+        154
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "close button icon shaped like a white 'x'",
+      "bbox_xyxy_pixel": [
+        1874,
+        74,
+        1890,
+        90
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label with white text \"dispositivo\"",
+      "bbox_xyxy_pixel": [
+        1664,
+        220,
+        1741,
+        237
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label with white text \"otro\"",
+      "bbox_xyxy_pixel": [
+        1633,
+        222,
+        1664,
+        234
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label with bold white text \"seleccionar\"",
+      "bbox_xyxy_pixel": [
+        1553,
+        219,
+        1632,
+        235
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "clickable text label or button with text seleccionar otro dispositivo, indicating the option to select a different playback device.",
+      "bbox_xyxy_pixel": [
+        1552,
+        218,
+        1741,
+        236
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white icon representing an audio device or speaker, associated with the 'everywhere' playback option.",
+      "bbox_xyxy_pixel": [
+        1557,
+        266,
+        1573,
+        288
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label or list item text displaying the device name 2º echo dot de patricio.",
+      "bbox_xyxy_pixel": [
+        1585,
+        269,
+        1736,
+        287
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label displaying the name patricio, part of a device name in a list.",
+      "bbox_xyxy_pixel": [
+        1685,
+        273,
+        1736,
+        285
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label displaying the word de, part of a device name in a list.",
+      "bbox_xyxy_pixel": [
+        1666,
+        272,
+        1684,
+        284
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label displaying the word dot, part of a device name in a list.",
+      "bbox_xyxy_pixel": [
+        1638,
+        269,
+        1665,
+        285
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label displaying the word echo, part of a device name in a list.",
+      "bbox_xyxy_pixel": [
+        1603,
+        269,
+        1638,
+        286
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label displaying the text 2º, indicating the second device in a list.",
+      "bbox_xyxy_pixel": [
+        1584,
+        268,
+        1603,
+        286
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "part of a text link, text mostrar.",
+      "bbox_xyxy_pixel": [
+        1398,
+        305,
+        1447,
+        320
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "part of a text link, text todos.",
+      "bbox_xyxy_pixel": [
+        1448,
+        307,
+        1484,
+        320
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text link button with text mostrar todos to view all items in a section.",
+      "bbox_xyxy_pixel": [
+        1397,
+        304,
+        1483,
+        318
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white outline icon representing an audio device or speaker, used for connecting to a device.",
+      "bbox_xyxy_pixel": [
+        1556,
+        323,
+        1574,
+        345
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "pair of white outline icons representing google cast devices, showing a casting symbol and a speaker icon within brackets.",
+      "bbox_xyxy_pixel": [
+        1553,
+        381,
+        1578,
+        404
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label or list item text echo dot de patricio representing a connectable device.",
+      "bbox_xyxy_pixel": [
+        1585,
+        324,
+        1719,
+        343
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "part of a text label, text patricio.",
+      "bbox_xyxy_pixel": [
+        1667,
+        325,
+        1718,
+        342
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "part of a text label, text de.",
+      "bbox_xyxy_pixel": [
+        1648,
+        326,
+        1666,
+        341
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text label dot as part of a device name in a list item",
+      "bbox_xyxy_pixel": [
+        1620,
+        327,
+        1646,
+        340
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text label echo as part of a device name in a list item",
+      "bbox_xyxy_pixel": [
+        1585,
+        326,
+        1619,
+        340
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text label partes as part of a device category label in a list item",
+      "bbox_xyxy_pixel": [
+        1646,
+        386,
+        1690,
+        401
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text label todas as part of a device category label in a list item",
+      "bbox_xyxy_pixel": [
+        1604,
+        385,
+        1645,
+        399
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text label en as part of a device category label in a list item",
+      "bbox_xyxy_pixel": [
+        1585,
+        384,
+        1603,
+        399
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white functional icon depicting a rectangle with three curved lines indicating casting or streaming capability",
+      "bbox_xyxy_pixel": [
+        1553,
+        436,
+        1577,
+        456
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text label dispositivos as part of a device category label in a list item",
+      "bbox_xyxy_pixel": [
+        1586,
+        439,
+        1668,
+        453
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text label cast as part of a device category label in a list item",
+      "bbox_xyxy_pixel": [
+        1720,
+        439,
+        1752,
+        453
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text google, part of the dispositivos google cast label.",
+      "bbox_xyxy_pixel": [
+        1667,
+        439,
+        1720,
+        453
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text dispositivos google cast, identifying a category of connectable devices.",
+      "bbox_xyxy_pixel": [
+        1586,
+        437,
+        1751,
+        455
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry white text fragment showing the letter f, likely part of a label or instruction outside the main ui.",
+      "bbox_xyxy_pixel": [
+        1520,
+        211,
+        1526,
+        223
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "horizontal visual separator line or gradient with dark blue transitioning to dark gray, separating ui sections.",
+      "bbox_xyxy_pixel": [
+        1520,
+        98,
+        1526,
+        152
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "section title or heading with bold white text conectar a un dispositivo, indicating the device connection panel.",
+      "bbox_xyxy_pixel": [
+        1545,
+        73,
+        1715,
+        89
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white outline icon depicting a square with an arrow pointing out, commonly used for external link or open action.",
+      "bbox_xyxy_pixel": [
+        1874,
+        815,
+        1890,
+        832
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "partial text label or link starting with white text ,no, part of the phrase \",no ves tu dispositivo?\".",
+      "bbox_xyxy_pixel": [
+        1560,
+        816,
+        1581,
+        830
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "partial text label or link with white text ves, part of the phrase \",no ves tu dispositivo?\".",
+      "bbox_xyxy_pixel": [
+        1582,
+        820,
+        1607,
+        830
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "part of a section title text label with white text \"tu\"",
+      "bbox_xyxy_pixel": [
+        1607,
+        816,
+        1624,
+        832
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "part of a section title text label with white text \"dispositivo\"",
+      "bbox_xyxy_pixel": [
+        1624,
+        816,
+        1697,
+        830
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white question mark icon next to text asking about not seeing a device, likely for help.",
+      "bbox_xyxy_pixel": [
+        1695,
+        817,
+        1704,
+        830
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "part of a text label or hyperlink with white text \"¿\"",
+      "bbox_xyxy_pixel": [
+        1553,
+        817,
+        1563,
+        833
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white icon button of four corner brackets pointing outwards, likely for fullscreen mode.",
+      "bbox_xyxy_pixel": [
+        1887,
+        894,
+        1905,
+        910
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white icon button resembling a monitor or speaker with a signal, used to connect to a device.",
+      "bbox_xyxy_pixel": [
+        1858,
+        894,
+        1876,
+        911
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "horizontal dark gray bar representing the track of a volume slider control.",
+      "bbox_xyxy_pixel": [
+        1760,
+        897,
+        1848,
+        909
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white speaker icon with one bar, indicating a low volume level.",
+      "bbox_xyxy_pixel": [
+        1739,
+        895,
+        1754,
+        910
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "green functional icon depicting a device with a plus sign inside a rectangle and an exclamation mark next to it, indicating device connection status or action.",
+      "bbox_xyxy_pixel": [
+        1711,
+        893,
+        1728,
+        910
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray functional icon depicting three horizontal lines below a rectangle, representing the playback queue or playlist.",
+      "bbox_xyxy_pixel": [
+        1683,
+        894,
+        1698,
+        910
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray functional icon depicting a microphone, likely for accessing lyrics or karaoke features.",
+      "bbox_xyxy_pixel": [
+        1653,
+        893,
+        1669,
+        910
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray functional icon depicting a right-pointing triangle inside a square outline, likely indicating video playback status or control.",
+      "bbox_xyxy_pixel": [
+        1624,
+        893,
+        1641,
+        910
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text hyperlink or actionable text ¿no ves tu dispositivo? for troubleshooting device connection.",
+      "bbox_xyxy_pixel": [
+        1551,
+        814,
+        1705,
+        835
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "white text label displaying the total duration of the track, 3:25.",
+      "bbox_xyxy_pixel": [
+        1244,
+        913,
+        1269,
+        926
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray functional icon depicting a square with a counter-clockwise looping arrow, representing the repeat playback function.",
+      "bbox_xyxy_pixel": [
+        1028,
+        883,
+        1047,
+        900
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray functional icon depicting a right-pointing triangle followed by a vertical line, representing the next track button.",
+      "bbox_xyxy_pixel": [
+        993,
+        883,
+        1009,
+        899
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "circular action button with a white outline and a black play triangle icon, located in the media player control bar.",
+      "bbox_xyxy_pixel": [
+        942,
+        877,
+        975,
+        908
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray functional icon depicting a double arrow pointing right, representing the skip forward action in the media player control bar.",
+      "bbox_xyxy_pixel": [
+        907,
+        883,
+        921,
+        899
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "gray functional icon depicting crossed arrows, representing the shuffle playback mode toggle in the media player control bar.",
+      "bbox_xyxy_pixel": [
+        870,
+        884,
+        886,
+        899
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "horizontal progress bar with a dark gray track and a white indicator showing playback progress, likely also a seek slider.",
+      "bbox_xyxy_pixel": [
+        675,
+        916,
+        1240,
+        924
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label displaying the current elapsed playback time as \"0:30\".",
+      "bbox_xyxy_pixel": [
+        644,
+        914,
+        669,
+        925
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label displaying the artist name \"romeo santos\" for the currently playing track.",
+      "bbox_xyxy_pixel": [
+        152,
+        902,
+        225,
+        916
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "bright green functional icon depicting a checkmark inside a circle, indicating an active or connected status.",
+      "bbox_xyxy_pixel": [
+        241,
+        895,
+        259,
+        910
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label displaying the artist name \"wisin & yandel\" in the now playing section.",
+      "bbox_xyxy_pixel": [
+        75,
+        904,
+        148,
+        915
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label with the text \"sexo\", part of the currently playing song title.",
+      "bbox_xyxy_pixel": [
+        133,
+        888,
+        165,
+        899
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label with the text \"de\", part of the currently playing song title.",
+      "bbox_xyxy_pixel": [
+        115,
+        887,
+        133,
+        900
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label with the text \"noche\", part of the currently playing song title.",
+      "bbox_xyxy_pixel": [
+        76,
+        887,
+        113,
+        900
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label displaying the title of the currently playing song, \"noche de sexo\".",
+      "bbox_xyxy_pixel": [
+        76,
+        887,
+        163,
+        898
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label displaying the artists of the currently playing song, \"wisin & yandel, romeo santos\".",
+      "bbox_xyxy_pixel": [
+        73,
+        902,
+        224,
+        917
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text block displaying the currently playing song title \"noche de sexo\" on the top line and the artists \"wisin & yandel, romeo santos\" on the bottom line.",
+      "bbox_xyxy_pixel": [
+        73,
+        887,
+        225,
+        915
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "bold text label with the text \"recomendadas\", part of the section title \"emisoras recomendadas\".",
+      "bbox_xyxy_pixel": [
+        205,
+        594,
+        355,
+        610
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "bold text label with the text \"emisoras\", part of the section title \"emisoras recomendadas\".",
+      "bbox_xyxy_pixel": [
+        113,
+        592,
+        203,
+        609
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "section title text \"emisoras recomendadas\" in bold white font.",
+      "bbox_xyxy_pixel": [
+        113,
+        592,
+        356,
+        609
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label \"favoritos.\" in white font, part of a sentence explaining recommendations.",
+      "bbox_xyxy_pixel": [
+        345,
+        573,
+        392,
+        583
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label \"artistas\" in white font, part of a sentence explaining recommendations.",
+      "bbox_xyxy_pixel": [
+        307,
+        574,
+        345,
+        585
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label \"y\" in white font, part of a sentence explaining recommendations.",
+      "bbox_xyxy_pixel": [
+        298,
+        575,
+        306,
+        585
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label \"canciones\" in white font, part of a sentence explaining recommendations.",
+      "bbox_xyxy_pixel": [
+        248,
+        574,
+        298,
+        583
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label \"tus\" in white font, part of a sentence explaining recommendations.",
+      "bbox_xyxy_pixel": [
+        230,
+        574,
+        247,
+        584
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label \"en\" in white font, part of a sentence explaining recommendations.",
+      "bbox_xyxy_pixel": [
+        216,
+        574,
+        229,
+        584
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label \"basada\" in white font, part of a sentence explaining recommendations.",
+      "bbox_xyxy_pixel": [
+        179,
+        572,
+        215,
+        585
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "partial text label fm, part of a larger radio label on a content thumbnail.",
+      "bbox_xyxy_pixel": [
+        164,
+        574,
+        178,
+        583
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "partial text segment sin from the descriptive text label música sin fin basada en tus canciones y artistas favoritos..",
+      "bbox_xyxy_pixel": [
+        148,
+        574,
+        163,
+        584
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "selected navigation tab or filter button with white text música and a white underline.",
+      "bbox_xyxy_pixel": [
+        112,
+        573,
+        148,
+        585
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with light gray text música sin fin basada en tus canciones y artistas favoritos..",
+      "bbox_xyxy_pixel": [
+        111,
+        571,
+        391,
+        584
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "illustrative visual element showing three small light gray triangle shapes, likely an audio indicator in the playback bar.",
+      "bbox_xyxy_pixel": [
+        226,
+        823,
+        236,
+        830
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "partial text label cadillacs, part of the artist list for a radio station item.",
+      "bbox_xyxy_pixel": [
+        172,
+        816,
+        224,
+        830
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "partial text label fabulosos, part of the artist list for a radio station item.",
+      "bbox_xyxy_pixel": [
+        112,
+        814,
+        170,
+        831
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "partial text label los, part of the artist list for a radio station item.",
+      "bbox_xyxy_pixel": [
+        227,
+        799,
+        249,
+        812
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label showing partial artist name \"palo\" in light gray.",
+      "bbox_xyxy_pixel": [
+        197,
+        799,
+        222,
+        811
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label showing partial text \"de\" in light gray.",
+      "bbox_xyxy_pixel": [
+        179,
+        800,
+        196,
+        811
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label showing partial artist name \"jarabe\" in light gray.",
+      "bbox_xyxy_pixel": [
+        137,
+        800,
+        177,
+        812
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label showing partial text \"con\" in light gray.",
+      "bbox_xyxy_pixel": [
+        112,
+        799,
+        135,
+        811
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "dark gray background panel area with subtle lighting effect.",
+      "bbox_xyxy_pixel": [
+        222,
+        807,
+        227,
+        813
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label showing artist names \"con jarabe de palo, los\" in light gray.",
+      "bbox_xyxy_pixel": [
+        110,
+        798,
+        251,
+        814
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label showing truncated artist names \"fabulosos cadillacs,...\" in light gray.",
+      "bbox_xyxy_pixel": [
+        110,
+        814,
+        249,
+        831
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "multiline descriptive text label listing artists \"con jarabe de palo, los fabulosos cadillacs,...\" in light gray.",
+      "bbox_xyxy_pixel": [
+        109,
+        797,
+        250,
+        829
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "part of a descriptive text label displaying the letter y, part of an artist name in the recommended radio stations section.",
+      "bbox_xyxy_pixel": [
+        401,
+        819,
+        410,
+        831
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "part of a descriptive text label displaying the text dize, likely part of an artist name list under a radio station thumbnail.",
+      "bbox_xyxy_pixel": [
+        375,
+        817,
+        400,
+        830
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "part of a descriptive text label displaying the text tony, likely part of an artist name list under a radio station thumbnail.",
+      "bbox_xyxy_pixel": [
+        346,
+        816,
+        374,
+        831
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label displaying the text calderón, the last name of the main artist for a recommended radio station.",
+      "bbox_xyxy_pixel": [
+        288,
+        816,
+        341,
+        830
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label displaying the text tego, the first name of the main artist for a recommended radio station.",
+      "bbox_xyxy_pixel": [
+        353,
+        800,
+        383,
+        814
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "part of a descriptive text label displaying the letter b, the first letter of an artist name in the recommended radio stations section.",
+      "bbox_xyxy_pixel": [
+        340,
+        799,
+        349,
+        812
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "part of a descriptive text label displaying the text plan, likely part of an artist name list under a radio station thumbnail.",
+      "bbox_xyxy_pixel": [
+        314,
+        799,
+        339,
+        812
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "part of a descriptive text label displaying the text con, indicating featured artists for a recommended radio station.",
+      "bbox_xyxy_pixel": [
+        288,
+        800,
+        312,
+        812
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "functional icon button with a white plus sign inside a circle, used to create a new playlist.",
+      "bbox_xyxy_pixel": [
+        347,
+        807,
+        353,
+        814
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "navigation icon button with a white library or folder icon, used to access the user's library.",
+      "bbox_xyxy_pixel": [
+        340,
+        824,
+        346,
+        833
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "functional icon button with three white vertical dots, likely for more playback options.",
+      "bbox_xyxy_pixel": [
+        408,
+        824,
+        419,
+        830
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label \"con plan b, tego\" listing featured artists for a radio station.",
+      "bbox_xyxy_pixel": [
+        286,
+        798,
+        384,
+        814
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label \"calderón, tony dize y...\" continuing the list of featured artists for a radio station.",
+      "bbox_xyxy_pixel": [
+        287,
+        816,
+        422,
+        831
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with two lines of text \"con plan b, tego\" and \"calderón, tony dize y...\" listing featured artists for a radio station.",
+      "bbox_xyxy_pixel": [
+        285,
+        797,
+        421,
+        830
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "functional icon button with a white speaker icon, part of the playback volume control.",
+      "bbox_xyxy_pixel": [
+        588,
+        819,
+        596,
+        831
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "functional icon button with three white vertical bars icon, representing the current playback device.",
+      "bbox_xyxy_pixel": [
+        595,
+        824,
+        608,
+        829
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text zion, listing a featured artist for a radio station.",
+      "bbox_xyxy_pixel": [
+        488,
+        800,
+        516,
+        811
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "functional icon depicting three vertical dots, likely for more options related to connecting a device.",
+      "bbox_xyxy_pixel": [
+        513,
+        807,
+        519,
+        814
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text con, indicating featured artists on a radio station.",
+      "bbox_xyxy_pixel": [
+        464,
+        800,
+        487,
+        811
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text con zion, tito \"el\", part of a list of featured artists for a radio station.",
+      "bbox_xyxy_pixel": [
+        463,
+        800,
+        562,
+        813
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text bambino\", trebol clan y..., part of a truncated list of featured artists for a radio station.",
+      "bbox_xyxy_pixel": [
+        463,
+        816,
+        606,
+        831
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label block with white text con zion, tito \"el\" on the first line and bambino\", trebol clan y... on the second line, listing featured artists for a radio station.",
+      "bbox_xyxy_pixel": [
+        462,
+        799,
+        607,
+        829
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text khriz, listing a featured artist for a radio station.",
+      "bbox_xyxy_pixel": [
+        744,
+        816,
+        775,
+        829
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "functional icon depicting three horizontal dots, likely for a context menu for the currently playing track.",
+      "bbox_xyxy_pixel": [
+        773,
+        824,
+        785,
+        830
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label y, part of an artist name in a radio station list.",
+      "bbox_xyxy_pixel": [
+        733,
+        817,
+        743,
+        829
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label angel, part of an artist name in a radio station list.",
+      "bbox_xyxy_pixel": [
+        697,
+        817,
+        732,
+        830
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label calderón, part of the artist name tego calderón in a radio station list.",
+      "bbox_xyxy_pixel": [
+        639,
+        817,
+        693,
+        829
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label con, indicating featured artists for a radio station.",
+      "bbox_xyxy_pixel": [
+        640,
+        800,
+        663,
+        811
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label don, part of the artist name don omar in a radio station list.",
+      "bbox_xyxy_pixel": [
+        666,
+        800,
+        690,
+        812
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label omar, part of the artist name don omar in a radio station list.",
+      "bbox_xyxy_pixel": [
+        692,
+        799,
+        724,
+        811
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label 9, part of the radio station name calle 13.",
+      "bbox_xyxy_pixel": [
+        722,
+        808,
+        728,
+        813
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label tego, part of the artist name tego calderón in a radio station list.",
+      "bbox_xyxy_pixel": [
+        728,
+        800,
+        758,
+        814
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label listing artists \"con don omar, tego\" as part of a recommended radio station description.",
+      "bbox_xyxy_pixel": [
+        639,
+        799,
+        760,
+        814
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label listing artists \"calderón, angel y khriz...\" as a continuation of a recommended radio station description, indicating truncated content.",
+      "bbox_xyxy_pixel": [
+        639,
+        816,
+        784,
+        829
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label listing artists over two lines: \"con don omar, tego\" and \"calderón, angel y khriz...\" for a recommended radio station.",
+      "bbox_xyxy_pixel": [
+        637,
+        798,
+        785,
+        829
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with the text \"payaso\", likely a song or album title associated with a radio station.",
+      "bbox_xyxy_pixel": [
+        816,
+        816,
+        858,
+        830
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with the text \"plim\", likely part of a song or album title associated with a radio station.",
+      "bbox_xyxy_pixel": [
+        859,
+        816,
+        885,
+        829
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with the text \"plim\", likely part of a song or album title associated with a radio station.",
+      "bbox_xyxy_pixel": [
+        886,
+        817,
+        911,
+        830
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with the text \"toy\", likely part of a song or album title associated with a radio station.",
+      "bbox_xyxy_pixel": [
+        915,
+        816,
+        936,
+        832
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "part of the spotify application logo, specifically the stylized 's' icon.",
+      "bbox_xyxy_pixel": [
+        910,
+        824,
+        915,
+        832
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text con, part of a list of featured artists for a radio station.",
+      "bbox_xyxy_pixel": [
+        815,
+        799,
+        840,
+        812
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text el, part of a list of featured artists for a radio station.",
+      "bbox_xyxy_pixel": [
+        842,
+        800,
+        852,
+        812
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text reino, part of an artist name in a list of featured artists for a radio station.",
+      "bbox_xyxy_pixel": [
+        855,
+        800,
+        887,
+        812
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text infantil, part of an artist name in a list of featured artists for a radio station.",
+      "bbox_xyxy_pixel": [
+        889,
+        799,
+        929,
+        812
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "blurry gray character resembling the number 9.",
+      "bbox_xyxy_pixel": [
+        928,
+        808,
+        933,
+        813
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text e, part of a word in a list of featured artists for a radio station.",
+      "bbox_xyxy_pixel": [
+        934,
+        800,
+        944,
+        812
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "three small blurry light gray upward pointing shapes or triangles.",
+      "bbox_xyxy_pixel": [
+        934,
+        825,
+        947,
+        830
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text con el reino infantil, el, part of the featured artists list for the lupi pampín radio station.",
+      "bbox_xyxy_pixel": [
+        814,
+        798,
+        943,
+        813
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with truncated text payaso plim plim, toy... listing artists associated with a radio station.",
+      "bbox_xyxy_pixel": [
+        814,
+        815,
+        947,
+        831
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "multiline descriptive text label with truncated text con el reino infantil, el payaso plim plim, toy... listing artists associated with a radio station.",
+      "bbox_xyxy_pixel": [
+        813,
+        797,
+        947,
+        831
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label más, part of a \"show all\" link or button.",
+      "bbox_xyxy_pixel": [
+        1057,
+        817,
+        1082,
+        829
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "single character text label y, part of the artist name yandel.",
+      "bbox_xyxy_pixel": [
+        1048,
+        820,
+        1056,
+        832
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "single character text label g, part of the artist name karol g.",
+      "bbox_xyxy_pixel": [
+        1036,
+        817,
+        1047,
+        828
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label karol, part of the artist name karol g.",
+      "bbox_xyxy_pixel": [
+        992,
+        817,
+        1035,
+        829
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "part of a gray icon representing a screen with a stand, indicating google cast devices.",
+      "bbox_xyxy_pixel": [
+        1098,
+        808,
+        1104,
+        814
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "part of a gray icon representing a speaker or audio device, indicating playback on all devices.",
+      "bbox_xyxy_pixel": [
+        1041,
+        808,
+        1048,
+        813
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with text arcángel, listing an artist featured in a radio station.",
+      "bbox_xyxy_pixel": [
+        1047,
+        800,
+        1100,
+        812
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with text feid, listing an artist featured in a radio station.",
+      "bbox_xyxy_pixel": [
+        1018,
+        800,
+        1042,
+        812
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with text con, introducing a list of featured artists in a radio station.",
+      "bbox_xyxy_pixel": [
+        992,
+        800,
+        1017,
+        812
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with text con feid, arcángel,, listing featured artists in a radio station.",
+      "bbox_xyxy_pixel": [
+        991,
+        799,
+        1102,
+        814
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with text karol g y más, listing featured artists and indicating more in a radio station.",
+      "bbox_xyxy_pixel": [
+        991,
+        817,
+        1082,
+        831
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "partial descriptive text label with text e, part of the text el héctor, listing an artist featured in a radio station.",
+      "bbox_xyxy_pixel": [
+        1261,
+        816,
+        1271,
+        828
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "background segment with a dark gray to light gray gradient, part of the ui layout spacing.",
+      "bbox_xyxy_pixel": [
+        1256,
+        817,
+        1261,
+        822
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "partial descriptive text label with text héctor, part of the text el héctor, listing an artist featured in a radio station.",
+      "bbox_xyxy_pixel": [
+        1216,
+        817,
+        1255,
+        828
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label displaying the number 9, part of a list of artists associated with a radio station.",
+      "bbox_xyxy_pixel": [
+        1210,
+        825,
+        1215,
+        831
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label displaying the number 4, part of a list of artists associated with a radio station.",
+      "bbox_xyxy_pixel": [
+        1251,
+        808,
+        1256,
+        814
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label displaying the letters lll, part of a list of artists associated with a radio station.",
+      "bbox_xyxy_pixel": [
+        1270,
+        824,
+        1281,
+        829
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label displaying the text yankee, part of an artist name in a list of artists associated with a radio station.",
+      "bbox_xyxy_pixel": [
+        1168,
+        816,
+        1210,
+        828
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label displaying the text daddy, part of an artist name in a list of artists associated with a radio station.",
+      "bbox_xyxy_pixel": [
+        1257,
+        799,
+        1297,
+        814
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label displaying the text jam, part of an artist name in a list of artists associated with a radio station.",
+      "bbox_xyxy_pixel": [
+        1227,
+        800,
+        1252,
+        812
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label displaying the text nicky, part of an artist name in a list of artists associated with a radio station.",
+      "bbox_xyxy_pixel": [
+        1193,
+        800,
+        1227,
+        814
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label displaying the text con, used as an introductory word before a list of artists associated with a radio station.",
+      "bbox_xyxy_pixel": [
+        1168,
+        800,
+        1192,
+        812
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with gray text \"con nicky jam, daddy\" listing artists associated with a radio station.",
+      "bbox_xyxy_pixel": [
+        1166,
+        799,
+        1297,
+        813
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with gray text \"yankee, héctor \"el...\" listing artists associated with a radio station, truncated.",
+      "bbox_xyxy_pixel": [
+        1167,
+        815,
+        1282,
+        830
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with gray text \"the\" as part of a song or artist title.",
+      "bbox_xyxy_pixel": [
+        1442,
+        816,
+        1464,
+        828
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "right edge of a video thumbnail image with dark gray background and subtle vertical light gray lines.",
+      "bbox_xyxy_pixel": [
+        1462,
+        824,
+        1477,
+        829
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with gray text \"&\" symbol used in an artist name.",
+      "bbox_xyxy_pixel": [
+        1432,
+        817,
+        1442,
+        829
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with gray text \"kool\" as part of an artist name.",
+      "bbox_xyxy_pixel": [
+        1404,
+        817,
+        1430,
+        829
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with gray text \"gees\" as part of an artist name.",
+      "bbox_xyxy_pixel": [
+        1368,
+        817,
+        1399,
+        828
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "part of an album cover thumbnail image showing a light gray shape resembling the number '3' on a dark background.",
+      "bbox_xyxy_pixel": [
+        1398,
+        823,
+        1404,
+        832
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text bee, part of the artist name bad bunny for a radio station thumbnail.",
+      "bbox_xyxy_pixel": [
+        1344,
+        817,
+        1367,
+        829
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "dark gray background panel with subtle gradient effect.",
+      "bbox_xyxy_pixel": [
+        1470,
+        808,
+        1475,
+        814
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text fire, part of the artist name don omar for a radio station thumbnail.",
+      "bbox_xyxy_pixel": [
+        1449,
+        800,
+        1470,
+        811
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text &, part of the artist name earth, wind & fire for a radio station thumbnail.",
+      "bbox_xyxy_pixel": [
+        1439,
+        800,
+        1448,
+        811
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text wind, part of the artist name earth, wind & fire for a radio station thumbnail.",
+      "bbox_xyxy_pixel": [
+        1405,
+        800,
+        1437,
+        811
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "dark gray background panel with subtle gradient effect.",
+      "bbox_xyxy_pixel": [
+        1399,
+        808,
+        1405,
+        814
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text earth, part of the artist name earth, wind & fire for a radio station thumbnail.",
+      "bbox_xyxy_pixel": [
+        1369,
+        799,
+        1400,
+        811
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text con, indicating featured artists for a radio station.",
+      "bbox_xyxy_pixel": [
+        1344,
+        800,
+        1367,
+        811
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label listing contributing artist \"con earth, wind & fire,\" for a radio station.",
+      "bbox_xyxy_pixel": [
+        1342,
+        799,
+        1474,
+        813
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label continuing the list of contributing artists \"bee gees, kool & the...\" for a radio station.",
+      "bbox_xyxy_pixel": [
+        1342,
+        815,
+        1476,
+        830
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text block listing contributing artists \"con earth, wind & fire, bee gees, kool & the...\" across two lines for a radio station.",
+      "bbox_xyxy_pixel": [
+        1341,
+        798,
+        1478,
+        831
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "dark gray background panel area with a subtle horizontal gradient.",
+      "bbox_xyxy_pixel": [
+        1520,
+        816,
+        1525,
+        829
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "dark gray background panel area with a subtle curved gradient.",
+      "bbox_xyxy_pixel": [
+        1520,
+        800,
+        1525,
+        812
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "horizontal progress bar or seek slider showing playback progress with a purple elapsed time segment and a dark remaining time segment.",
+      "bbox_xyxy_pixel": [
+        1519,
+        632,
+        1525,
+        788
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label \"mostrar\" which is part of a \"show all\" hyperlink or button.",
+      "bbox_xyxy_pixel": [
+        1399,
+        601,
+        1447,
+        613
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label \"todos\" which is part of a \"show all\" hyperlink or button.",
+      "bbox_xyxy_pixel": [
+        1447,
+        601,
+        1484,
+        613
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "hyperlink text label \"mostrar todos\" to view all items in the section.",
+      "bbox_xyxy_pixel": [
+        1399,
+        601,
+        1484,
+        613
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label \"pampín\" as part of an artist name below a video thumbnail.",
+      "bbox_xyxy_pixel": [
+        134,
+        523,
+        178,
+        539
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label \"luli\" as part of an artist name below a video thumbnail.",
+      "bbox_xyxy_pixel": [
+        112,
+        523,
+        134,
+        536
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label \"camino\" as part of a video title below a video thumbnail.",
+      "bbox_xyxy_pixel": [
+        111,
+        502,
+        163,
+        516
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label \"bosque\" as part of a video title below a video thumbnail.",
+      "bbox_xyxy_pixel": [
+        205,
+        502,
+        256,
+        519
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label \"por\" as part of a video title below a video thumbnail.",
+      "bbox_xyxy_pixel": [
+        165,
+        505,
+        189,
+        517
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label \"el\" as part of a video title below a video thumbnail.",
+      "bbox_xyxy_pixel": [
+        190,
+        502,
+        203,
+        516
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label \"tricky\" as the title below the second video thumbnail.",
+      "bbox_xyxy_pixel": [
+        404,
+        502,
+        445,
+        517
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text crazy, identifying the artist for the video thumbnail above.",
+      "bbox_xyxy_pixel": [
+        404,
+        523,
+        439,
+        537
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text frog, part of the artist name crazy frog for the video thumbnail above.",
+      "bbox_xyxy_pixel": [
+        440,
+        524,
+        467,
+        541
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text don, part of the artist name(s) for the video thumbnail above.",
+      "bbox_xyxy_pixel": [
+        718,
+        524,
+        743,
+        537
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text omar, part of the artist name(s) don omar, farruko for the video thumbnail above.",
+      "bbox_xyxy_pixel": [
+        745,
+        524,
+        778,
+        538
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text farruko, part of the artist name(s) don omar, farruko for the video thumbnail above.",
+      "bbox_xyxy_pixel": [
+        784,
+        524,
+        827,
+        537
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "small gray functional icon depicting a person or group silhouette, located next to the artist names below a video thumbnail.",
+      "bbox_xyxy_pixel": [
+        776,
+        530,
+        782,
+        539
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text e, part of the artist name jencarlos for the video thumbnail above.",
+      "bbox_xyxy_pixel": [
+        698,
+        524,
+        714,
+        537
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white text ramayama, identifying the title of the video thumbnail above.",
+      "bbox_xyxy_pixel": [
+        699,
+        503,
+        771,
+        518
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with light gray text crazy frog, identifying the artist of a music video.",
+      "bbox_xyxy_pixel": [
+        403,
+        522,
+        466,
+        541
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "combined descriptive text labels for a music video, with white text tricky as the title and light gray text crazy frog as the artist.",
+      "bbox_xyxy_pixel": [
+        403,
+        502,
+        468,
+        541
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with white bold text camino por el bosque, identifying the title of a music video.",
+      "bbox_xyxy_pixel": [
+        110,
+        500,
+        257,
+        521
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with light gray text luli pampín, identifying the artist of a music video.",
+      "bbox_xyxy_pixel": [
+        110,
+        523,
+        179,
+        539
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "combined descriptive text labels for a music video, with white bold text camino por el bosque as the title and light gray text luli pampín as the artist.",
+      "bbox_xyxy_pixel": [
+        109,
+        500,
+        255,
+        540
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "combined descriptive text label with a gray square explicit content icon containing a white letter e, followed by light gray text don omar, farruko identifying the artists of a music video.",
+      "bbox_xyxy_pixel": [
+        698,
+        523,
+        827,
+        539
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "combined descriptive text labels for a music video, with white bold text ramayama as the title, and a second line with a gray square explicit content icon containing a white letter e followed by light gray text don omar, farruko as the artists.",
+      "bbox_xyxy_pixel": [
+        698,
+        503,
+        827,
+        541
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with light gray text aventura, identifying the artist of a music video.",
+      "bbox_xyxy_pixel": [
+        991,
+        524,
+        1044,
+        537
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with text inmortal, serving as the title for a video or song item.",
+      "bbox_xyxy_pixel": [
+        992,
+        501,
+        1047,
+        517
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label block containing two lines: the title text inmortal in larger font and the artist text aventura in smaller font, associated with a video or song item.",
+      "bbox_xyxy_pixel": [
+        989,
+        499,
+        1047,
+        539
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with text don, part of an artist or collaborator name associated with a video or song item.",
+      "bbox_xyxy_pixel": [
+        1362,
+        523,
+        1387,
+        537
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with text omar, part of an artist or collaborator name associated with a video or song item.",
+      "bbox_xyxy_pixel": [
+        1390,
+        524,
+        1423,
+        537
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with text jencarlos, part of an artist or collaborator name associated with a video or song item.",
+      "bbox_xyxy_pixel": [
+        1284,
+        522,
+        1357,
+        538
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "ambiguous visual element, appears to be part of the background or a blurry image area with no discernible text or functional ui element.",
+      "bbox_xyxy_pixel": [
+        1356,
+        531,
+        1362,
+        541
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with text dure, part of the title dura dura for a video or song item.",
+      "bbox_xyxy_pixel": [
+        1319,
+        503,
+        1353,
+        515
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label with text dure, part of the title dura dura for a video or song item.",
+      "bbox_xyxy_pixel": [
+        1285,
+        502,
+        1318,
+        516
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label with white text \"dure dure\", likely the title of a music video or song in a list.",
+      "bbox_xyxy_pixel": [
+        1284,
+        500,
+        1422,
+        542
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label with light gray text \"jencarlos, don omar\", likely the artist(s) of a music video or song in a list.",
+      "bbox_xyxy_pixel": [
+        1284,
+        521,
+        1422,
+        539
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label with white text \"dure dure\", likely the title of a music video or song in a list.",
+      "bbox_xyxy_pixel": [
+        1286,
+        501,
+        1354,
+        516
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "text label with white text \"en todas partes\", part of a menu item for connecting to devices.",
+      "bbox_xyxy_pixel": [
+        1583,
+        382,
+        1692,
+        401
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "menu item with a white icon resembling a device or screen and white text \"en todas partes\", used for connecting to devices.",
+      "bbox_xyxy_pixel": [
+        1551,
+        378,
+        1692,
+        404
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "menu item with the white google cast icon and white text \"dispositivos google cast\", used for connecting to google cast devices.",
+      "bbox_xyxy_pixel": [
+        1552,
+        433,
+        1752,
+        456
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "menu item with a white device icon and white text \"echo dot de patricio\", representing a specific connectable device.",
+      "bbox_xyxy_pixel": [
+        1555,
+        322,
+        1720,
+        349
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "menu item with a white device icon and white text \"2º echo dot de patricio\", representing a specific connectable device.",
+      "bbox_xyxy_pixel": [
+        1556,
+        265,
+        1736,
+        293
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "section title or status indicator showing the currently connected device with a green computer monitor icon, followed by the bold white text dispositivo actual and the smaller white text este navegador web.",
+      "bbox_xyxy_pixel": [
+        1555,
+        124,
+        1761,
+        182
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label listing artists con nicky jam, daddy yankee, héctor \"el... truncated with an ellipsis.",
+      "bbox_xyxy_pixel": [
+        1163,
+        798,
+        1299,
+        833
+      ],
+      "objectness_target": 1.0
+    },
+    {
+      "prompt_text": "descriptive text label listing artists con feid, arcángel, karol g y más.",
+      "bbox_xyxy_pixel": [
+        987,
+        796,
+        1104,
+        833
+      ],
+      "objectness_target": 1.0
+    }
+  ]
+}
