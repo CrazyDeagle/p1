@@ -95,17 +95,16 @@ class FeatureExtractorYOLOE_MultiScale(nn.Module):
         y: List[Optional[torch.Tensor]] = [] 
         current_x_for_next_layer: Union[torch.Tensor, List[torch.Tensor]] = x 
 
+        head_layer_types = ['Detect', 'Segment', 'YOLOEDetect', 'YOLOESegment', 'Pose', 'OBB', 'WorldDetect', 'v10Detect']
+
         for i, m_layer in enumerate(self.yoloe_internal_model_modulelist):
-            # No procesar la cabeza de detección/segmentación final del modelo YOLOE base.
-            # Asumimos que la cabeza original es el último módulo en el Sequential.
-            is_original_head_module = False
-            if i == (len(self.yoloe_internal_model_modulelist) - 1): # Si es el último módulo
-                 if hasattr(m_layer, 'type') and m_layer.type in ['Detect', 'Segment', 'YOLOEDetect', 'YOLOESegment', 'Pose', 'OBB', 'WorldDetect', 'v10Detect']:
-                    is_original_head_module = True
-            
-            if is_original_head_module:
+            # No procesar ninguna cabeza de detección/segmentación original del modelo YOLOE,
+            # esté o no ubicada al final del Sequential.
+            is_head_module = hasattr(m_layer, 'type') and m_layer.type in head_layer_types
+
+            if is_head_module:
                 # print(f"DEBUG (FeatureExtractor): Saltando cabeza original '{m_layer.type}' en índice {i}.")
-                break # Salir del bucle, ya no necesitamos procesar más.
+                break  # Salir del bucle, no necesitamos procesar capas posteriores.
 
             # Determinar la entrada para la capa actual 'm_layer'
             input_for_current_layer: Union[torch.Tensor, List[torch.Tensor]]
