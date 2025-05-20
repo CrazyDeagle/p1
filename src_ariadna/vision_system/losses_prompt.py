@@ -264,12 +264,12 @@ class YOLOEPromptLoss(nn.Module):
                     mask_gt_padded[b_idx_loop, :n_gts_this_image] = True
                     cls_indices_padded[b_idx_loop, :n_gts_this_image] = targets_dict['cls_indices_for_text_embeddings'][is_this_image]
         
-        pd_obj_scores_for_assigner = pd_obj_logits_all.squeeze(-1).sigmoid().detach() # (bs, N_anc_total)
+        pd_obj_scores_for_assigner = pd_obj_logits_all.sigmoid().detach()  # (bs, N_anc_total, 1)
 
         # Llamada al asignador con GTs acolchados
-        # target_labels_cls_assigner: (bs, N_anc_total) - no la usamos directamente, ya que nc=1
+        # target_labels_cls_assigner: (bs, N_anc_total)
         # target_bboxes_iou: (num_total_pos_anchors_in_batch, 4) - bboxes GT asignadas a anclas positivas
-        # target_scores_obj: (bs, N_anc_total) - scores de objectness GT para cada ancla
+        # target_scores_obj: (bs, N_anc_total, 1) - scores de objectness GT para cada ancla
         # fg_mask: (bs, N_anc_total) - máscara booleana de anclas positivas
         # target_gt_idx_assigner: (bs, N_anc_total) - índice (0 a max_gts-1) del GT asignado a cada ancla positiva
         _, target_bboxes_iou, target_scores_obj, fg_mask, target_gt_idx_assigner = \
@@ -306,34 +306,35 @@ class YOLOEPromptLoss(nn.Module):
         loss_obj = torch.tensor(0.0, device=device)
 
         if pd_obj_logits_all.numel() > 0 and target_scores_obj.numel() > 0:
-            loss_obj = self.bce_obj(pd_obj_logits_all.squeeze(-1), target_scores_obj)
+            loss_obj = self.bce_obj(pd_obj_logits_all.squeeze(-1), target_scores_obj.squeeze(-1))
 
         if num_pos > 0:
-            pred_bboxes_pos = pd_bboxes_all[fg_mask] # (num_pos, 4)
-            pred_dfl_raw_pos = pd_dfl_raw_all[fg_mask] # (num_pos, 4 * reg_max)
-            pred_visual_embeds_pos_unfiltered = pd_visual_embeds_all[fg_mask] # (num_pos, emb_dim)
+            pred_bboxes_pos = pd_bboxes_all[fg_mask]  # (num_pos, 4)
+            pred_dfl_raw_pos = pd_dfl_raw_all[fg_mask]  # (num_pos, 4 * reg_max)
+            pred_visual_embeds_pos_unfiltered = pd_visual_embeds_all[fg_mask]  # (num_pos, emb_dim)
+            target_bboxes_pos = target_bboxes_iou[fg_mask]  # (num_pos, 4)
 
-            if pred_bboxes_pos.numel() > 0 and target_bboxes_iou.numel() > 0:
-                loss_box = self.iou_loss_fn(pred_bboxes_pos, target_bboxes_iou)
+            if pred_bboxes_pos.numel() > 0 and target_bboxes_pos.numel() > 0:
+                loss_box = self.iou_loss_fn(pred_bboxes_pos, target_bboxes_pos)
 
-            if pred_dfl_raw_pos.numel() > 0 and target_bboxes_iou.numel() > 0:
+            if pred_dfl_raw_pos.numel() > 0 and target_bboxes_pos.numel() > 0:
                 anc_points_pos = anc_points_for_assigner[fg_mask.view(-1)] # (num_pos, 2)
                 stride_tensor_pos = stride_tensor_for_assigner[fg_mask.view(-1)] # (num_pos, 1)
-                
-                target_dist_pixels = torch.empty_like(target_bboxes_iou) # (num_pos, 4)
+
+                target_dist_pixels = torch.empty_like(target_bboxes_pos)  # (num_pos, 4)
                 if ULTRALYTICS_LOSS_COMPONENTS_AVAILABLE:
                     try:
                         # bbox2dist espera anchor_points (escala imagen), target_bboxes (escala imagen), reg_max-1
-                        target_dist_pixels = ultralytics_bbox2dist_tal(anc_points_pos, target_bboxes_iou, self.reg_max -1)
+                        target_dist_pixels = ultralytics_bbox2dist_tal(anc_points_pos, target_bboxes_pos, self.reg_max -1)
                     except Exception as e_b2d:
                         print(f"WARN: Error en ultralytics_bbox2dist_tal: {e_b2d}, usando DUMMY DFL target.")
-                        target_dist_pixels = torch.randint(0, self.reg_max, (num_pos, 4), device=device, dtype=target_bboxes_iou.dtype)
+                        target_dist_pixels = torch.randint(0, self.reg_max, (num_pos, 4), device=device, dtype=target_bboxes_pos.dtype)
                 else:
-                     target_dist_pixels = torch.randint(0, self.reg_max, (num_pos, 4), device=device, dtype=target_bboxes_iou.dtype)
-                
+                     target_dist_pixels = torch.randint(0, self.reg_max, (num_pos, 4), device=device, dtype=target_bboxes_pos.dtype)
+
                 # Los targets para DFL deben estar en la escala de la feature map (divididos por el stride)
                 target_dfl_indices_feat_scale = target_dist_pixels / stride_tensor_pos
-                
+
                 # DFLoss espera pred_dist (N, reg_max) y target (N)
                 loss_dfl = self.dfl_loss_fn(pred_dfl_raw_pos.view(-1, self.reg_max), target_dfl_indices_feat_scale.view(-1))
                 # dfl_loss_fn ya promedia, así que loss_dfl es escalar.
@@ -365,7 +366,12 @@ class YOLOEPromptLoss(nn.Module):
                       loss_dfl_final * self.dfl_w +
                       loss_obj_final * self.obj_w +
                       loss_cls_embed_final * self.cls_embed_w)
-        loss_items = torch.stack([loss_box_final.detach(), loss_dfl_final.detach(), loss_obj_final.detach(), loss_cls_embed_final.detach()])
+        loss_items = torch.tensor([
+            loss_box_final.item(),
+            loss_dfl_final.item(),
+            loss_obj_final.item(),
+            loss_cls_embed_final.item(),
+        ], device=device)
 
         if torch.isnan(loss_total) or torch.isinf(loss_total):
             print("ERROR: Pérdida NaN/Inf")
