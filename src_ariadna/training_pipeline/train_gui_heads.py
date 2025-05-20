@@ -2,15 +2,23 @@
 print("DEBUG: Iniciando train_gui_heads.py (Entrenamiento con Prompts y JSON)...")
 import torch
 import torch.optim as optim
+import torch.nn.functional as F
 from torch.utils.data import DataLoader
 import os
-import pathlib  # Para manejar rutas
-import shutil
+
+import pathlib # Para manejar rutas
+import shutil 
 import argparse
 import traceback
 import time
 import numpy as np
-import torch.nn.functional as F
+
+from typing import List
+from ultralytics.utils.metrics import ConfusionMatrix, DetMetrics, box_iou
+from ultralytics.utils.ops import xywh2xyxy
+import torchvision
+from ..vision_system.losses_prompt import make_anchors, dist2bbox
+
 
 # --- Importar Componentes del Proyecto ---
 try:
@@ -80,55 +88,21 @@ ASSIGNER_CFG = {'topk': 10, 'alpha': 0.5, 'beta': 6.0, 'num_classes': 1}
 # ---------------------------------------------------------------------
 
 
-def decode_predictions_for_eval(preds_list: list[torch.Tensor],
-                                reg_max: int,
-                                strides: list[int],
-                                img_size: int) -> tuple[torch.Tensor, torch.Tensor]:
-    """Convierte salidas de la cabeza en bboxes xyxy y scores de objectness."""
-    num_dfl_ch = 4 * reg_max
-    obj_ch = 1
-    batch = preds_list[0].shape[0]
-    bboxes_all, obj_scores_all = [], []
-
-    for lvl, pred_raw in enumerate(preds_list):
-        stride = strides[lvl]
-        h, w = pred_raw.shape[2:4]
-        n_anc = h * w
-        pred_flat = pred_raw.permute(0, 2, 3, 1).contiguous().view(batch, n_anc, -1)
-        dfl_raw = pred_flat[..., :num_dfl_ch]
-        obj_logit = pred_flat[..., num_dfl_ch:num_dfl_ch + obj_ch].squeeze(-1)
-        anc, _ = make_anchors((h, w), int(stride), 0.5, pred_raw.device)
-        dfl_rs = dfl_raw.view(batch, n_anc, 4, reg_max)
-        dfl_sm = F.softmax(dfl_rs, dim=-1)
-        integ = torch.arange(reg_max, device=pred_raw.device, dtype=torch.float32)
-        bbox_dist_f = dfl_sm @ integ
-        anc_img = anc * stride
-        bbox_dist_i = bbox_dist_f * stride
-        pred_bboxes_lvl = dist2bbox(bbox_dist_i, anc_img.unsqueeze(0).expand(batch, -1, -1), xyxy=True)
-        bboxes_all.append(pred_bboxes_lvl)
-        obj_scores_all.append(obj_logit)
-
-    bboxes_cat = torch.cat(bboxes_all, dim=1)
-    scores_cat = torch.cat(obj_scores_all, dim=1).sigmoid()
-    return bboxes_cat, scores_cat
+IOU_THRESHOLDS_TENSOR = torch.linspace(0.5, 0.95, 10)
 
 
-def gt_norm_to_xyxy_pixel(gt_cxcywh_norm: torch.Tensor, img_size: int) -> torch.Tensor:
-    """Convierte bboxes normalizadas cxcywh a xyxy en escala de píxeles."""
-    gt_xyxy = ultralytics_xywh2xyxy_ops(gt_cxcywh_norm)
-    return gt_xyxy * img_size
+def match_predictions_simple(pred_classes: torch.Tensor, true_classes: torch.Tensor, iou: torch.Tensor) -> torch.Tensor:
+    """Simplified version of ultralytics Validator.match_predictions."""
+    correct = torch.zeros((pred_classes.shape[0], IOU_THRESHOLDS_TENSOR.numel()), dtype=torch.bool, device=pred_classes.device)
 
-
-def match_predictions(pred_classes: torch.Tensor, true_classes: torch.Tensor, iou: torch.Tensor,
-                      thresholds: torch.Tensor) -> torch.Tensor:
-    """Replica la lógica de Ultralytics para emparejar predicciones con GT."""
-    correct = torch.zeros(pred_classes.shape[0], thresholds.numel(), dtype=torch.bool, device=pred_classes.device)
     if true_classes.numel() == 0 or pred_classes.numel() == 0:
         return correct
     correct_class = true_classes[:, None] == pred_classes
     iou = (iou * correct_class).cpu().numpy()
-    for i, t in enumerate(thresholds.cpu().tolist()):
-        matches = np.nonzero(iou >= t)
+
+    for i, thr in enumerate(IOU_THRESHOLDS_TENSOR.cpu().tolist()):
+        matches = np.nonzero(iou >= thr)
+
         matches = np.array(matches).T
         if matches.shape[0]:
             if matches.shape[0] > 1:
@@ -136,7 +110,33 @@ def match_predictions(pred_classes: torch.Tensor, true_classes: torch.Tensor, io
                 matches = matches[np.unique(matches[:, 1], return_index=True)[1]]
                 matches = matches[np.unique(matches[:, 0], return_index=True)[1]]
             correct[matches[:, 1].astype(int), i] = True
-    return correct
+
+    return correct.to(pred_classes.device)
+
+
+def decode_predictions_batch(preds_list: List[torch.Tensor], strides: List[int], reg_max: int) -> tuple[torch.Tensor, torch.Tensor]:
+    """Decode model outputs to bounding boxes and objectness scores."""
+    device = preds_list[0].device
+    batch_size = preds_list[0].shape[0]
+    num_dfl = 4 * reg_max
+    boxes_all, obj_all = [], []
+    for lvl, p in enumerate(preds_list):
+        bs, _, h, w = p.shape
+        n = h * w
+        p_flat = p.permute(0, 2, 3, 1).reshape(bs, n, -1)
+        dfl = p_flat[..., :num_dfl].view(bs, n, 4, reg_max)
+        obj = p_flat[..., num_dfl:num_dfl + 1].squeeze(-1)
+        anc, _ = make_anchors((h, w), int(strides[lvl]), 0.5, device)
+        dfl = F.softmax(dfl, dim=-1)
+        integ = torch.arange(reg_max, device=device, dtype=torch.float32)
+        dist = (dfl @ integ) * strides[lvl]
+        boxes_lvl = dist2bbox(dist, anc.unsqueeze(0).expand(bs, -1, -1), xyxy=True)
+        boxes_all.append(boxes_lvl)
+        obj_all.append(obj)
+    boxes_cat = torch.cat(boxes_all, dim=1)
+    obj_cat = torch.cat(obj_all, dim=1)
+    return boxes_cat, obj_cat
+
 
 
 def test_dataloader_and_collate(device_str: str):
@@ -213,6 +213,65 @@ def test_dataloader_and_collate(device_str: str):
             print("  targets_dict no es un diccionario.")
             
     print("--- FIN PRUEBA DE DATALOADER Y COLLATE FUNCTION ---")
+
+
+def evaluate_on_dataloader(model, dataloader, loss_fn, device):
+    """Return average loss and detection metrics for dataloader."""
+    model.eval()
+    total_loss, batches = 0.0, 0
+    stats = {"tp": [], "conf": [], "pred_cls": [], "target_cls": []}
+    cm = ConfusionMatrix(nc=1, conf=0.25)
+
+    with torch.no_grad():
+        for images, targets, text_embeds in dataloader:
+            preds = model(images)
+            loss_val, _ = loss_fn(preds, targets, text_embeds)
+            total_loss += float(loss_val.item())
+            batches += 1
+
+            boxes, obj_logits = decode_predictions_batch(preds, model.stride.tolist(), model.reg_max)
+            bs = boxes.shape[0]
+            for b in range(bs):
+                preds_img = torch.cat(
+                    [boxes[b], obj_logits[b].sigmoid().unsqueeze(-1), torch.zeros((boxes.shape[1], 1), device=device)],
+                    dim=1,
+                )
+                conf_mask = preds_img[:, 4] > 0.001
+                preds_img = preds_img[conf_mask]
+                if preds_img.numel():
+                    keep = torchvision.ops.nms(preds_img[:, :4], preds_img[:, 4], iou_threshold=0.7)
+                    preds_img = preds_img[keep]
+
+                gt_mask = targets["batch_idx"] == b
+                gt_boxes_norm = targets["bboxes_gt"][gt_mask]
+                gt_cls = torch.zeros(gt_boxes_norm.shape[0], dtype=torch.long, device=device)
+                gt_boxes_xyxy = xywh2xyxy(gt_boxes_norm) * IMG_SIZE
+
+                if preds_img.shape[0]:
+                    iou = box_iou(gt_boxes_xyxy, preds_img[:, :4])
+                    correct = match_predictions_simple(preds_img[:, 5].long(), gt_cls, iou)
+                    cm.process_batch(preds_img, gt_boxes_xyxy, gt_cls)
+                else:
+                    correct = torch.zeros((0, IOU_THRESHOLDS_TENSOR.numel()), dtype=torch.bool, device=device)
+                    cm.process_batch(None, gt_boxes_xyxy, gt_cls)
+
+                stats["tp"].append(correct.cpu())
+                stats["conf"].append(preds_img[:, 4].cpu())
+                stats["pred_cls"].append(preds_img[:, 5].cpu())
+                stats["target_cls"].append(gt_cls.cpu())
+
+    if batches == 0:
+        return float("nan"), float("nan"), float("nan"), float("nan"), cm
+
+    stats = {k: (np.concatenate(v, 0) if len(v) else np.array([])) for k, v in stats.items()}
+    metrics = DetMetrics(names={0: "obj"})
+    if len(stats["tp"]):
+        metrics.process(stats["tp"], stats["conf"], stats["pred_cls"], stats["target_cls"])
+        p, r, map50, map95 = metrics.mean_results()
+    else:
+        p = r = map50 = map95 = float("nan")
+    avg_loss = total_loss / batches
+    return avg_loss, p, map50, map95, cm
 
 
 def train_gui_heads(resume_from_checkpoint=False):
@@ -366,53 +425,21 @@ def train_gui_heads(resume_from_checkpoint=False):
         
         avg_epoch_loss = epoch_loss_sum / processed_batches_in_epoch if processed_batches_in_epoch > 0 else 0.0
 
-        val_extra_msg = ""
+
+        val_loss = float('nan'); mp50 = float('nan'); mp5095 = float('nan')
         if val_dataloader is not None and len(val_dataloader) > 0:
-            model.eval()
-            val_loss_sum = 0.0
-            processed_val_batches = 0
-            cm = ConfusionMatrix(nc=1)
-            stats = {"tp": [], "conf": [], "pred_cls": [], "target_cls": []}
-            iouv = torch.linspace(0.5, 0.95, 10, device=device)
-            with torch.no_grad():
-                for vb_idx, vb_content in enumerate(val_dataloader):
-                    if vb_content is None or vb_content[0] is None:
-                        continue
-                    imgs_v, targets_v, embeds_v = vb_content
-                    preds_v = model(imgs_v)
-                    v_loss, _ = loss_fn(preds_v, targets_v, embeds_v)
-                    val_loss_sum += v_loss.item() if isinstance(v_loss, torch.Tensor) else 0.0
-                    processed_val_batches += 1
-                    bboxes_p, scores_p = decode_predictions_for_eval(preds_v, REG_MAX_DFL, model.detection_head.strides, IMG_SIZE)
-                    for bi in range(imgs_v.shape[0]):
-                        preds_comb = torch.cat((bboxes_p[bi], scores_p[bi].unsqueeze(-1)), dim=1)
-                        preds_comb = torch.cat((preds_comb, torch.zeros((preds_comb.shape[0], 1), device=device)), dim=1)
-                        dets = non_max_suppression(preds_comb.unsqueeze(0), conf_thres=0.25, iou_thres=0.45, nc=1)[0]
-                        mask_gt = targets_v['batch_idx'] == bi
-                        gt_boxes_xyxy = gt_norm_to_xyxy_pixel(targets_v['bboxes_gt'][mask_gt], IMG_SIZE)
-                        gt_cls = torch.zeros(gt_boxes_xyxy.shape[0], device=device, dtype=torch.long)
-                        cm.process_batch(dets if dets.numel() else None, gt_boxes_xyxy, gt_cls)
-                        if dets.numel():
-                            iou = box_iou(gt_boxes_xyxy, dets[:, :4])
-                            correct = match_predictions(dets[:, 5], gt_cls, iou, iouv)
-                            stats['tp'].append(correct)
-                            stats['conf'].append(dets[:, 4])
-                            stats['pred_cls'].append(dets[:, 5])
-                            stats['target_cls'].append(gt_cls)
+            val_loss, _, mp50, mp5095, cm = evaluate_on_dataloader(model, val_dataloader, loss_fn, device)
+        if np.isnan(mp50):
+            map_str = 'N/A'
+        else:
+            map_str = f"{mp50:.4f}/{mp5095:.4f}"
+        if np.isnan(val_loss):
+            val_str = 'N/A'
+        else:
+            val_str = f"{val_loss:.4f}"
 
-            avg_val_loss = val_loss_sum / processed_val_batches if processed_val_batches else 0.0
-            if len(stats['pred_cls']):
-                stats_np = {k: torch.cat(v, 0).cpu().numpy() for k, v in stats.items()}
-                dm = DetMetrics()
-                dm.process(stats_np['tp'], stats_np['conf'], stats_np['pred_cls'], stats_np['target_cls'])
-                mp, mr, map50, mapall = dm.mean_results()
-                val_extra_msg = f" | ValLoss:{avg_val_loss:.4f} | mAP50:{map50:.4f} | mAP50-95:{mapall:.4f}"
-            else:
-                val_extra_msg = f" | ValLoss:{avg_val_loss:.4f} | mAP N/A"
-        elif epoch == 0:
-            print("WARN: Sin dataloader de validación o vacío. Se omitirá validación.")
+        print(f"--- Fin Época {epoch+1}/{EPOCHS}. Avg Loss: {avg_epoch_loss:.4f} | ValLoss:{val_str} | mAP {map_str} ---")
 
-        print(f"--- Fin Época {epoch+1}/{EPOCHS}. Avg Loss: {avg_epoch_loss:.4f}{val_extra_msg} ---")
         
         if epoch >= WARMUP_EPOCHS -1 and effective_epochs_for_scheduler > 0: # Empezar a hacer step después de la última época de warmup
             scheduler.step()
