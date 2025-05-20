@@ -203,7 +203,7 @@ except ImportError as e:
     DEFAULT_LABEL = DEFAULT_LABEL_FALLBACK
     normalize_label = normalize_label_fallback
 
-API_KEY = "AIzaSyDTb43QXE5svwlMubzUUhDYRJ_2LPiLCgE"
+API_KEY = "API_KEY"
 GEMINI_MODEL_NAME = 'gemini-2.5-flash-preview-04-17'
 GEMINI_BATCH_SIZE = 16
 GEMINI_THINKING_BUDGET = 1024
