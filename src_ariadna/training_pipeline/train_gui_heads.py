@@ -4,11 +4,13 @@ import torch
 import torch.optim as optim
 from torch.utils.data import DataLoader
 import os
-import pathlib # Para manejar rutas
-import shutil 
-import argparse 
+import pathlib  # Para manejar rutas
+import shutil
+import argparse
 import traceback
-import time 
+import time
+import numpy as np
+import torch.nn.functional as F
 
 # --- Importar Componentes del Proyecto ---
 try:
@@ -25,11 +27,14 @@ try:
         initialize_text_encoder,
         get_text_embedding_dim,
         # EMBEDDING_DIMENSION, # Ya no es necesario importarla aquí si get_text_embedding_dim la maneja
-        YOLOEPromptLoss # Importar la clase de pérdida (dummy por ahora)
+        YOLOEPromptLoss  # Importar la clase de pérdida (dummy por ahora)
     )
     # Importar Dataset y Collate localmente desde este paquete training_pipeline
     from .dataset_gui import GuiPromptDataset
     from .collate_gui import collate_fn_gui_prompt
+    from ..vision_system.losses_prompt import dist2bbox, make_anchors
+    from ultralytics.utils.ops import xywh2xyxy as ultralytics_xywh2xyxy_ops, non_max_suppression
+    from ultralytics.utils.metrics import ConfusionMatrix, DetMetrics, box_iou
     MODEL_COMPONENTS_AVAILABLE = True
     print(f"INFO (train_gui_heads): Componentes de src_ariadna importados.")
 except ImportError as e:
@@ -71,8 +76,68 @@ REG_MAX_DFL = 16 # Asegúrate que coincida con lo que espera tu modelo/pérdida
 
 # Pesos de la Pérdida (para la futura YOLOEPromptLoss real)
 LOSS_BOX_WEIGHT = 7.0; LOSS_DFL_WEIGHT = 1.5; LOSS_OBJ_WEIGHT = 1.0; LOSS_CLS_EMBED_WEIGHT = 2.5
-ASSIGNER_CFG = {'topk': 10, 'alpha': 0.5, 'beta': 6.0, 'num_classes': 1} 
+ASSIGNER_CFG = {'topk': 10, 'alpha': 0.5, 'beta': 6.0, 'num_classes': 1}
 # ---------------------------------------------------------------------
+
+
+def decode_predictions_for_eval(preds_list: list[torch.Tensor],
+                                reg_max: int,
+                                strides: list[int],
+                                img_size: int) -> tuple[torch.Tensor, torch.Tensor]:
+    """Convierte salidas de la cabeza en bboxes xyxy y scores de objectness."""
+    num_dfl_ch = 4 * reg_max
+    obj_ch = 1
+    batch = preds_list[0].shape[0]
+    bboxes_all, obj_scores_all = [], []
+
+    for lvl, pred_raw in enumerate(preds_list):
+        stride = strides[lvl]
+        h, w = pred_raw.shape[2:4]
+        n_anc = h * w
+        pred_flat = pred_raw.permute(0, 2, 3, 1).contiguous().view(batch, n_anc, -1)
+        dfl_raw = pred_flat[..., :num_dfl_ch]
+        obj_logit = pred_flat[..., num_dfl_ch:num_dfl_ch + obj_ch].squeeze(-1)
+        anc, _ = make_anchors((h, w), int(stride), 0.5, pred_raw.device)
+        dfl_rs = dfl_raw.view(batch, n_anc, 4, reg_max)
+        dfl_sm = F.softmax(dfl_rs, dim=-1)
+        integ = torch.arange(reg_max, device=pred_raw.device, dtype=torch.float32)
+        bbox_dist_f = dfl_sm @ integ
+        anc_img = anc * stride
+        bbox_dist_i = bbox_dist_f * stride
+        pred_bboxes_lvl = dist2bbox(bbox_dist_i, anc_img.unsqueeze(0).expand(batch, -1, -1), xyxy=True)
+        bboxes_all.append(pred_bboxes_lvl)
+        obj_scores_all.append(obj_logit)
+
+    bboxes_cat = torch.cat(bboxes_all, dim=1)
+    scores_cat = torch.cat(obj_scores_all, dim=1).sigmoid()
+    return bboxes_cat, scores_cat
+
+
+def gt_norm_to_xyxy_pixel(gt_cxcywh_norm: torch.Tensor, img_size: int) -> torch.Tensor:
+    """Convierte bboxes normalizadas cxcywh a xyxy en escala de píxeles."""
+    gt_xyxy = ultralytics_xywh2xyxy_ops(gt_cxcywh_norm)
+    return gt_xyxy * img_size
+
+
+def match_predictions(pred_classes: torch.Tensor, true_classes: torch.Tensor, iou: torch.Tensor,
+                      thresholds: torch.Tensor) -> torch.Tensor:
+    """Replica la lógica de Ultralytics para emparejar predicciones con GT."""
+    correct = torch.zeros(pred_classes.shape[0], thresholds.numel(), dtype=torch.bool, device=pred_classes.device)
+    if true_classes.numel() == 0 or pred_classes.numel() == 0:
+        return correct
+    correct_class = true_classes[:, None] == pred_classes
+    iou = (iou * correct_class).cpu().numpy()
+    for i, t in enumerate(thresholds.cpu().tolist()):
+        matches = np.nonzero(iou >= t)
+        matches = np.array(matches).T
+        if matches.shape[0]:
+            if matches.shape[0] > 1:
+                matches = matches[iou[matches[:, 0], matches[:, 1]].argsort()[::-1]]
+                matches = matches[np.unique(matches[:, 1], return_index=True)[1]]
+                matches = matches[np.unique(matches[:, 0], return_index=True)[1]]
+            correct[matches[:, 1].astype(int), i] = True
+    return correct
+
 
 def test_dataloader_and_collate(device_str: str):
     print("\n--- INICIANDO PRUEBA DE DATALOADER Y COLLATE FUNCTION ---")
@@ -300,7 +365,54 @@ def train_gui_heads(resume_from_checkpoint=False):
                 print(f"  E{epoch+1}|B{batch_idx+1}/{num_batches_train}| Ls:{loss_total.item() if isinstance(loss_total, torch.Tensor) else loss_total:.4f} (Itms:[{loss_items_str}]) | LRs:[{','.join(lrs_str)}]")
         
         avg_epoch_loss = epoch_loss_sum / processed_batches_in_epoch if processed_batches_in_epoch > 0 else 0.0
-        print(f"--- Fin Época {epoch+1}/{EPOCHS}. Avg Loss: {avg_epoch_loss:.4f} ---")
+
+        val_extra_msg = ""
+        if val_dataloader is not None and len(val_dataloader) > 0:
+            model.eval()
+            val_loss_sum = 0.0
+            processed_val_batches = 0
+            cm = ConfusionMatrix(nc=1)
+            stats = {"tp": [], "conf": [], "pred_cls": [], "target_cls": []}
+            iouv = torch.linspace(0.5, 0.95, 10, device=device)
+            with torch.no_grad():
+                for vb_idx, vb_content in enumerate(val_dataloader):
+                    if vb_content is None or vb_content[0] is None:
+                        continue
+                    imgs_v, targets_v, embeds_v = vb_content
+                    preds_v = model(imgs_v)
+                    v_loss, _ = loss_fn(preds_v, targets_v, embeds_v)
+                    val_loss_sum += v_loss.item() if isinstance(v_loss, torch.Tensor) else 0.0
+                    processed_val_batches += 1
+                    bboxes_p, scores_p = decode_predictions_for_eval(preds_v, REG_MAX_DFL, model.detection_head.strides, IMG_SIZE)
+                    for bi in range(imgs_v.shape[0]):
+                        preds_comb = torch.cat((bboxes_p[bi], scores_p[bi].unsqueeze(-1)), dim=1)
+                        preds_comb = torch.cat((preds_comb, torch.zeros((preds_comb.shape[0], 1), device=device)), dim=1)
+                        dets = non_max_suppression(preds_comb.unsqueeze(0), conf_thres=0.25, iou_thres=0.45, nc=1)[0]
+                        mask_gt = targets_v['batch_idx'] == bi
+                        gt_boxes_xyxy = gt_norm_to_xyxy_pixel(targets_v['bboxes_gt'][mask_gt], IMG_SIZE)
+                        gt_cls = torch.zeros(gt_boxes_xyxy.shape[0], device=device, dtype=torch.long)
+                        cm.process_batch(dets if dets.numel() else None, gt_boxes_xyxy, gt_cls)
+                        if dets.numel():
+                            iou = box_iou(gt_boxes_xyxy, dets[:, :4])
+                            correct = match_predictions(dets[:, 5], gt_cls, iou, iouv)
+                            stats['tp'].append(correct)
+                            stats['conf'].append(dets[:, 4])
+                            stats['pred_cls'].append(dets[:, 5])
+                            stats['target_cls'].append(gt_cls)
+
+            avg_val_loss = val_loss_sum / processed_val_batches if processed_val_batches else 0.0
+            if len(stats['pred_cls']):
+                stats_np = {k: torch.cat(v, 0).cpu().numpy() for k, v in stats.items()}
+                dm = DetMetrics()
+                dm.process(stats_np['tp'], stats_np['conf'], stats_np['pred_cls'], stats_np['target_cls'])
+                mp, mr, map50, mapall = dm.mean_results()
+                val_extra_msg = f" | ValLoss:{avg_val_loss:.4f} | mAP50:{map50:.4f} | mAP50-95:{mapall:.4f}"
+            else:
+                val_extra_msg = f" | ValLoss:{avg_val_loss:.4f} | mAP N/A"
+        elif epoch == 0:
+            print("WARN: Sin dataloader de validación o vacío. Se omitirá validación.")
+
+        print(f"--- Fin Época {epoch+1}/{EPOCHS}. Avg Loss: {avg_epoch_loss:.4f}{val_extra_msg} ---")
         
         if epoch >= WARMUP_EPOCHS -1 and effective_epochs_for_scheduler > 0: # Empezar a hacer step después de la última época de warmup
             scheduler.step()

@@ -95,12 +95,20 @@ class FeatureExtractorYOLOE_MultiScale(nn.Module):
         y: List[Optional[torch.Tensor]] = [] 
         current_x_for_next_layer: Union[torch.Tensor, List[torch.Tensor]] = x 
 
-        head_layer_types = ['Detect', 'Segment', 'YOLOEDetect', 'YOLOESegment', 'Pose', 'OBB', 'WorldDetect', 'v10Detect']
+        head_layer_types = {
+            'Detect', 'Segment', 'YOLOEDetect', 'YOLOESegment',
+            'Pose', 'OBB', 'WorldDetect', 'v10Detect'
+        }
+
+        def _simplify_type(type_str: str) -> str:
+            """Extrae el nombre simple de un string de tipo de Ultralytics."""
+            return type_str.split('.')[-1] if isinstance(type_str, str) else ''
 
         for i, m_layer in enumerate(self.yoloe_internal_model_modulelist):
             # No procesar ninguna cabeza de detección/segmentación original del modelo YOLOE,
             # esté o no ubicada al final del Sequential.
-            is_head_module = hasattr(m_layer, 'type') and m_layer.type in head_layer_types
+            type_name = _simplify_type(getattr(m_layer, 'type', ''))
+            is_head_module = type_name in head_layer_types
 
             if is_head_module:
                 # print(f"DEBUG (FeatureExtractor): Saltando cabeza original '{m_layer.type}' en índice {i}.")
