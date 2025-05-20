@@ -5,18 +5,20 @@ import torch.optim as optim
 import torch.nn.functional as F
 from torch.utils.data import DataLoader
 import os
+
 import pathlib # Para manejar rutas
 import shutil 
 import argparse
 import traceback
 import time
 import numpy as np
-from typing import List
 
+from typing import List
 from ultralytics.utils.metrics import ConfusionMatrix, DetMetrics, box_iou
 from ultralytics.utils.ops import xywh2xyxy
 import torchvision
 from ..vision_system.losses_prompt import make_anchors, dist2bbox
+
 
 # --- Importar Componentes del Proyecto ---
 try:
@@ -33,11 +35,14 @@ try:
         initialize_text_encoder,
         get_text_embedding_dim,
         # EMBEDDING_DIMENSION, # Ya no es necesario importarla aquí si get_text_embedding_dim la maneja
-        YOLOEPromptLoss # Importar la clase de pérdida (dummy por ahora)
+        YOLOEPromptLoss  # Importar la clase de pérdida (dummy por ahora)
     )
     # Importar Dataset y Collate localmente desde este paquete training_pipeline
     from .dataset_gui import GuiPromptDataset
     from .collate_gui import collate_fn_gui_prompt
+    from ..vision_system.losses_prompt import dist2bbox, make_anchors
+    from ultralytics.utils.ops import xywh2xyxy as ultralytics_xywh2xyxy_ops, non_max_suppression
+    from ultralytics.utils.metrics import ConfusionMatrix, DetMetrics, box_iou
     MODEL_COMPONENTS_AVAILABLE = True
     print(f"INFO (train_gui_heads): Componentes de src_ariadna importados.")
 except ImportError as e:
@@ -82,18 +87,22 @@ LOSS_BOX_WEIGHT = 7.0; LOSS_DFL_WEIGHT = 1.5; LOSS_OBJ_WEIGHT = 1.0; LOSS_CLS_EM
 ASSIGNER_CFG = {'topk': 10, 'alpha': 0.5, 'beta': 6.0, 'num_classes': 1}
 # ---------------------------------------------------------------------
 
+
 IOU_THRESHOLDS_TENSOR = torch.linspace(0.5, 0.95, 10)
 
 
 def match_predictions_simple(pred_classes: torch.Tensor, true_classes: torch.Tensor, iou: torch.Tensor) -> torch.Tensor:
     """Simplified version of ultralytics Validator.match_predictions."""
     correct = torch.zeros((pred_classes.shape[0], IOU_THRESHOLDS_TENSOR.numel()), dtype=torch.bool, device=pred_classes.device)
+
     if true_classes.numel() == 0 or pred_classes.numel() == 0:
         return correct
     correct_class = true_classes[:, None] == pred_classes
     iou = (iou * correct_class).cpu().numpy()
+
     for i, thr in enumerate(IOU_THRESHOLDS_TENSOR.cpu().tolist()):
         matches = np.nonzero(iou >= thr)
+
         matches = np.array(matches).T
         if matches.shape[0]:
             if matches.shape[0] > 1:
@@ -101,6 +110,7 @@ def match_predictions_simple(pred_classes: torch.Tensor, true_classes: torch.Ten
                 matches = matches[np.unique(matches[:, 1], return_index=True)[1]]
                 matches = matches[np.unique(matches[:, 0], return_index=True)[1]]
             correct[matches[:, 1].astype(int), i] = True
+
     return correct.to(pred_classes.device)
 
 
@@ -126,6 +136,7 @@ def decode_predictions_batch(preds_list: List[torch.Tensor], strides: List[int],
     boxes_cat = torch.cat(boxes_all, dim=1)
     obj_cat = torch.cat(obj_all, dim=1)
     return boxes_cat, obj_cat
+
 
 
 def test_dataloader_and_collate(device_str: str):
@@ -414,6 +425,7 @@ def train_gui_heads(resume_from_checkpoint=False):
         
         avg_epoch_loss = epoch_loss_sum / processed_batches_in_epoch if processed_batches_in_epoch > 0 else 0.0
 
+
         val_loss = float('nan'); mp50 = float('nan'); mp5095 = float('nan')
         if val_dataloader is not None and len(val_dataloader) > 0:
             val_loss, _, mp50, mp5095, cm = evaluate_on_dataloader(model, val_dataloader, loss_fn, device)
@@ -427,6 +439,7 @@ def train_gui_heads(resume_from_checkpoint=False):
             val_str = f"{val_loss:.4f}"
 
         print(f"--- Fin Época {epoch+1}/{EPOCHS}. Avg Loss: {avg_epoch_loss:.4f} | ValLoss:{val_str} | mAP {map_str} ---")
+
         
         if epoch >= WARMUP_EPOCHS -1 and effective_epochs_for_scheduler > 0: # Empezar a hacer step después de la última época de warmup
             scheduler.step()
