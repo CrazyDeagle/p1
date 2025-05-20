@@ -9,11 +9,10 @@ os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
 import sys
 import json
 import pathlib
-import os
 import re
 import base64
 import io
-from typing import List, Tuple, Any, Dict, Callable, Optional 
+from typing import List, Tuple, Any, Dict, Callable, Optional
 import numpy as np
 import cv2
 import ttkbootstrap as tb
@@ -24,17 +23,11 @@ import threading
 import queue
 import math
 import shutil
-import yaml 
+import yaml
 from collections import defaultdict
-import traceback 
+import traceback
 import time
-import sys
-import os
-import pathlib
 import copy
-import sys
-import os
-import pathlib
 
 # Obtener la ruta al directorio donde está UIfinalv2.py
 SCRIPT_DIR_UI = pathlib.Path(__file__).parent.resolve()
@@ -233,8 +226,16 @@ MODELS_DIR = SCRIPT_DIR / "models"
 FAISS_INDEX_PATH = MODELS_DIR / "visual_memory_yoloe.index"
 FAISS_LABELS_PATH = MODELS_DIR / "visual_memory_labels_yoloe.json"
 
+from functools import lru_cache
+
+@lru_cache(maxsize=1024)
 def normalize_description_text(desc: str) -> str:
-    if not isinstance(desc, str): return ""
+    """Normalize free text descriptions to a simple lowercase string.
+
+    Results are cached to avoid repeatedly processing the same text.
+    """
+    if not isinstance(desc, str):
+        return ""
     return desc.strip().lower()
 
 class EditDescriptionsWindow(tk.Toplevel):
@@ -299,17 +300,38 @@ class DetectorElementosUI:
         self.min_area=min_area; self.max_area_ratio=max_area_ratio; self.iou_threshold=iou_threshold; self.canny_dilate_iterations=canny_dilate_iterations
         self.close_kernel_size=close_kernel_size; self.close_iterations=close_iterations
     def _fusionar_regiones_nms(self, regiones: List[Tuple[int,int,int,int]], thr: float) -> List[Tuple[int,int,int,int]]:
-        if not regiones: return []
-        cajas=np.array(regiones); areas=cajas[:,2]*cajas[:,3]; idxs=np.argsort(areas)[::-1]; out=[]
-        while idxs.size > 0:
-            i=idxs[0]; out.append(tuple(cajas[i])); rem=[]
-            for j_idx in range(1, idxs.size):
-                j=idxs[j_idx]; x1,y1,w1,h1=cajas[i]; x2,y2,w2,h2=cajas[j]; xa,ya=max(x1,x2),max(y1,y2)
-                xb,yb=min(x1+w1,x2+w2),min(y1+h1,y2+h2); inter_area=max(0,xb-xa)*max(0,yb-ya)
-                union_area=float(w1*h1+w2*h2-inter_area+1e-6); iou=inter_area/union_area
-                if iou < thr: rem.append(j)
-            idxs=np.array(rem)
-        return out
+        """Apply a simplified NMS to merge overlapping regions."""
+        if not regiones:
+            return []
+
+        boxes = np.array(regiones, dtype=float)
+        x1 = boxes[:, 0]
+        y1 = boxes[:, 1]
+        x2 = boxes[:, 0] + boxes[:, 2]
+        y2 = boxes[:, 1] + boxes[:, 3]
+        areas = boxes[:, 2] * boxes[:, 3]
+        order = areas.argsort()[::-1]
+        keep_indices = []
+
+        while order.size > 0:
+            i = order[0]
+            keep_indices.append(i)
+            if order.size == 1:
+                break
+            xx1 = np.maximum(x1[i], x1[order[1:]])
+            yy1 = np.maximum(y1[i], y1[order[1:]])
+            xx2 = np.minimum(x2[i], x2[order[1:]])
+            yy2 = np.minimum(y2[i], y2[order[1:]])
+
+            inter_w = np.maximum(0.0, xx2 - xx1)
+            inter_h = np.maximum(0.0, yy2 - yy1)
+            inter_area = inter_w * inter_h
+            iou = inter_area / (areas[i] + areas[order[1:]] - inter_area + 1e-6)
+
+            remaining = np.where(iou < thr)[0]
+            order = order[remaining + 1]
+
+        return [tuple(map(int, boxes[idx])) for idx in keep_indices]
     def _find_contours_and_filter(self,binary_image:np.ndarray,max_area:float)->List[Tuple[int,int,int,int]]:
         cnts,_=cv2.findContours(binary_image,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE); regs=[]
         for c in cnts:
@@ -355,6 +377,9 @@ class ImageTab(tb.Frame):
         self.alt_l_pressed=False; self.is_alt_adjusting_edges=False; self.alt_adjust_click_img_coords:Optional[Tuple[int,int]]=None; self.alt_adjust_original_boxes_state:Dict[int,Tuple[int,int,int,int,List[str],int]]={}
         self.detector=DetectorElementosUI()
         self.crosshair_h_line=None; self.crosshair_v_line=None; self.show_crosshair=False
+
+        # Cache for Tk font objects to avoid recreating them constantly
+        self._font_cache: Dict[Tuple[int, str, str], tkFont.Font] = {}
         
         self.editing_suggestion_idx: Optional[int] = None
         self.editing_suggestion_original_data: Optional[Tuple[List[int], str, float]] = None
@@ -383,6 +408,13 @@ class ImageTab(tb.Frame):
     def _add_to_undo(self, action: str, data: Any):
         self.undo_stack.append((action, data))
         if self.redo_stack: self.redo_stack.clear()
+
+    def _get_font(self, size: int, weight: str = "normal", family: str = "Segoe UI") -> tkFont.Font:
+        """Return a cached Tk font object for drawing labels."""
+        key = (size, weight, family)
+        if key not in self._font_cache:
+            self._font_cache[key] = tkFont.Font(family=family, size=size, weight=weight)
+        return self._font_cache[key]
     def _image_to_base64(self, img: Image.Image, format="JPEG") -> str:
         buffered = io.BytesIO(); quality = 85 if max(img.size) > 1024 else 95
         img.save(buffered, format=format, quality=quality)
@@ -1207,9 +1239,13 @@ class ImageTab(tb.Frame):
                 if cx1>=cx2 or cy1>=cy2: continue
                 self.canvas.create_rectangle(cx1,cy1,cx2,cy2,outline=clr,width=wid,tags=("box",f"box_{i}"))
                 if descs and isinstance(descs,list) and descs[0] and (cx2-cx1)>10 and (cy2-cy1)>10:
-                    d_txt=str(descs[0]); tx,ty=cx1+3,cy1+3; fs,fst,ff=8,"bold","Segoe UI"; fnt=tkFont.Font(family=ff,size=fs,weight=fst)
+                    d_txt=str(descs[0]); tx,ty=cx1+3,cy1+3; fs=8; fnt=self._get_font(fs, "bold")
                     tw=fnt.measure(d_txt); th=fnt.metrics("linespace"); max_dw=(cx2-cx1)-6
-                    if tw>max_dw: avg_cw=fnt.measure("a") if fnt.measure("a")>0 else fs/1.8; max_c=int(max_dw/avg_cw) if avg_cw>0 else 10; d_txt=d_txt[:max_c-3]+"..." if max_c>3 else d_txt[:max_c]; tw=fnt.measure(d_txt)
+                    if tw>max_dw:
+                        avg_cw=fnt.measure("a") if fnt.measure("a")>0 else fs/1.8
+                        max_c=int(max_dw/avg_cw) if avg_cw>0 else 10
+                        d_txt=d_txt[:max_c-3]+"..." if max_c>3 else d_txt[:max_c]
+                        tw=fnt.measure(d_txt)
                     self.canvas.create_rectangle(tx-2,ty-1,tx+tw+2,ty+th,fill="black",outline="",tags=("box_label",f"label_box_{i}"))
                     self.canvas.create_text(tx,ty,text=d_txt,anchor="nw",fill=clr,font=fnt,tags=("box_label",f"label_box_{i}"))
             except Exception as e: print(f"Error dibujando caja {i}: {e}")
@@ -1227,7 +1263,8 @@ class ImageTab(tb.Frame):
                 if prompt_sug and(cx2s-cx1s)>10 and(cy2s-cy1s)>10:
                     sug_txt=f"S: {prompt_sug[:15]} ({score_sug:.2f})"; txs,tys=cx1s+3,cy1s-12; 
                     if tys<0: tys=cy1s+3
-                    fs,fst,ff=7,"normal","Segoe UI"; fnt_sug=tkFont.Font(family=ff,size=fs,weight=fst); tws=fnt_sug.measure(sug_txt); ths=fnt_sug.metrics("linespace")
+                    fnt_sug=self._get_font(7)
+                    tws=fnt_sug.measure(sug_txt); ths=fnt_sug.metrics("linespace")
                     self.canvas.create_rectangle(txs-2,tys-1,txs+tws+2,tys+ths,fill="black",outline="",tags=("box_label",f"suggestion_label_{i}"))
                     self.canvas.create_text(txs,tys,text=sug_txt,anchor="nw",fill=sug_color,font=fnt_sug,tags=("box_label",f"suggestion_label_{i}"))
                 if is_editing_this_sug:
