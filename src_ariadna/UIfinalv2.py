@@ -4,6 +4,7 @@
 # • VERSIÓN COMPLETA CON TODAS LAS DEFINICIONES DE ImageTab EXPLÍCITAS.
 # • Integra todas las funcionalidades discutidas.
 # -------------------------------------------------------------------------
+
 import os
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
 import sys
